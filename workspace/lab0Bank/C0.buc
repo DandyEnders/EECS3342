@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.comment="carrier sets and constans for a bank" org.eventb.core.configuration="org.eventb.core.fwd;org.animb.valuation.valBase" version="3">
+<org.eventb.core.carrierSet name="'" org.eventb.core.comment="set of all bank accounts" org.eventb.core.identifier="ACCOUNT"/>
+<org.eventb.core.carrierSet name="set1" org.eventb.core.comment="set of all people" org.eventb.core.identifier="PERSON"/>
+<org.eventb.core.constant name="set2" org.eventb.core.comment="lower credit limit is non-positive" org.eventb.core.identifier="L"/>
+<org.eventb.core.constant name="set3" org.eventb.core.comment="upper balance allowed in any one account" org.eventb.core.identifier="U"/>
+<org.eventb.core.axiom name="set4" org.eventb.core.label="axm1" org.eventb.core.predicate="L ∈ ℤ "/>
+<org.eventb.core.axiom name="set5" org.eventb.core.label="axm2" org.eventb.core.predicate="U ∈ ℕ "/>
+<org.eventb.core.axiom name="set6" org.eventb.core.label="axm3" org.eventb.core.predicate="L ≤ 0"/>
+<org.eventb.core.axiom name="set7" org.eventb.core.label="thm1" org.eventb.core.predicate="L &lt; U" org.eventb.core.theorem="true"/>
+</org.eventb.core.contextFile>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="false" org.eventb.core.configuration="org.eventb.core.fwd;org.animb.valuation.valBase">
+<org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/lab0youtubeBank/C1.bcc|org.eventb.core.scContextFile#C1" org.eventb.core.source="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.extendsContext#'"/>
+<org.eventb.core.scInternalContext name="C0">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="c∈ℕ1" org.eventb.core.source="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="thm1" org.eventb.core.predicate="c&gt;0" org.eventb.core.source="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#*" org.eventb.core.theorem="true"/>
+<org.eventb.core.scCarrierSet name="ACCOUNT" org.eventb.core.source="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(ACCOUNT)"/>
+<org.eventb.core.scConstant name="c" org.eventb.core.source="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#(" org.eventb.core.type="ℤ"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scInternalContext name="C1">
+<org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/lab0youtubeBank/C0.bcc|org.eventb.core.scContextFile#C0" org.eventb.core.source="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.extendsContext#'"/>
+<org.eventb.core.scAxiom name="C1" org.eventb.core.label="axm1" org.eventb.core.predicate="L∈ℕ1" org.eventb.core.source="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="L" org.eventb.core.source="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#(" org.eventb.core.type="ℤ"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scAxiom name="C2" org.eventb.core.label="axm1" org.eventb.core.predicate="B∈ACCOUNT ⇸ ℤ" org.eventb.core.source="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="C3" org.eventb.core.label="axm2" org.eventb.core.predicate="B={a1 ↦ 3,a2 ↦ 5}" org.eventb.core.source="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.axiom#," org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="C4" org.eventb.core.label="axm4" org.eventb.core.predicate="L=6" org.eventb.core.source="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.axiom#." org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="B" org.eventb.core.source="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#*" org.eventb.core.type="ℙ(ACCOUNT×ℤ)"/>
+<org.eventb.core.scConstant name="a1" org.eventb.core.source="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#(" org.eventb.core.type="ACCOUNT"/>
+<org.eventb.core.scConstant name="a2" org.eventb.core.source="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#)" org.eventb.core.type="ACCOUNT"/>
+</org.eventb.core.scContextFile>

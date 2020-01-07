@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pim project="/lab0youtubeBank">
+<rodin_index>
+<descriptor element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#(" name="b">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.parameter#(" name="v">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="14"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#+" name="d">
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.variable#+" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#." name="deposit">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.variable#(" name="b">
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#,|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT">
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="5"/>
+<occurrence element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#,|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="5"/>
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#(" name="L">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="25"/>
+<occurrence element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#(" name="a1">
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="5"/>
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#," name="INITIALISATION">
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#)" name="a2">
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="12"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#-" name="deposit_concrete">
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB" name="Bank1_ProB">
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB" name="C1_ProB">
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.seesContext#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.parameter#(" name="v">
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="14"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#," name="INITIALISATION">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#(" name="c">
+<occurrence element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="12"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0" name="Bank0">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#*" name="B">
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#,|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#." name="withdraw">
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.parameter#(" name="v">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.parameter#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="14"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="a">
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0" name="C0">
+<occurrence element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.seesContext#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1" name="Bank1">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-" name="deposit_concrete">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#-|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.parameter#'" name="a">
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.parameter#'" name="a">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1" name="C1">
+<occurrence element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.seesContext#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#(" name="b">
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.guard#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#+" name="d">
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#+" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/" name="withdraw">
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#.|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#." name="withdraw">
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#.|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.variable#+" name="d">
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#,|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#,|org.eventb.core.action#internal2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/lab0youtubeBank/C1_ProB.buc">
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#(" name="c"/>
+<exported element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1" name="C1"/>
+<exported element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB" name="C1_ProB"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+<exported element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#(" name="L"/>
+<exported element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#(" name="a1"/>
+<exported element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#)" name="a2"/>
+<exported element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#*" name="B"/>
+</export>
+<export file="/lab0youtubeBank/Bank1_ProB.bum">
+<exported element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.variable#(" name="b"/>
+<exported element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1" name="Bank1"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#(" name="c"/>
+<exported element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1" name="C1"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+<exported element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#," name="INITIALISATION"/>
+<exported element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#*" name="B"/>
+<exported element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#)" name="a2"/>
+<exported element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.variable#+" name="d"/>
+<exported element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB" name="Bank1_ProB"/>
+<exported element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#." name="withdraw"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0" name="Bank0"/>
+<exported element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#(" name="L"/>
+<exported element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB" name="C1_ProB"/>
+<exported element="/lab0youtubeBank/Bank1_ProB.bum|org.eventb.core.machineFile#Bank1_ProB|org.eventb.core.event#-" name="deposit_concrete"/>
+<exported element="/lab0youtubeBank/C1_ProB.buc|org.eventb.core.contextFile#C1_ProB|org.eventb.core.constant#(" name="a1"/>
+</export>
+<export file="/lab0youtubeBank/C0.buc">
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#(" name="c"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+</export>
+<export file="/lab0youtubeBank/C1.buc">
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#(" name="c"/>
+<exported element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1" name="C1"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+<exported element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#(" name="L"/>
+</export>
+<export file="/lab0youtubeBank/Bank0.bum">
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.parameter#'" name="a"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#.|org.eventb.core.parameter#(" name="v"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#(" name="c"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/" name="withdraw"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#(" name="b"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#." name="deposit"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.parameter#(" name="v"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0" name="Bank0"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="a"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#+" name="d"/>
+</export>
+<export file="/lab0youtubeBank/Bank1.bum">
+<exported element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1" name="Bank1"/>
+<exported element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#." name="withdraw"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#(" name="c"/>
+<exported element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1" name="C1"/>
+<exported element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#(" name="b"/>
+<exported element="/lab0youtubeBank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+<exported element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-" name="deposit_concrete"/>
+<exported element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.parameter#(" name="v"/>
+<exported element="/lab0youtubeBank/Bank0.bum|org.eventb.core.machineFile#Bank0" name="Bank0"/>
+<exported element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#-|org.eventb.core.parameter#'" name="a"/>
+<exported element="/lab0youtubeBank/C1.buc|org.eventb.core.contextFile#C1|org.eventb.core.constant#(" name="L"/>
+<exported element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#," name="INITIALISATION"/>
+<exported element="/lab0youtubeBank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#+" name="d"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/lab0youtubeBank/C0.buc" mark="false" order_pos="0"/>
+<node label="/lab0youtubeBank/Bank0.bum" mark="false" order_pos="1">
+<predecessor label="/lab0youtubeBank/C0.buc"/>
+</node>
+<node label="/lab0youtubeBank/C1.buc" mark="false" order_pos="2">
+<predecessor label="/lab0youtubeBank/C0.buc"/>
+</node>
+<node label="/lab0youtubeBank/Bank1.bum" mark="false" order_pos="3">
+<predecessor label="/lab0youtubeBank/C1.buc"/>
+<predecessor label="/lab0youtubeBank/Bank0.bum"/>
+</node>
+<node label="/lab0youtubeBank/C1_ProB.buc" mark="false" order_pos="4">
+<predecessor label="/lab0youtubeBank/C1.buc"/>
+</node>
+<node label="/lab0youtubeBank/Bank1_ProB.bum" mark="false" order_pos="5">
+<predecessor label="/lab0youtubeBank/C1_ProB.buc"/>
+<predecessor label="/lab0youtubeBank/Bank1.bum"/>
+</node>
+</graph>
+<unprocessed file="/lab0youtubeBank/C0.bcc"/>
+<unprocessed file="/lab0youtubeBank/C0.bpo"/>
+<unprocessed file="/lab0youtubeBank/C0.bpr"/>
+<unprocessed file="/lab0youtubeBank/C0.bps"/>
+<unprocessed file="/lab0youtubeBank/Bank0.bcm"/>
+<unprocessed file="/lab0youtubeBank/Bank0.bpo"/>
+<unprocessed file="/lab0youtubeBank/Bank0.bpr"/>
+<unprocessed file="/lab0youtubeBank/Bank0.bps"/>
+<unprocessed file="/lab0youtubeBank/C1.bcc"/>
+<unprocessed file="/lab0youtubeBank/C1.bpo"/>
+<unprocessed file="/lab0youtubeBank/C1.bpr"/>
+<unprocessed file="/lab0youtubeBank/C1.bps"/>
+<unprocessed file="/lab0youtubeBank/Bank1.bcm"/>
+<unprocessed file="/lab0youtubeBank/Bank1.bpo"/>
+<unprocessed file="/lab0youtubeBank/Bank1.bpr"/>
+<unprocessed file="/lab0youtubeBank/Bank1.bps"/>
+<unprocessed file="/lab0youtubeBank/C1_ProB.bcc"/>
+<unprocessed file="/lab0youtubeBank/C1_ProB.bpo"/>
+<unprocessed file="/lab0youtubeBank/C1_ProB.bpr"/>
+<unprocessed file="/lab0youtubeBank/C1_ProB.bps"/>
+<unprocessed file="/lab0youtubeBank/Bank1_ProB.bcm"/>
+<unprocessed file="/lab0youtubeBank/Bank1_ProB.bpo"/>
+<unprocessed file="/lab0youtubeBank/Bank1_ProB.bpr"/>
+<unprocessed file="/lab0youtubeBank/Bank1_ProB.bps"/>
+</pim>
