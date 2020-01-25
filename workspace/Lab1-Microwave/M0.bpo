@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="DOOR" org.eventb.core.type="ℙ(DOOR)"/>
+<org.eventb.core.poIdentifier name="LOCK" org.eventb.core.type="ℙ(LOCK)"/>
+<org.eventb.core.poIdentifier name="POWER" org.eventb.core.type="ℙ(POWER)"/>
+<org.eventb.core.poIdentifier name="closed" org.eventb.core.type="DOOR"/>
+<org.eventb.core.poIdentifier name="lock" org.eventb.core.type="LOCK"/>
+<org.eventb.core.poIdentifier name="locked" org.eventb.core.type="DOOR"/>
+<org.eventb.core.poIdentifier name="off" org.eventb.core.type="POWER"/>
+<org.eventb.core.poIdentifier name="on" org.eventb.core.type="POWER"/>
+<org.eventb.core.poIdentifier name="open" org.eventb.core.type="DOOR"/>
+<org.eventb.core.poIdentifier name="unlock" org.eventb.core.type="LOCK"/>
+<org.eventb.core.poPredicate name="unlocl" org.eventb.core.predicate="partition(POWER,{on},{off})" org.eventb.core.source="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#set4"/>
+<org.eventb.core.poPredicate name="unlocm" org.eventb.core.predicate="partition(DOOR,{open},{closed},{locked})" org.eventb.core.source="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm1"/>
+<org.eventb.core.poPredicate name="unlocn" org.eventb.core.predicate="partition(LOCK,{lock},{unlock})" org.eventb.core.source="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm2"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="c_door" org.eventb.core.type="LOCK"/>
+<org.eventb.core.poIdentifier name="c_power" org.eventb.core.type="POWER"/>
+<org.eventb.core.poIdentifier name="m_door" org.eventb.core.type="DOOR"/>
+<org.eventb.core.poIdentifier name="m_power" org.eventb.core.type="POWER"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/act4/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTALLHYPm_powes"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="DOOR≠(∅ ⦂ ℙ(DOOR))" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'|org.eventb.core.action#act3"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'|org.eventb.core.action#act3"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTALLHYPm_powes"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm_powes" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="c_power'" org.eventb.core.type="POWER"/>
+<org.eventb.core.poIdentifier name="c_door'" org.eventb.core.type="LOCK"/>
+<org.eventb.core.poIdentifier name="m_power'" org.eventb.core.type="POWER"/>
+<org.eventb.core.poIdentifier name="m_door'" org.eventb.core.type="DOOR"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm_powes" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTIDENTm_powes" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTm_powet" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="m_door'" org.eventb.core.type="DOOR"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm_powet" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTIDENTm_powet" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="m_door=open" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var5|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm_poweu" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="m_door'" org.eventb.core.type="DOOR"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm_poweu" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTIDENTm_poweu" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="c_door=lock" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="m_door=closed" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm_powev" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="m_power'" org.eventb.core.type="POWER"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm_powev" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTIDENTm_powev" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="c_power=on" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="m_power=off" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2|org.eventb.core.guard#grd1"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm_powew" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="m_power'" org.eventb.core.type="POWER"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm_powew" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTIDENTm_powew" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="c_power=off" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="m_power=on" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm_powex" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="m_door'" org.eventb.core.type="DOOR"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm_powex" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTIDENTm_powex" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="m_door=locked" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="c_door=unlock" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTm_powey" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="4">
+<org.eventb.core.poIdentifier name="m_door'" org.eventb.core.type="DOOR"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm_powey" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTIDENTm_powey" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="m_door=closed" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="c_door=unlock" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="controller/act1/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTALLHYPm_powez"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="POWER≠(∅ ⦂ ℙ(POWER))" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9|org.eventb.core.action#'"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9|org.eventb.core.action#'"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTALLHYPm_powez"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="controller/act2/FIS" org.eventb.core.accurate="true" org.eventb.core.poDesc="Feasibility of action" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTALLHYPm_powez"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="LOCK≠(∅ ⦂ ℙ(LOCK))" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9|org.eventb.core.action#("/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9|org.eventb.core.action#("/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTALLHYPm_powez"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTm_powez" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="c_power'" org.eventb.core.type="POWER"/>
+<org.eventb.core.poIdentifier name="c_door'" org.eventb.core.type="LOCK"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPm_powez" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#EVTIDENTm_powez" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Lab1-Microwave/M0.bpo|org.eventb.core.poFile#M0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="c_power∈POWER" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#var4"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="c_door∈LOCK" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#inv1"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="m_power∈POWER" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#inv2"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="m_door∈DOOR" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#inv3"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="⊤" org.eventb.core.source="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#inv4"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

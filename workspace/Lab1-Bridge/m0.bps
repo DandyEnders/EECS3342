@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="INITIALISATION/I1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psManual="true"/>
+<org.eventb.core.psStatus name="INITIALISATION/I2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="2" org.eventb.core.psManual="true"/>
+<org.eventb.core.psStatus name="enter/I1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="3" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="enter/I2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="3" org.eventb.core.psManual="true"/>
+<org.eventb.core.psStatus name="exit/I1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="5" org.eventb.core.psManual="true"/>
+<org.eventb.core.psStatus name="exit/I2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="5" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

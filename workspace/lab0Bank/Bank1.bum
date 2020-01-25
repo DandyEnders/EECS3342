@@ -24,7 +24,7 @@
 <org.eventb.core.parameter name="'" org.eventb.core.identifier="a"/>
 <org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="a ∈ accounts"/>
 <org.eventb.core.guard name=")" org.eventb.core.label="grd2" org.eventb.core.predicate="balance(a) = 0"/>
-<org.eventb.core.guard name="grd1" org.eventb.core.comment="HERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRREEEEEEEEEEEEEEEEEEEEEEE" org.eventb.core.label="grd3" org.eventb.core.predicate="a ∉ channel"/>
+<org.eventb.core.guard name="grd1" org.eventb.core.comment="HERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRREEEEEEEEEEEEEEEEEEEEEEE" org.eventb.core.label="grd3" org.eventb.core.predicate="a ∉ dom(channel)"/>
 <org.eventb.core.action name="*" org.eventb.core.assignment="owner ≔ {a} ⩤ owner" org.eventb.core.comment="domain subtraction operator" org.eventb.core.label="act1"/>
 <org.eventb.core.action name="act1" org.eventb.core.assignment="balance ≔ {a} ⩤ balance" org.eventb.core.label="act2"/>
 <org.eventb.core.action name="act2" org.eventb.core.assignment="accounts ≔ accounts ∖ {a}" org.eventb.core.label="act3"/>
@@ -37,4 +37,36 @@
 </org.eventb.core.event>
 <org.eventb.core.invariant name="var9" org.eventb.core.comment="partial function; &#10;accounts form move2 to deposit into." org.eventb.core.label="inv6" org.eventb.core.predicate="channel ∈ accounts ⇸ ℕ"/>
 <org.eventb.core.invariant name="inv1" org.eventb.core.label="inv7" org.eventb.core.predicate="ct ∈ ℕ"/>
+<org.eventb.core.event name="var:" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="move1">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="withdraw"/>
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="b"/>
+<org.eventb.core.parameter name="internal1" org.eventb.core.identifier="a"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd1" org.eventb.core.predicate="a ∈ accounts"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="v ∈ ℕ1"/>
+<org.eventb.core.guard name="grd1" org.eventb.core.label="grd3" org.eventb.core.predicate="(L ≤ balance(a) − v) ∧ (balance(a) − v ≤ U)"/>
+<org.eventb.core.guard name="grd2" org.eventb.core.label="grd4" org.eventb.core.predicate="total − v ≥ 0"/>
+<org.eventb.core.guard name="grd3" org.eventb.core.label="grd5" org.eventb.core.predicate="b ∈ accounts"/>
+<org.eventb.core.guard name="grd4" org.eventb.core.label="grd6" org.eventb.core.predicate="b ≠ a"/>
+<org.eventb.core.guard name="grd5" org.eventb.core.label="grd7" org.eventb.core.predicate="b ∉ dom(channel)"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="balance(a) ≔ balance(a) − v" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="total ≔ total − v" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="channel ≔ channel ∪ {b ↦ v}" org.eventb.core.label="act3"/>
+<org.eventb.core.action name="act2" org.eventb.core.assignment="ct ≔ ct + v" org.eventb.core.label="act4"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="v"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="var;" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="move2">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="deposit"/>
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="a"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="v"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd1" org.eventb.core.predicate="a ∈ accounts"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="balance(a) ≔ balance(a) + v" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="-" org.eventb.core.assignment="total ≔ total + v" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="channel ≔ {a} ⩤ channel" org.eventb.core.label="act3"/>
+<org.eventb.core.action name="act2" org.eventb.core.assignment="ct ≔ ct − v" org.eventb.core.label="act4"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="v ∈ ℕ1"/>
+<org.eventb.core.guard name="+" org.eventb.core.label="grd3" org.eventb.core.predicate="balance(a) + v ≤ U"/>
+<org.eventb.core.guard name="grd1" org.eventb.core.comment="account a is in the channel" org.eventb.core.label="grd4" org.eventb.core.predicate="a ∈ dom(channel)"/>
+<org.eventb.core.guard name="grd2" org.eventb.core.comment="v is the amount to be transferred to a" org.eventb.core.label="grd5" org.eventb.core.predicate="channel(a) = v"/>
+<org.eventb.core.guard name="grd3" org.eventb.core.comment="inv7 was violated because &quot;depositing&quot; to an account&#10;will result taking money away from channel, which&#10;can result in negative channel balance." org.eventb.core.label="grd6" org.eventb.core.predicate="ct − v ≥ 0"/>
+</org.eventb.core.event>
 </org.eventb.core.machineFile>

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pim project="/lab0Bank">
+<rodin_index>
+<descriptor element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" name="U">
+<occurrence element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#set7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="17"/>
+<occurrence element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#set5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="54" loc_char_start="53"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="41"/>
+<occurrence element="/lab0Bank/C0_proB.buc|org.eventb.core.contextFile#C0_proB|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="41"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="17"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7" name="withdraw">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var8|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var8|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var4" name="channel">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.invariant#var9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="16"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="10"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var4|org.eventb.core.action#act4" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="8"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var4" name="INITIALISATION">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#*" name="accounts">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#var4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#*" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="11"/>
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#*" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="10"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="9"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="11"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#'" name="b">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.parameter#'" name="a">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="24" loc_char_start="23"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="6"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#*" name="accounts">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var8" name="withdraw">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.parameter#'" name="a">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/C0_proB.buc|org.eventb.core.contextFile#C0_proB" name="C0_proB">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.seesContext#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/C0_proB.buc|org.eventb.core.contextFile#C0_proB" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var1" name="owner">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set2" name="L">
+<occurrence element="/lab0Bank/C0_proB.buc|org.eventb.core.contextFile#C0_proB|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="1"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="1"/>
+<occurrence element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#set6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#set4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#set7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var3" name="total">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var4|org.eventb.core.action#act3" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.parameter#(" name="v">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.parameter#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="27" loc_char_start="26"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="16"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.parameter#'" name="a">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="33" loc_char_start="32"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#internal1" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#var1" name="owner">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="14"/>
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var1" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#var1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var1" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;" name="move2">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#var4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="11"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="4"/>
+<occurrence element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(" name="open">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var5|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var5|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" name="PERSON">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="19"/>
+<occurrence element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6" name="close">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5" name="close">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var6|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.parameter#(" name="v">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#grd3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="27" loc_char_start="26"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var2" name="balance">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var4" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var4" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var5" name="ct">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#grd3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="5"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var4|org.eventb.core.action#act5" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="5"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var5" name="open">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6" name="deposit">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var7|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var7|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.seesContext#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.seesContext#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/C0_proB.buc|org.eventb.core.contextFile#C0_proB|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#(" name="v">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="26" loc_char_start="25"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="38" loc_char_start="37"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="27" loc_char_start="26"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.parameter#'" name="a">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1" name="Bank1">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var3" name="total">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.parameter#'" name="a">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="24" loc_char_start="23"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#var3" name="total">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var3" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var3" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#var3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'|org.eventb.core.action#act3" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0" name="Bank0">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#*" name="accounts">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="11"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var4|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.invariant#var9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="10"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var8" name="withdraw">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var4" name="INITIALISATION">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#internal1" name="a">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="33" loc_char_start="32"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#internal1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var7" name="deposit">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB" name="Bank0_proB">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.parameter#'" name="a">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="24" loc_char_start="23"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var5" name="open">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var2" name="balance">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="13"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var4|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="13"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="24"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="5"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="16"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.parameter#(" name="v">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="38" loc_char_start="37"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="27" loc_char_start="26"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var6" name="close">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:" name="move1">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var1" name="owner">
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="14"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var4|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#var2" name="balance">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="24"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="5"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="13"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="13"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var2" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var2" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="16"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#var2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="25"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="40"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.parameter#(" name="p">
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var7" name="deposit">
+<occurrence element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/lab0Bank/C0.buc">
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" name="PERSON"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set2" name="L"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" name="U"/>
+</export>
+<export file="/lab0Bank/C0_proB.buc">
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" name="PERSON"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set2" name="L"/>
+<exported element="/lab0Bank/C0_proB.buc|org.eventb.core.contextFile#C0_proB" name="C0_proB"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" name="U"/>
+</export>
+<export file="/lab0Bank/Bank0_proB.bum">
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0" name="Bank0"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" name="PERSON"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+<exported element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var3" name="total"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set2" name="L"/>
+<exported element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var2" name="balance"/>
+<exported element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#*" name="accounts"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var6" name="close"/>
+<exported element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var8" name="withdraw"/>
+<exported element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var5" name="open"/>
+<exported element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var7" name="deposit"/>
+<exported element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB" name="Bank0_proB"/>
+<exported element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.variable#var1" name="owner"/>
+<exported element="/lab0Bank/C0_proB.buc|org.eventb.core.contextFile#C0_proB" name="C0_proB"/>
+<exported element="/lab0Bank/Bank0_proB.bum|org.eventb.core.machineFile#Bank0_proB|org.eventb.core.event#var4" name="INITIALISATION"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" name="U"/>
+</export>
+<export file="/lab0Bank/Bank1.bum">
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var3" name="total"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" name="PERSON"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var5" name="open"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set2" name="L"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:" name="move1"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var7" name="deposit"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.parameter#'" name="a"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#internal1" name="a"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var1" name="owner"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#*" name="accounts"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;" name="move2"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#(" name="v"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" name="U"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var5" name="ct"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0" name="Bank0"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var4" name="channel"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var;|org.eventb.core.parameter#(" name="v"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var4" name="INITIALISATION"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6" name="close"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var8" name="withdraw"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var6|org.eventb.core.parameter#'" name="a"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1" name="Bank1"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.event#var:|org.eventb.core.parameter#'" name="b"/>
+<exported element="/lab0Bank/Bank1.bum|org.eventb.core.machineFile#Bank1|org.eventb.core.variable#var2" name="balance"/>
+</export>
+<export file="/lab0Bank/Bank0.bum">
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.parameter#(" name="v"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0" name="Bank0"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5|org.eventb.core.parameter#'" name="a"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" name="PERSON"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#var3" name="total"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="ACCOUNT"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set2" name="L"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#var1" name="owner"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(" name="open"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7|org.eventb.core.parameter#'" name="a"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.parameter#(" name="v"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var7" name="withdraw"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#*" name="accounts"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var5" name="close"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6" name="deposit"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.parameter#'" name="a"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#var6|org.eventb.core.parameter#'" name="a"/>
+<exported element="/lab0Bank/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" name="U"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.variable#var2" name="balance"/>
+<exported element="/lab0Bank/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#(|org.eventb.core.parameter#(" name="p"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/lab0Bank/C0.buc" mark="false" order_pos="0"/>
+<node label="/lab0Bank/Bank0.bum" mark="false" order_pos="1">
+<predecessor label="/lab0Bank/C0.buc"/>
+</node>
+<node label="/lab0Bank/C0_proB.buc" mark="false" order_pos="2">
+<predecessor label="/lab0Bank/C0.buc"/>
+</node>
+<node label="/lab0Bank/Bank1.bum" mark="false" order_pos="3">
+<predecessor label="/lab0Bank/C0.buc"/>
+<predecessor label="/lab0Bank/Bank0.bum"/>
+</node>
+<node label="/lab0Bank/Bank0_proB.bum" mark="false" order_pos="4">
+<predecessor label="/lab0Bank/C0_proB.buc"/>
+<predecessor label="/lab0Bank/Bank0.bum"/>
+</node>
+</graph>
+<unprocessed file="/lab0Bank/Bank0.bcm"/>
+<unprocessed file="/lab0Bank/Bank0.bpo"/>
+<unprocessed file="/lab0Bank/Bank0.bpr"/>
+<unprocessed file="/lab0Bank/Bank0.bps"/>
+<unprocessed file="/lab0Bank/C0.bcc"/>
+<unprocessed file="/lab0Bank/C0.bpo"/>
+<unprocessed file="/lab0Bank/C0.bpr"/>
+<unprocessed file="/lab0Bank/C0.bps"/>
+<unprocessed file="/lab0Bank/C0_proB.bcc"/>
+<unprocessed file="/lab0Bank/C0_proB.bpo"/>
+<unprocessed file="/lab0Bank/C0_proB.bpr"/>
+<unprocessed file="/lab0Bank/C0_proB.bps"/>
+<unprocessed file="/lab0Bank/Bank0_prob.bcm"/>
+<unprocessed file="/lab0Bank/Bank0_prob.bpo"/>
+<unprocessed file="/lab0Bank/Bank0_prob.bpr"/>
+<unprocessed file="/lab0Bank/Bank0_prob.bps"/>
+<unprocessed file="/lab0Bank/Bank0_proB.bpr"/>
+<unprocessed file="/lab0Bank/Bank0_proB.bcm"/>
+<unprocessed file="/lab0Bank/Bank0_proB.bpo"/>
+<unprocessed file="/lab0Bank/Bank0_proB.bps"/>
+<unprocessed file="/lab0Bank/Bank1.bcm"/>
+<unprocessed file="/lab0Bank/Bank1.bpo"/>
+<unprocessed file="/lab0Bank/Bank1.bpr"/>
+<unprocessed file="/lab0Bank/Bank1.bps"/>
+</pim>

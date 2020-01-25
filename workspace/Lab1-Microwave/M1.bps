@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="INITIALISATION/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="22" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="22" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv7/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="22" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="22" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="22" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv10/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="23" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_close_door/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="23" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_close_door/inv10/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="23" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_lock_door/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="23" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_lock_door/inv10/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="23" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_power_up/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="24" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_power_up/inv10/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="24" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_power_down/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="25" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_power_down/inv10/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="25" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_unlock_door/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="25" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_unlock_door/inv10/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="25" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_open_door/inv5/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="23" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="p_open_door/inv10/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="23" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_power_up/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_power_up/inv7/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_power_up/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_power_up/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_power_down/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_power_down/inv7/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_power_down/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_power_down/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_lock_door/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_lock_door/inv7/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_lock_door/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_lock_door/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="26" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_unlock_door/inv6/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="28" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_unlock_door/inv7/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="28" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_unlock_door/inv8/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="28" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="c_unlock_door/inv9/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="28" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

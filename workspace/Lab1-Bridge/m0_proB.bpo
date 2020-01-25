@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="e" org.eventb.core.predicate="d∈ℕ" org.eventb.core.source="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#("/>
+<org.eventb.core.poPredicate name="f" org.eventb.core.predicate="d≥0" org.eventb.core.source="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)"/>
+<org.eventb.core.poPredicate name="g" org.eventb.core.predicate="d=2" org.eventb.core.source="/Lab1-Bridge/c0_proB.buc|org.eventb.core.contextFile#c0_proB|org.eventb.core.axiom#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Lab1-Bridge/m0_proB.bpo|org.eventb.core.poFile#m0_proB|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="o" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicate name="p" org.eventb.core.predicate="n≤d" org.eventb.core.source="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTc0_proC" org.eventb.core.parentSet="/Lab1-Bridge/m0_proB.bpo|org.eventb.core.poFile#m0_proB|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="n'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPc0_proC" org.eventb.core.parentSet="/Lab1-Bridge/m0_proB.bpo|org.eventb.core.poFile#m0_proB|org.eventb.core.poPredicateSet#EVTIDENTc0_proC" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTc0_proD" org.eventb.core.parentSet="/Lab1-Bridge/m0_proB.bpo|org.eventb.core.poFile#m0_proB|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="n'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPc0_proD" org.eventb.core.parentSet="/Lab1-Bridge/m0_proB.bpo|org.eventb.core.poFile#m0_proB|org.eventb.core.poPredicateSet#EVTIDENTc0_proD" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="n&lt;d" org.eventb.core.source="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTc0_proE" org.eventb.core.parentSet="/Lab1-Bridge/m0_proB.bpo|org.eventb.core.poFile#m0_proB|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="n'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPc0_proE" org.eventb.core.parentSet="/Lab1-Bridge/m0_proB.bpo|org.eventb.core.poFile#m0_proB|org.eventb.core.poPredicateSet#EVTIDENTc0_proE" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="n − 1∈ℕ" org.eventb.core.source="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Lab1-Bridge/m0_proB.bpo|org.eventb.core.poFile#m0_proB|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1"/>
+</org.eventb.core.poFile>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="c_power ≔ off" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="c_door ≔ unlock" org.eventb.core.label="act2"/>
+<org.eventb.core.action name="act2" org.eventb.core.assignment="m_power ≔ off" org.eventb.core.label="act3"/>
+<org.eventb.core.action name="act3" org.eventb.core.assignment="m_door :∈ DOOR" org.eventb.core.comment="door may be open or closed" org.eventb.core.label="act4"/>
+</org.eventb.core.event>
+<org.eventb.core.seesContext name="(" org.eventb.core.target="C0"/>
+<org.eventb.core.variable name=")" org.eventb.core.comment="controlled variable (output of Controller, input to Plant)" org.eventb.core.identifier="c_power"/>
+<org.eventb.core.variable name="var1" org.eventb.core.identifier="c_door"/>
+<org.eventb.core.variable name="var2" org.eventb.core.comment="monitored variable (input to Controller, output of Plant)" org.eventb.core.identifier="m_power"/>
+<org.eventb.core.variable name="var3" org.eventb.core.identifier="m_door"/>
+<org.eventb.core.invariant name="var4" org.eventb.core.label="inv1" org.eventb.core.predicate="c_power ∈ POWER"/>
+<org.eventb.core.invariant name="inv1" org.eventb.core.label="inv2" org.eventb.core.predicate="c_door ∈ LOCK"/>
+<org.eventb.core.invariant name="inv2" org.eventb.core.label="inv3" org.eventb.core.predicate="m_power ∈ POWER"/>
+<org.eventb.core.invariant name="inv3" org.eventb.core.label="inv4" org.eventb.core.predicate="m_door ∈ DOOR"/>
+<org.eventb.core.invariant name="inv4" org.eventb.core.comment="safe: m_power = on ⇒ m_door = locked" org.eventb.core.label="inv5" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.event name="var5" org.eventb.core.comment="user can close door if open" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="p_close_door">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="m_door = open"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="m_door ≔ closed" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="evt1" org.eventb.core.comment="on command, device locks door" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="p_lock_door">
+<org.eventb.core.guard name="'" org.eventb.core.comment=" command from Controller" org.eventb.core.label="grd1" org.eventb.core.predicate="c_door = lock"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="m_door = closed"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="m_door ≔ locked" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="evt2" org.eventb.core.comment="on command, device turn&#10;magnetron on." org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="p_power_up">
+<org.eventb.core.guard name="'" org.eventb.core.comment="command from Controller" org.eventb.core.label="grd1" org.eventb.core.predicate="c_power = on"/>
+<org.eventb.core.guard name="grd1" org.eventb.core.label="grd2" org.eventb.core.predicate="m_power = off"/>
+<org.eventb.core.action name="grd2" org.eventb.core.assignment="m_power ≔ on" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="var6" org.eventb.core.comment="on command, device turns &#10;magnetron off" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="p_power_down">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="c_power = off"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="m_power = on"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="m_power ≔ off" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="var7" org.eventb.core.comment=" on command, unlock door." org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="p_unlock_door">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="m_door = locked"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="c_door = unlock"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="m_door ≔ closed" org.eventb.core.comment="locked to close" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="var8" org.eventb.core.comment="user can open door if closed" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="p_open_door">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="m_door = closed"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="c_door = unlock"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="m_door ≔ open" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="var9" org.eventb.core.comment="Arbitrary Controller, &#10;that will be refined by machine M1" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="controller">
+<org.eventb.core.action name="'" org.eventb.core.assignment="c_power :∈ POWER" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="c_door :∈ LOCK" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

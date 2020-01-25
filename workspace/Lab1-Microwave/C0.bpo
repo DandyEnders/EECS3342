@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="2">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poIdentifier name="DOOR" org.eventb.core.type="ℙ(DOOR)"/>
+<org.eventb.core.poIdentifier name="LOCK" org.eventb.core.type="ℙ(LOCK)"/>
+<org.eventb.core.poIdentifier name="POWER" org.eventb.core.type="ℙ(POWER)"/>
+<org.eventb.core.poIdentifier name="closed" org.eventb.core.type="DOOR"/>
+<org.eventb.core.poIdentifier name="lock" org.eventb.core.type="LOCK"/>
+<org.eventb.core.poIdentifier name="locked" org.eventb.core.type="DOOR"/>
+<org.eventb.core.poIdentifier name="off" org.eventb.core.type="POWER"/>
+<org.eventb.core.poIdentifier name="on" org.eventb.core.type="POWER"/>
+<org.eventb.core.poIdentifier name="open" org.eventb.core.type="DOOR"/>
+<org.eventb.core.poIdentifier name="unlock" org.eventb.core.type="LOCK"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Lab1-Microwave/C0.bpo|org.eventb.core.poFile#C0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="partition(POWER,{on},{off})" org.eventb.core.source="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#set4"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="partition(DOOR,{open},{closed},{locked})" org.eventb.core.source="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm1"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="partition(LOCK,{lock},{unlock})" org.eventb.core.source="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm2"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

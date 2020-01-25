@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.comment="Types POWER, LOCK and DOOR for microwave oven" org.eventb.core.configuration="org.eventb.core.fwd;org.animb.valuation.valBase" version="3">
+<org.eventb.core.carrierSet name="'" org.eventb.core.comment="= {on, off}. Type for power that may be on or off" org.eventb.core.identifier="POWER"/>
+<org.eventb.core.carrierSet name="set1" org.eventb.core.comment="type for door that may be open, closed or locked" org.eventb.core.identifier="DOOR"/>
+<org.eventb.core.carrierSet name="set2" org.eventb.core.comment="command type to lock / unlock the door" org.eventb.core.identifier="LOCK"/>
+<org.eventb.core.constant name="set3" org.eventb.core.identifier="on"/>
+<org.eventb.core.constant name="cst1" org.eventb.core.identifier="off"/>
+<org.eventb.core.constant name="cst2" org.eventb.core.identifier="open"/>
+<org.eventb.core.constant name="cst3" org.eventb.core.comment="but not locked" org.eventb.core.identifier="closed"/>
+<org.eventb.core.constant name="cst4" org.eventb.core.comment="cannot open" org.eventb.core.identifier="locked"/>
+<org.eventb.core.constant name="cst5" org.eventb.core.identifier="lock"/>
+<org.eventb.core.constant name="cst6" org.eventb.core.identifier="unlock"/>
+<org.eventb.core.axiom name="set4" org.eventb.core.label="axm1" org.eventb.core.predicate="partition(POWER, {on}, {off})"/>
+<org.eventb.core.axiom name="axm1" org.eventb.core.label="axm2" org.eventb.core.predicate="partition(DOOR, {open}, {closed}, {locked})"/>
+<org.eventb.core.axiom name="axm2" org.eventb.core.label="axm3" org.eventb.core.predicate="partition(LOCK, {lock}, {unlock})"/>
+</org.eventb.core.contextFile>
