@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="mac"/>
+<org.eventb.core.variable name="+" org.eventb.core.identifier="cars_go"/>
+<org.eventb.core.variable name="," org.eventb.core.identifier="peds_go"/>
+<org.eventb.core.event name="-" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION"/>
+<org.eventb.core.event name="." org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="set_peds_go">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="set_peds_go"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="/" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="set_peds_stop">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="set_peds_stop"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="0" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="set_cars">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="set_cars"/>
+</org.eventb.core.event>
+<org.eventb.core.seesContext name="1" org.eventb.core.target="ctx1"/>
+</org.eventb.core.machineFile>

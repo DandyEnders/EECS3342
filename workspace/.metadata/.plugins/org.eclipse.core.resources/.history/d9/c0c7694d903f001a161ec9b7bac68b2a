@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.constant name="'" org.eventb.core.identifier="Agatha"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="butler"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="Charles"/>
+<org.eventb.core.carrierSet name="*" org.eventb.core.identifier="persons"/>
+<org.eventb.core.axiom name="+" org.eventb.core.label="person_partition" org.eventb.core.predicate="partition(persons, {Agatha}, {butler}, {Charles})"/>
+</org.eventb.core.contextFile>

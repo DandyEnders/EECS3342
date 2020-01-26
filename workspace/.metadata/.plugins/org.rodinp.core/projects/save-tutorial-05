@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pim project="/tutorial-05">
+<rodin_index>
+<descriptor element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#(" name="butler">
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="25"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="33" loc_char_start="27"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="24"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="30"/>
+</descriptor>
+<descriptor element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#'" name="Agatha">
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="6"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="20"/>
+</descriptor>
+<descriptor element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#1" name="killer">
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#=" name="richer">
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="17"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="38" loc_char_start="32"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="54" loc_char_start="48"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="51" loc_char_start="45"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="66" loc_char_start="60"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="18"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="15"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#=" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha" name="agatha">
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.carrierSet#*" name="persons">
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="10"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="8"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="18"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="9"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="5"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="33" loc_char_start="26"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="18"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="10"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="22"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.carrierSet#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="9"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="19"/>
+</descriptor>
+<descriptor element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#)" name="Charles">
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="25"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="40"/>
+</descriptor>
+<descriptor element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#;" name="hates">
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="18"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="18"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="18"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="13"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="40" loc_char_start="35"/>
+<occurrence element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/tutorial-05/agatha.buc">
+<exported element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.carrierSet#*" name="persons"/>
+<exported element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#)" name="Charles"/>
+<exported element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha" name="agatha"/>
+<exported element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#(" name="butler"/>
+<exported element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#1" name="killer"/>
+<exported element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#'" name="Agatha"/>
+<exported element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#;" name="hates"/>
+<exported element="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#=" name="richer"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/tutorial-05/agatha.buc" mark="false" order_pos="0"/>
+</graph>
+<unprocessed file="/tutorial-05/agatha.bcc"/>
+<unprocessed file="/tutorial-05/agatha.bpo"/>
+<unprocessed file="/tutorial-05/agatha.bpr"/>
+<unprocessed file="/tutorial-05/agatha.bps"/>
+</pim>

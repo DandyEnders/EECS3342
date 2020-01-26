@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poIdentifier name="persons" org.eventb.core.type="ℙ(persons)"/>
+<org.eventb.core.poIdentifier name="Agatha" org.eventb.core.type="persons"/>
+<org.eventb.core.poIdentifier name="Charles" org.eventb.core.type="persons"/>
+<org.eventb.core.poIdentifier name="butler" org.eventb.core.type="persons"/>
+<org.eventb.core.poIdentifier name="killer" org.eventb.core.type="persons"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/tutorial-05/agatha.bpo|org.eventb.core.poFile#agatha|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="3">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="partition(persons,{Agatha},{butler},{Charles})" org.eventb.core.source="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#+"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="killer∈persons" org.eventb.core.source="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#2"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

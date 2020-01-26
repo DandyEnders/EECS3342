@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="false" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="person_partition" org.eventb.core.predicate="partition(persons,{Agatha},{butler},{Charles})" org.eventb.core.source="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#+" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="killer_type" org.eventb.core.predicate="killer∈persons" org.eventb.core.source="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#2" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="solution" org.eventb.core.predicate="killer=Agatha" org.eventb.core.source="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.axiom#:" org.eventb.core.theorem="true"/>
+<org.eventb.core.scConstant name="Agatha" org.eventb.core.source="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#'" org.eventb.core.type="persons"/>
+<org.eventb.core.scConstant name="Charles" org.eventb.core.source="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#)" org.eventb.core.type="persons"/>
+<org.eventb.core.scConstant name="butler" org.eventb.core.source="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#(" org.eventb.core.type="persons"/>
+<org.eventb.core.scConstant name="killer" org.eventb.core.source="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.constant#1" org.eventb.core.type="persons"/>
+<org.eventb.core.scCarrierSet name="persons" org.eventb.core.source="/tutorial-05/agatha.buc|org.eventb.core.contextFile#agatha|org.eventb.core.carrierSet#*" org.eventb.core.type="ℙ(persons)"/>
+</org.eventb.core.scContextFile>
