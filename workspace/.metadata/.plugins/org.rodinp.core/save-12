@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/lab4">
+<rodin_index>
+<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1" name="m1">
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+" name="one">
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="y">
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" name="zero">
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)" name="INITIALISATION">
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/lab4/m1.bum">
+<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)" name="INITIALISATION"/>
+<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="y"/>
+<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" name="zero"/>
+<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+" name="one"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/lab4/m0.bum" mark="false" order_pos="0"/>
+<node label="/lab4/m1.bum" mark="false" order_pos="1">
+<predecessor label="/lab4/m0.bum"/>
+</node>
+</graph>
+<unprocessed file="/lab4/m1.bcm"/>
+<unprocessed file="/lab4/m1.bpo"/>
+<unprocessed file="/lab4/m1.bps"/>
+<unprocessed file="/lab4/m1.bpr"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>

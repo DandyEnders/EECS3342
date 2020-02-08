@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/Lab1-Microwave">
+<rodin_index>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst4" name="locked">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="35"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#var&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="24"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var5" name="p_close_door">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD" name="c_lock_door">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9" name="p_unlock_door">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="POWER">
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#set4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#var4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="16" loc_char_start="11"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8" name="p_open_door">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var:|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var=" name="phase">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#var@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#var?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var=" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varB" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4|org.eventb.core.action#act4" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#var1" name="c_door">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#var1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var1" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst3" name="closed">
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varC" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="25"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="25"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var5|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="9"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4" name="INITIALISATION">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var5" name="p_close_door">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var5|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4" name="c_unlock_door">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1" name="p_lock_door">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var6|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#)" name="c_power">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var8|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#var@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="37" loc_char_start="30"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="35" loc_char_start="28"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varB" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="35" loc_char_start="28"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var8" name="p_power_down">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9" name="controller">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.refinesEvent#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.refinesEvent#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.refinesEvent#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD|org.eventb.core.refinesEvent#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0" name="M0">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0" kind="org.eventb.core.declaration"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" name="on">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#var&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2|org.eventb.core.action#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varB" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="40" loc_char_start="38"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7|org.eventb.core.action#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#set4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="18"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var8|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="10"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var1" name="c_door">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="12"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#var@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="12"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varB" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="12"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#var2" name="m_power">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var2" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2|org.eventb.core.action#grd2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#var2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3" name="c_power_down">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6" name="p_power_down">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var8|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst6" name="unlock">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="25"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#var@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="21"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var3" name="m_door">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varC" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varC" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="16"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#var&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="15"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4|org.eventb.core.action#act3" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst2" name="open">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varC" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="17"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var5|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#)" name="c_power">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#var4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#)" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7" name="p_power_up">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2" name="p_power_up">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set2" name="LOCK">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="10"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#var3" name="m_door">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#var3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var5|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var3" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var5|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'|org.eventb.core.action#act3" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0" name="C0">
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0" kind="org.eventb.core.declaration"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1" name="M1">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7" name="p_unlock_door">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2" name="c_power_up">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst5" name="lock">
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="21"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="17"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varB" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="21"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var2" name="m_power">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varC" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="34"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var8|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#var&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7|org.eventb.core.action#grd2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var8|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst1" name="off">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#var@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="43" loc_char_start="40"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="38"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var8|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#set4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="24"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.invariant#varC" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="44"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var8|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var6" name="p_lock_door">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" name="DOOR">
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'|org.eventb.core.action#act3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4|org.eventb.core.action#act3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="10"/>
+<occurrence element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="10"/>
+</descriptor>
+<descriptor element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var:" name="p_open_door">
+<occurrence element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/Lab1-Microwave/M1.bum">
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#varD" name="c_lock_door"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1" name="M1"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt3" name="c_power_down"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" name="DOOR"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="POWER"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt2" name="c_power_up"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var:" name="p_open_door"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst3" name="closed"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#)" name="c_power"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set2" name="LOCK"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var2" name="m_power"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst1" name="off"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var5" name="p_close_door"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst6" name="unlock"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0" name="M0"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#evt4" name="c_unlock_door"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var4" name="INITIALISATION"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var6" name="p_lock_door"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst4" name="locked"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var1" name="c_door"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" name="on"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var3" name="m_door"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.variable#var=" name="phase"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var9" name="p_unlock_door"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var8" name="p_power_down"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst2" name="open"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst5" name="lock"/>
+<exported element="/Lab1-Microwave/M1.bum|org.eventb.core.machineFile#M1|org.eventb.core.event#var7" name="p_power_up"/>
+</export>
+<export file="/Lab1-Microwave/C0.buc">
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" name="on"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" name="DOOR"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst1" name="off"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="POWER"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst4" name="locked"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst2" name="open"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst3" name="closed"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst5" name="lock"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set2" name="LOCK"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst6" name="unlock"/>
+</export>
+<export file="/Lab1-Microwave/M0.bum">
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt2" name="p_power_up"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set1" name="DOOR"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst4" name="locked"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#'" name="POWER"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var6" name="p_power_down"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst3" name="closed"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#evt1" name="p_lock_door"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.carrierSet#set2" name="LOCK"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#)" name="c_power"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#var3" name="m_door"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#var2" name="m_power"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var5" name="p_close_door"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.variable#var1" name="c_door"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#set3" name="on"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst1" name="off"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst5" name="lock"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst2" name="open"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0" name="C0"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var8" name="p_open_door"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var7" name="p_unlock_door"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0|org.eventb.core.event#var9" name="controller"/>
+<exported element="/Lab1-Microwave/C0.buc|org.eventb.core.contextFile#C0|org.eventb.core.constant#cst6" name="unlock"/>
+<exported element="/Lab1-Microwave/M0.bum|org.eventb.core.machineFile#M0" name="M0"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/Lab1-Microwave/C0.buc" mark="false" order_pos="0"/>
+<node label="/Lab1-Microwave/M0.bum" mark="false" order_pos="1">
+<predecessor label="/Lab1-Microwave/C0.buc"/>
+</node>
+<node label="/Lab1-Microwave/M1.bum" mark="false" order_pos="2">
+<predecessor label="/Lab1-Microwave/C0.buc"/>
+<predecessor label="/Lab1-Microwave/M0.bum"/>
+</node>
+</graph>
+<unprocessed file="/Lab1-Microwave/C0.bcc"/>
+<unprocessed file="/Lab1-Microwave/C0.bpo"/>
+<unprocessed file="/Lab1-Microwave/C0.bpr"/>
+<unprocessed file="/Lab1-Microwave/C0.bps"/>
+<unprocessed file="/Lab1-Microwave/M0.bcm"/>
+<unprocessed file="/Lab1-Microwave/M0.bpo"/>
+<unprocessed file="/Lab1-Microwave/M0.bpr"/>
+<unprocessed file="/Lab1-Microwave/M0.bps"/>
+<unprocessed file="/Lab1-Microwave/M1.bcm"/>
+<unprocessed file="/Lab1-Microwave/M1.bpo"/>
+<unprocessed file="/Lab1-Microwave/M1.bpr"/>
+<unprocessed file="/Lab1-Microwave/M1.bps"/>
+</pim>
+<pim project="/lab2-Proving a Nand Gate Implementation in Rodin">
+<rodin_index>
+<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0" name="c0">
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" name="nand">
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="37"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="20"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" name="and">
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="25"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="20"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" name="inv">
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="12"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="21"/>
+</descriptor>
+<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="D">
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="14"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc">
+<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" name="nand"/>
+<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" name="and"/>
+<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="D"/>
+<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" name="inv"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc" mark="false" order_pos="0"/>
+</graph>
+<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bcc"/>
+<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bpo"/>
+<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bpr"/>
+<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bps"/>
+</pim>
+<pim project="/lab3">
+<rodin_index>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1" name="m1">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" name="j">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variant#evt2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" name="progress2">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," name="INITIALISATION">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0" name="m0">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." name="progress1">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" name="final">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" name="final">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="r">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," name="progress">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="r">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="17"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/lab3/m0.bum">
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," name="progress"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" name="final"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="r"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION"/>
+</export>
+<export file="/lab3/m1.bum">
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" name="j"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" name="final"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="r"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," name="INITIALISATION"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." name="progress1"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" name="progress2"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/lab3/c0.buc" mark="false" order_pos="0"/>
+<node label="/lab3/m0.bum" mark="false" order_pos="1">
+<predecessor label="/lab3/c0.buc"/>
+</node>
+<node label="/lab3/m1.bum" mark="false" order_pos="2">
+<predecessor label="/lab3/m0.bum"/>
+<predecessor label="/lab3/c0.buc"/>
+</node>
+</graph>
+<unprocessed file="/lab3/m0.bcm"/>
+<unprocessed file="/lab3/m0.bpo"/>
+<unprocessed file="/lab3/m0.bps"/>
+<unprocessed file="/lab3/m0.bpr"/>
+<unprocessed file="/lab3/m1.bcm"/>
+<unprocessed file="/lab3/m1.bpo"/>
+<unprocessed file="/lab3/m1.bpr"/>
+<unprocessed file="/lab3/m1.bps"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>

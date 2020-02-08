@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="e" org.eventb.core.predicate="d∈ℕ1" org.eventb.core.source="/lab4-bridge-system/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="o" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/lab4-bridge-system/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)"/>
+<org.eventb.core.poPredicate name="p" org.eventb.core.predicate="n≤d" org.eventb.core.source="/lab4-bridge-system/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicate name="q" org.eventb.core.predicate="n+1≤d∨n − 1≥0" org.eventb.core.source="/lab4-bridge-system/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#inv1"/>
+<org.eventb.core.poPredicate name="r" org.eventb.core.predicate="a∈ℕ" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+<org.eventb.core.poPredicate name="s" org.eventb.core.predicate="b∈ℕ" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#4"/>
+<org.eventb.core.poPredicate name="t" org.eventb.core.predicate="c∈ℕ" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#6"/>
+<org.eventb.core.poPredicate name="u" org.eventb.core.predicate="a+b+c=n" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#7"/>
+<org.eventb.core.poPredicate name="v" org.eventb.core.predicate="a=0∨c=0" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8"/>
+<org.eventb.core.poPredicate name="w" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#="/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTc:" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPc:" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTc:" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poPredicateSet name="EVTIDENTc;" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPc;" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTc;" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="a+b&lt;d" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="c=0" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTc=" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPc=" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTc=" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="0&lt;c" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#0|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTc&gt;" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPc&gt;" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTc&gt;" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="a&gt;0" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#9|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTIDENTc?" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPc?" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#EVTIDENTc?" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="0&lt;b" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a=0" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#:|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/lab4-bridge-system/m2.bpo|org.eventb.core.poFile#m2|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0"/>
+</org.eventb.core.poFile>

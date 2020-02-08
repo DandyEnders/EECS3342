@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="m0"/>
+<org.eventb.core.seesContext name="+" org.eventb.core.target="c0"/>
+<org.eventb.core.variable name="(" org.eventb.core.comment="index to maximum in the array" org.eventb.core.identifier="r"/>
+<org.eventb.core.event name="," org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="j ≔ 1" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="-" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="final">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="final"/>
+<org.eventb.core.guard name="'" org.eventb.core.comment="reached end of array" org.eventb.core.label="grd1" org.eventb.core.predicate="j = n + 1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="." org.eventb.core.convergence="1" org.eventb.core.extended="false" org.eventb.core.label="progress1">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="progress"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="j ≔ j + 1" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="(" org.eventb.core.comment="not yet at end" org.eventb.core.label="grd1" org.eventb.core.predicate="j &lt; n + 1"/>
+<org.eventb.core.guard name="grd1" org.eventb.core.label="grd2" org.eventb.core.predicate="a(j) &lt; a(r)"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="evt1" org.eventb.core.convergence="1" org.eventb.core.extended="false" org.eventb.core.label="progress2">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="progress"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="j ≔ j + 1" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="r ≔ j" org.eventb.core.comment="???" org.eventb.core.label="act2"/>
+<org.eventb.core.guard name="grd1" org.eventb.core.comment="not yet at end" org.eventb.core.label="grd1" org.eventb.core.predicate="j &lt; n + 1"/>
+<org.eventb.core.guard name="grd2" org.eventb.core.label="grd2" org.eventb.core.predicate="a(j) ≥ a(r)"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="/" org.eventb.core.comment="index to iterate across array" org.eventb.core.identifier="j"/>
+<org.eventb.core.invariant name="0" org.eventb.core.label="inv2" org.eventb.core.predicate="j ∈ 1‥n+1"/>
+<org.eventb.core.invariant name="inv1" org.eventb.core.label="inv3" org.eventb.core.predicate="∀i·i∈1‥(j−1)⇒a(r)≥a(i)"/>
+<org.eventb.core.variant name="evt2" org.eventb.core.expression="n+1 − j"/>
+</org.eventb.core.machineFile>

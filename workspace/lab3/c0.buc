@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;org.animb.valuation.valBase" version="3">
+<org.eventb.core.constant name="'" org.eventb.core.comment="size of array" org.eventb.core.identifier="n"/>
+<org.eventb.core.axiom name="(" org.eventb.core.label="axm1" org.eventb.core.predicate="n ∈ ℕ1"/>
+<org.eventb.core.constant name=")" org.eventb.core.comment="array of integers" org.eventb.core.identifier="a"/>
+<org.eventb.core.axiom name="*" org.eventb.core.comment="array is modelled as a total function" org.eventb.core.label="axm2" org.eventb.core.predicate="a ∈ 1‥n → ℤ"/>
+</org.eventb.core.contextFile>

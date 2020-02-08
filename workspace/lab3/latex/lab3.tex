@@ -1,0 +1,95 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{bsymb,b2latex}
+\begin{document}
+\MultiTitle{lab3}
+\MultiHeader{CONTEXT}{c0}
+\CONTEXT{c0}{}{}
+\CONSTANTS{
+	\Constant{n}{size of array}
+	\Constant{a}{array of integers}
+}
+\AXIOMS{
+	\Axiom{axm1}{false}{$n \in{} \natn{}$}{}
+	\Axiom{axm2}{false}{$a \in{} 1\upto{}n \tfun{} \intg{}$}{\\array is modelled as a total function}
+}
+\END
+\MultiHeader{MACHINE}{m0}
+\MACHINE{m0}{}{c0}{}
+\VARIABLES{
+	\Variable{r}{index to maximum in array}
+}
+\INVARIANTS{
+	\Invariant{inv1}{false}{$r \in{} 1\upto{}n$}{}
+}
+\EVENTS{
+\INITIALISATION{false}{}{
+	\ACTIONS{false}{
+		\Action{act1}{$r \bcmeq{} 1$}{true}{}
+	}
+}
+\EVT{final}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$r \in{} 1\upto{}n$}{true}{}
+		\Guard{grd2}{false}{$\forall{}i \qdot{} i \in{} 1\upto{}n \limp{} a(r) \geq{} a(i)$}{true}{\\specification of postcondition}
+	}
+	\ACTIONS{true}{
+		\Skip
+	}
+}
+\EVT{progress}{false}{anticipated}{}{}{
+	\ACTIONS{false}{
+		\Action{act1}{$r \bcmin{} 1\upto{}n$}{true}{\\Keep guessing what the index is}
+	}
+}
+}
+\END
+\MultiHeader{MACHINE}{m1}
+\MACHINE{m1}{m0}{c0}{}
+\VARIABLES{
+	\Variable{r}{index to maximum in the array}
+	\Variable{j}{index to iterate across array}
+}
+\INVARIANTS{
+	\Invariant{inv2}{false}{$j \in{} 1\upto{}n+1$}{}
+	\Invariant{inv3}{false}{$\forall{}i\qdot{}i\in{}1\upto{}(j-1)\limp{}a(r)\geq{}a(i)$}{}
+}
+\VARIANT{
+	\Variant{$n+1 - j$}{}
+}
+\EVENTS{
+\INITIALISATION{true}{}{
+	\ACTIONS{false}{
+		\Action{act1}{$r \bcmeq{} 1$}{false}{}
+		\Action{act2}{$j \bcmeq{} 1$}{true}{}
+	}
+}
+\EVT{final}{false}{ordinary}{final}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$j = n + 1$}{true}{\\reached end of array}
+	}
+	\ACTIONS{true}{
+		\Skip
+	}
+}
+\EVT{progress1}{false}{convergent}{progress}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$j < n + 1$}{true}{\\not yet at end}
+		\Guard{grd2}{false}{$a(j) < a(r)$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$j \bcmeq{} j + 1$}{true}{}
+	}
+}
+\EVT{progress2}{false}{convergent}{progress}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$j < n + 1$}{true}{\\not yet at end}
+		\Guard{grd2}{false}{$a(j) \geq{} a(r)$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$j \bcmeq{} j + 1$}{true}{}
+		\Action{act2}{$r \bcmeq{} j$}{true}{\\???}
+	}
+}
+}
+\END
+\end{document}
