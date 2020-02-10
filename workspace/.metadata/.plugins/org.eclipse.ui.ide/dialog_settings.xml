@@ -13,6 +13,10 @@
 			<item value="C:\Users\sunny\Desktop\Celebrity.zip"/>
 		</list>
 	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
 	<section name="ChooseWorkspaceDialogSettings">
 		<item value="254" key="DIALOG_X_ORIGIN"/>
 		<item value="316" key="DIALOG_Y_ORIGIN"/>
