@@ -6,7 +6,7 @@
 <org.eventb.core.variable name="(" org.eventb.core.identifier="n"/>
 <org.eventb.core.invariant name=")" org.eventb.core.label="inv0_1" org.eventb.core.predicate="n ∈ ℕ"/>
 <org.eventb.core.invariant name="*" org.eventb.core.label="inv0_2" org.eventb.core.predicate="n ≤ d"/>
-<org.eventb.core.invariant name="inv1" org.eventb.core.label="DLF" org.eventb.core.predicate="n + 1 ≤ d ∨ n−1 ≥ 0"/>
+<org.eventb.core.invariant name="inv1" org.eventb.core.label="DLF" org.eventb.core.predicate="n + 1 ≤ d ∨ n−1 ≥ 0" org.eventb.core.theorem="true"/>
 <org.eventb.core.event name="+" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ML_out">
 <org.eventb.core.action name="'" org.eventb.core.assignment="n ≔ n + 1" org.eventb.core.label="act1"/>
 <org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="n + 1 ≤ d"/>

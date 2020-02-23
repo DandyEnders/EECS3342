@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/inv3_12/INV"/>
+<org.eventb.core.prProof name="ML_out_1/inv3_12/INV"/>
+<org.eventb.core.prProof name="ML_out_2/inv3_12/INV"/>
+<org.eventb.core.prProof name="IL_in/inv3_12/INV"/>
+</org.eventb.core.prFile>

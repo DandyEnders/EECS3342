@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="e" org.eventb.core.predicate="d∈ℕ1" org.eventb.core.source="/lab4-bridge-system/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#("/>
+<org.eventb.core.poIdentifier name="COLOR" org.eventb.core.type="ℙ(COLOR)"/>
+<org.eventb.core.poIdentifier name="green" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="red" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poPredicate name="greeo" org.eventb.core.predicate="partition(COLOR,{red},{green})" org.eventb.core.source="/lab4-bridge-system/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#+"/>
+<org.eventb.core.poIdentifier name="SENSOR" org.eventb.core.type="ℙ(SENSOR)"/>
+<org.eventb.core.poIdentifier name="off" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="on" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poPredicate name="SENSOS" org.eventb.core.predicate="partition(SENSOR,{on},{off})" org.eventb.core.source="/lab4-bridge-system/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.axiom#+"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="9">
+<org.eventb.core.poIdentifier name="A" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="B" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="C" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="IL_IN_SR" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="IL_OUT_SR" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="ML_IN_SR" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="ML_OUT_SR" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="a" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="b" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="il_in_10" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="il_out_10" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="il_pass" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="il_tl" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="ml_in_10" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ml_out_10" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ml_pass" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ml_tl" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="ml_out_11" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/lab4-bridge-system/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)"/>
+<org.eventb.core.poPredicate name="ml_out_12" org.eventb.core.predicate="n≤d" org.eventb.core.source="/lab4-bridge-system/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicate name="ml_out_13" org.eventb.core.predicate="n+1≤d∨n − 1≥0" org.eventb.core.source="/lab4-bridge-system/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#inv1"/>
+<org.eventb.core.poPredicate name="ml_out_14" org.eventb.core.predicate="a∈ℕ" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+<org.eventb.core.poPredicate name="ml_out_15" org.eventb.core.predicate="b∈ℕ" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#4"/>
+<org.eventb.core.poPredicate name="ml_out_16" org.eventb.core.predicate="c∈ℕ" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#6"/>
+<org.eventb.core.poPredicate name="ml_out_17" org.eventb.core.predicate="a+b+c=n" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#7"/>
+<org.eventb.core.poPredicate name="ml_out_18" org.eventb.core.predicate="a=0∨c=0" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8"/>
+<org.eventb.core.poPredicate name="ml_out_19" org.eventb.core.predicate="(a+b&lt;d∧c=0)∨c&gt;0∨a&gt;0∨(b&gt;0∧a=0)" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#="/>
+<org.eventb.core.poPredicate name="ml_out_1:" org.eventb.core.predicate="ml_tl∈COLOR" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#;"/>
+<org.eventb.core.poPredicate name="ml_out_1;" org.eventb.core.predicate="il_tl∈COLOR" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#="/>
+<org.eventb.core.poPredicate name="ml_out_1=" org.eventb.core.predicate="ml_tl=green⇒a+b&lt;d∧c=0" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#&gt;"/>
+<org.eventb.core.poPredicate name="ml_out_1&gt;" org.eventb.core.predicate="il_tl=green⇒0&lt;b∧a=0" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#?"/>
+<org.eventb.core.poPredicate name="ml_out_1?" org.eventb.core.predicate="ml_tl=red∨il_tl=red" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#D"/>
+<org.eventb.core.poPredicate name="ml_out_1@" org.eventb.core.predicate="ml_pass∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt4"/>
+<org.eventb.core.poPredicate name="ml_out_1A" org.eventb.core.predicate="il_pass∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt6"/>
+<org.eventb.core.poPredicate name="ml_out_1B" org.eventb.core.predicate="ml_tl=red⇒ml_pass=1" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv1"/>
+<org.eventb.core.poPredicate name="ml_out_1C" org.eventb.core.predicate="il_tl=red⇒il_pass=1" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv2"/>
+<org.eventb.core.poPredicate name="ml_out_1D" org.eventb.core.predicate="(ml_tl=red∧a+b&lt;d∧c=0∧ml_pass=1∧il_pass=1)∨(il_tl=red∧a=0∧b&gt;0∧ml_pass=1∧il_pass=1)∨ml_tl=green∨il_tl=green∨a&gt;0∨c&gt;0" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_5/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="A'∈ℕ" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtD"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtD"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_5\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD4"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_6/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="B'∈ℕ" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtE"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtE"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_6\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD5"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_7/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="C'∈ℕ" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtF"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtF"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_7\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD6"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_8/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ml_out_10'∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtG"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtG"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_8\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_9/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ml_in_10'∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtH"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtH"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_9\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD8"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_10/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10'∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtI"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtI"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_10\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_11/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10'∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtJ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtJ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_11\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD10"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_12/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="10">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="IL_IN_SR'=on⇒A'&gt;0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtK"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtK"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_12\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD11"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_13/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="IL_OUT_SR'=on⇒B'&gt;0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtL"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtL"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_13\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD12"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_14/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ML_IN_SR'=on⇒C'&gt;0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtM"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtM"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_14\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD13"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_15/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="11">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ml_out_10'=1⇒green=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_15\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD14"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_16/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="11">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10'=1⇒red=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_16\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD15"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_17/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="IL_IN_SR'=on⇒il_in_10'=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt["/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt["/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_17\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD16"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_18/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="IL_OUT_SR'=on⇒il_out_10'=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt\\"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt\\"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_18\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD17"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_19/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ML_IN_SR'=on⇒ml_in_10'=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt]"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt]"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_19\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD18"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_20/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="12">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ML_OUT_SR'=on⇒ml_out_10'=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt^"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt^"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_20\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD19"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_21/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10'=1∧ml_out_10'=1⇒A'=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt_"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt_"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_21\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD20"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_22/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10'=0∧ml_out_10'=1⇒A'=0+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt`"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt`"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_22\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD21"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_23/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10'=1∧ml_out_10'=0⇒A'=0 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evta"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evta"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_23\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD22"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_24/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10'=0∧ml_out_10'=0⇒A'=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtb"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtb"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_24\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD23"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_25/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10'=1∧il_out_10'=1⇒B'=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtc"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtc"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_25\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD24"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_26/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10'=1∧il_out_10'=0⇒B'=0+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtd"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtd"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_26\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD25"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_27/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10'=0∧il_out_10'=1⇒B'=0 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evte"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evte"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_27\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD26"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_28/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10'=0∧il_out_10'=0⇒B'=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtf"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtf"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_28\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD27"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_29/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10'=1∧ml_out_10'=1⇒C'=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_29\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD28"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_30/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10'=1∧ml_out_10'=0⇒C'=0+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_30\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD29"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_31/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10'=0∧ml_out_10'=1⇒C'=0 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_31\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD30"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3_32/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_11"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10'=0∧ml_out_10'=0⇒C'=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt6"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3_32\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD31"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTml_out_11" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="il_tl'" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="ml_out_10'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="il_pass'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="il_out_10'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="C'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ml_in_10'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ml_tl'" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="il_in_10'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ML_IN_SR'" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="A'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="IL_IN_SR'" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="ML_OUT_SR'" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="IL_OUT_SR'" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="B'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ml_pass'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPml_out_11" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTml_out_11" org.eventb.core.poStamp="0"/>
+<org.eventb.core.poSequent name="ML_out_1/inv3_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtG"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtG"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_8\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/inv3_15/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=1⇒ml_tl=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_15\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD14"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/inv3_20/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ML_OUT_SR=on⇒0=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt^"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt^"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_20\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD19"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/inv3_21/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧0=1⇒A=a+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt_"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt_"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_21\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD20"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/inv3_22/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧0=1⇒A=(a+1)+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt`"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt`"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_22\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD21"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/inv3_23/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧0=0⇒A=a+1 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evta"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evta"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_23\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD22"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/inv3_24/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧0=0⇒A=a+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtb"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtb"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_24\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD23"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/inv3_29/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=1∧0=1⇒C=c" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_29\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD28"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/inv3_30/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=1∧0=0⇒C=c+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_30\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD29"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/inv3_31/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=0∧0=1⇒C=c − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_31\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD30"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/inv3_32/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=0∧0=0⇒C=c" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/inv3_32\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD31"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_1/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_12"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ml_tl=green" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.guard#("/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.guard#("/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_1\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTml_out_12" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="14">
+<org.eventb.core.poIdentifier name="ml_out_10'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ml_pass'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPml_out_12" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTml_out_12" org.eventb.core.poStamp="14">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ml_out_10=1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a+b+1≠d" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt7|org.eventb.core.guard#grd1"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="ML_out_2/inv3_8/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtG"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtG"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_8\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD7"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/inv3_15/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=1⇒red=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_15\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD14"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/inv3_20/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ML_OUT_SR=on⇒0=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt^"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt^"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_20\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD19"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/inv3_21/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧0=1⇒A=a+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt_"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt_"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_21\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD20"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/inv3_22/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧0=1⇒A=(a+1)+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt`"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt`"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_22\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD21"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/inv3_23/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧0=0⇒A=a+1 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evta"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evta"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_23\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD22"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/inv3_24/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧0=0⇒A=a+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtb"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtb"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_24\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD23"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/inv3_29/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=1∧0=1⇒C=c" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_29\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD28"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/inv3_30/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=1∧0=0⇒C=c+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_30\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD29"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/inv3_31/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=0∧0=1⇒C=c − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_31\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD30"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/inv3_32/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=0∧0=0⇒C=c" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/inv3_32\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD31"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_out_2/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_13"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ml_tl=green" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1|org.eventb.core.guard#("/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1|org.eventb.core.guard#("/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_out_2\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTml_out_13" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="15">
+<org.eventb.core.poIdentifier name="ml_out_10'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ml_tl'" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="ml_pass'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPml_out_13" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTml_out_13" org.eventb.core.poStamp="15">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ml_out_10=1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8|org.eventb.core.guard#grd2"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a+b+1=d" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt8|org.eventb.core.guard#grd1"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="ML_in/inv3_29/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_14"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=1∧ml_out_10=1⇒C=c − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt9"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_in\/inv3_29\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD28"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_in/inv3_30/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_14"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=1∧ml_out_10=0⇒C=c − 1+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt9"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_in\/inv3_30\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD29"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_in/inv3_31/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_14"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=0∧ml_out_10=1⇒C=c − 1 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt9"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_in\/inv3_31\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD30"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_in/inv3_32/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_14"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=0∧ml_out_10=0⇒C=c − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt9"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_in\/inv3_32\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD31"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTml_out_14" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="13">
+<org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPml_out_14" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTml_out_14" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="0&lt;c" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#0|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="IL_in/inv3_21/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_15"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧ml_out_10=1⇒A=a − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt_"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt:"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt_"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_in\/inv3_21\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD20"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_in/inv3_22/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_15"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧ml_out_10=1⇒A=a − 1+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt`"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt:"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt`"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_in\/inv3_22\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD21"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_in/inv3_23/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_15"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧ml_out_10=0⇒A=a − 1 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evta"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt:"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evta"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_in\/inv3_23\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD22"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_in/inv3_24/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_15"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧ml_out_10=0⇒A=a − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtb"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt:"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtb"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_in\/inv3_24\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD23"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_in/inv3_25/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_15"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧il_out_10=1⇒B=b+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtc"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt:"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtc"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_in\/inv3_25\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD24"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_in/inv3_26/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_15"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧il_out_10=0⇒B=(b+1)+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtd"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt:"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtd"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_in\/inv3_26\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD25"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_in/inv3_27/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_15"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧il_out_10=1⇒B=b+1 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evte"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt:"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evte"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_in\/inv3_27\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD26"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_in/inv3_28/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_15"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧il_out_10=0⇒B=b+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtf"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt:"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtf"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_in\/inv3_28\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD27"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTml_out_15" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="13">
+<org.eventb.core.poIdentifier name="a'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPml_out_15" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTml_out_15" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="a&gt;0" org.eventb.core.source="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#9|org.eventb.core.guard#'"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="IL_out_1/inv3_10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtI"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtI"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_10\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/inv3_16/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=1⇒il_tl=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_16\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD15"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/inv3_18/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="IL_OUT_SR=on⇒0=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt\\"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt\\"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_18\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD17"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/inv3_25/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧0=1⇒B=b − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtc"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtc"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_25\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD24"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/inv3_26/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧0=0⇒B=b − 1+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtd"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtd"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_26\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD25"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/inv3_27/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧0=1⇒B=b − 1 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evte"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evte"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_27\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD26"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/inv3_28/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧0=0⇒B=b − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtf"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtf"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_28\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD27"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/inv3_29/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=1∧ml_out_10=1⇒C=c+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_29\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD28"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/inv3_30/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=1∧ml_out_10=0⇒C=(c+1)+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_30\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD29"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/inv3_31/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=0∧ml_out_10=1⇒C=c+1 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_31\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD30"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/inv3_32/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=0∧ml_out_10=0⇒C=c+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/inv3_32\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD31"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_1/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_16"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_tl=green" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_1\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTml_out_16" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="18">
+<org.eventb.core.poIdentifier name="il_pass'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="il_out_10'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPml_out_16" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTml_out_16" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="il_out_10=1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="b≠1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt;|org.eventb.core.guard#grd1"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="IL_out_2/inv3_10/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtI"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtI"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_10\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD9"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/inv3_16/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=1⇒red=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_16\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD15"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/inv3_18/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="IL_OUT_SR=on⇒0=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt\\"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt\\"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_18\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD17"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/inv3_25/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧0=1⇒B=b − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtc"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtc"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_25\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD24"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/inv3_26/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=1∧0=0⇒B=b − 1+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtd"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtd"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_26\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD25"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/inv3_27/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧0=1⇒B=b − 1 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evte"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evte"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_27\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD26"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/inv3_28/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_in_10=0∧0=0⇒B=b − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtf"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtf"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_28\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD27"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/inv3_29/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=1∧ml_out_10=1⇒C=c+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_29\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD28"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/inv3_30/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=1∧ml_out_10=0⇒C=(c+1)+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_30\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD29"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/inv3_31/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=0∧ml_out_10=1⇒C=c+1 − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_31\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD30"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/inv3_32/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=0∧ml_out_10=0⇒C=c+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/inv3_32\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD31"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_out_2/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_17"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_tl=green" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt="/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_out_2\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTml_out_17" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="20">
+<org.eventb.core.poIdentifier name="il_tl'" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="il_pass'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="il_out_10'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="b'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="c'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPml_out_17" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTml_out_17" org.eventb.core.poStamp="20">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="il_out_10=1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt=|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="b=1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt=|org.eventb.core.guard#grd1"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="ML_tl_green/inv3_15/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_18"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ml_out_10=1⇒green=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt&gt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_tl_green\/inv3_15\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD14"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="ML_tl_green/inv3_16/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_18"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=1⇒red=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt&gt;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#ML_tl_green\/inv3_16\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD15"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTml_out_18" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="13">
+<org.eventb.core.poIdentifier name="il_tl'" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="ml_tl'" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="ml_pass'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPml_out_18" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTml_out_18" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ml_tl=red" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="a+b&lt;d" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="c=0" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.guard#)"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="il_pass=1" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.guard#grd1"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="IL_tl_green/inv3_15/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_19"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="ml_out_10=1⇒red=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt?"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_tl_green\/inv3_15\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD14"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="IL_tl_green/inv3_16/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPml_out_19"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="il_out_10=1⇒green=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#evt?"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#IL_tl_green\/inv3_16\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD15"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTml_out_19" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="13">
+<org.eventb.core.poIdentifier name="il_tl'" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="il_pass'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="ml_tl'" org.eventb.core.type="COLOR"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPml_out_19" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTml_out_19" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="il_tl=red" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="0&lt;b" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="a=0" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#)"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="ml_pass=1" org.eventb.core.source="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#grd1"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/lab4-bridge-system/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="13">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="ML_OUT_SR∈SENSOR" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt@"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="ML_IN_SR∈SENSOR" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtA"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="IL_OUT_SR∈SENSOR" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtB"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="IL_IN_SR∈SENSOR" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtC"/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="A∈ℕ" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtD"/>
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="B∈ℕ" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtE"/>
+<org.eventb.core.poPredicate name="PRD6" org.eventb.core.predicate="C∈ℕ" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtF"/>
+<org.eventb.core.poPredicate name="PRD7" org.eventb.core.predicate="ml_out_10∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtG"/>
+<org.eventb.core.poPredicate name="PRD8" org.eventb.core.predicate="ml_in_10∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtH"/>
+<org.eventb.core.poPredicate name="PRD9" org.eventb.core.predicate="il_out_10∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtI"/>
+<org.eventb.core.poPredicate name="PRD10" org.eventb.core.predicate="il_in_10∈{0,1}" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtJ"/>
+<org.eventb.core.poPredicate name="PRD11" org.eventb.core.predicate="IL_IN_SR=on⇒A&gt;0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtK"/>
+<org.eventb.core.poPredicate name="PRD12" org.eventb.core.predicate="IL_OUT_SR=on⇒B&gt;0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtL"/>
+<org.eventb.core.poPredicate name="PRD13" org.eventb.core.predicate="ML_IN_SR=on⇒C&gt;0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtM"/>
+<org.eventb.core.poPredicate name="PRD14" org.eventb.core.predicate="ml_out_10=1⇒ml_tl=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtY"/>
+<org.eventb.core.poPredicate name="PRD15" org.eventb.core.predicate="il_out_10=1⇒il_tl=green" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtZ"/>
+<org.eventb.core.poPredicate name="PRD16" org.eventb.core.predicate="IL_IN_SR=on⇒il_in_10=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt["/>
+<org.eventb.core.poPredicate name="PRD17" org.eventb.core.predicate="IL_OUT_SR=on⇒il_out_10=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt\\"/>
+<org.eventb.core.poPredicate name="PRD18" org.eventb.core.predicate="ML_IN_SR=on⇒ml_in_10=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt]"/>
+<org.eventb.core.poPredicate name="PRD19" org.eventb.core.predicate="ML_OUT_SR=on⇒ml_out_10=0" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt^"/>
+<org.eventb.core.poPredicate name="PRD20" org.eventb.core.predicate="il_in_10=1∧ml_out_10=1⇒A=a" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt_"/>
+<org.eventb.core.poPredicate name="PRD21" org.eventb.core.predicate="il_in_10=0∧ml_out_10=1⇒A=a+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evt`"/>
+<org.eventb.core.poPredicate name="PRD22" org.eventb.core.predicate="il_in_10=1∧ml_out_10=0⇒A=a − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evta"/>
+<org.eventb.core.poPredicate name="PRD23" org.eventb.core.predicate="il_in_10=0∧ml_out_10=0⇒A=a" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtb"/>
+<org.eventb.core.poPredicate name="PRD24" org.eventb.core.predicate="il_in_10=1∧il_out_10=1⇒B=b" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtc"/>
+<org.eventb.core.poPredicate name="PRD25" org.eventb.core.predicate="il_in_10=1∧il_out_10=0⇒B=b+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtd"/>
+<org.eventb.core.poPredicate name="PRD26" org.eventb.core.predicate="il_in_10=0∧il_out_10=1⇒B=b − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evte"/>
+<org.eventb.core.poPredicate name="PRD27" org.eventb.core.predicate="il_in_10=0∧il_out_10=0⇒B=b" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtf"/>
+<org.eventb.core.poPredicate name="PRD28" org.eventb.core.predicate="il_out_10=1∧ml_out_10=1⇒C=c" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtg"/>
+<org.eventb.core.poPredicate name="PRD29" org.eventb.core.predicate="il_out_10=1∧ml_out_10=0⇒C=c+1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evth"/>
+<org.eventb.core.poPredicate name="PRD30" org.eventb.core.predicate="il_out_10=0∧ml_out_10=1⇒C=c − 1" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evti"/>
+<org.eventb.core.poPredicate name="PRD31" org.eventb.core.predicate="il_out_10=0∧ml_out_10=0⇒C=c" org.eventb.core.source="/lab4-bridge-system/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#evtj"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

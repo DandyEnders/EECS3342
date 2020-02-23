@@ -83,6 +83,6 @@
 <org.eventb.core.invariant name="evt6" org.eventb.core.label="inv2_7" org.eventb.core.predicate="il_pass ∈ {0, 1}"/>
 <org.eventb.core.invariant name="inv1" org.eventb.core.label="inv2_8" org.eventb.core.predicate="ml_tl = red ⇒ ml_pass = 1"/>
 <org.eventb.core.invariant name="inv2" org.eventb.core.label="inv2_9" org.eventb.core.predicate="il_tl = red ⇒ il_pass = 1"/>
-<org.eventb.core.invariant name="inv3" org.eventb.core.label="DLF" org.eventb.core.predicate="(ml_tl = red ∧ a + b &lt; d ∧ c = 0 ∧ ml_pass = 1 ∧ il_pass = 1) ∨&#10;(il_tl = red ∧ a = 0 ∧ b &gt; 0 ∧ ml_pass = 1 ∧ il_pass = 1) ∨&#10;ml_tl = green ∨&#10;il_tl = green ∨&#10;a&gt; 0 ∨&#10;c&gt; 0"/>
+<org.eventb.core.invariant name="inv3" org.eventb.core.label="DLF" org.eventb.core.predicate="(ml_tl = red ∧ a + b &lt; d ∧ c = 0 ∧ ml_pass = 1 ∧ il_pass = 1) ∨&#10;(il_tl = red ∧ a = 0 ∧ b &gt; 0 ∧ ml_pass = 1 ∧ il_pass = 1) ∨&#10;ml_tl = green ∨&#10;il_tl = green ∨&#10;a&gt; 0 ∨&#10;c&gt; 0" org.eventb.core.theorem="true"/>
 <org.eventb.core.variant name="evt7" org.eventb.core.expression="ml_pass + il_pass"/>
 </org.eventb.core.machineFile>

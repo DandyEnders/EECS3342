@@ -38,5 +38,5 @@
 <org.eventb.core.action name="*" org.eventb.core.assignment="c ≔ c + 1" org.eventb.core.label="act2"/>
 </org.eventb.core.event>
 <org.eventb.core.variant name=";" org.eventb.core.expression="2∗a + b"/>
-<org.eventb.core.invariant name="=" org.eventb.core.label="DLF" org.eventb.core.predicate="(a + b &lt; d ∧ c=0) ∨ c &gt; 0 ∨ a &gt; 0 ∨ (b &gt; 0 ∧ a = 0)"/>
+<org.eventb.core.invariant name="=" org.eventb.core.label="DLF" org.eventb.core.predicate="(a + b &lt; d ∧ c=0) ∨ c &gt; 0 ∨ a &gt; 0 ∨ (b &gt; 0 ∧ a = 0)" org.eventb.core.theorem="true"/>
 </org.eventb.core.machineFile>

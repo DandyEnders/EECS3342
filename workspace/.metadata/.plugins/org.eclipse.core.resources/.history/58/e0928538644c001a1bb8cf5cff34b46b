@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poIdentifier name="d" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="e" org.eventb.core.predicate="d∈ℕ1" org.eventb.core.source="/lab4-bridge-system/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#("/>
+<org.eventb.core.poIdentifier name="COLOR" org.eventb.core.type="ℙ(COLOR)"/>
+<org.eventb.core.poIdentifier name="green" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poIdentifier name="red" org.eventb.core.type="COLOR"/>
+<org.eventb.core.poPredicate name="greeo" org.eventb.core.predicate="partition(COLOR,{red},{green})" org.eventb.core.source="/lab4-bridge-system/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#+"/>
+<org.eventb.core.poIdentifier name="SENSOR" org.eventb.core.type="ℙ(SENSOR)"/>
+<org.eventb.core.poIdentifier name="off" org.eventb.core.type="SENSOR"/>
+<org.eventb.core.poIdentifier name="on" org.eventb.core.type="SENSOR"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/lab4-bridge-system/c2.bpo|org.eventb.core.poFile#c2|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="partition(SENSOR,{on},{off})" org.eventb.core.source="/lab4-bridge-system/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.axiom#+"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
