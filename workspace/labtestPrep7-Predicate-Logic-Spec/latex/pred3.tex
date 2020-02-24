@@ -1,0 +1,17 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{bsymb,b2latex}
+\begin{document}
+\SingleHeader{pred3}
+\CONTEXT{pred3}{}{}
+\SETS{
+	\Set{S}{}
+}
+\CONSTANTS{
+	\Constant{R}{}
+}
+\AXIOMS{
+	\Axiom{axm1}{false}{$R \subseteq{} S\cprod{}S$}{}
+	\Axiom{thm}{true}{$\\(\forall{}x,y,z\qdot{} x\mapsto{}z\in{}R \land{} y\mapsto{}z\in{}R \limp{} x\mapsto{}y\in{}R) \land{}\\~(\forall{}x\qdot{}\exists{}y\qdot{}x\mapsto{}y\in{}R)\\\limp{}\\~(\forall{}x,y,z\qdot{}x\mapsto{}y\in{}R \land{}y\mapsto{}z\in{}R \limp{} x\mapsto{}z\in{}R) $}{}
+}
+\END
+\end{document}

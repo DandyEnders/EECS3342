@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/inv4/INV"/>
+<org.eventb.core.prProof name="P1_request/inv4/INV"/>
+<org.eventb.core.prProof name="P1_process/inv4/INV"/>
+<org.eventb.core.prProof name="P2_request/inv4/INV"/>
+<org.eventb.core.prProof name="P2_process/inv4/INV"/>
+</org.eventb.core.prFile>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/lab4">
+<rodin_index>
+<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1" name="m1">
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+" name="one">
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="y">
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" name="zero">
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)" name="INITIALISATION">
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/lab4/m1.bum">
+<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)" name="INITIALISATION"/>
+<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="y"/>
+<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" name="zero"/>
+<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+" name="one"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/lab4/m0.bum" mark="false" order_pos="0"/>
+<node label="/lab4/m1.bum" mark="false" order_pos="1">
+<predecessor label="/lab4/m0.bum"/>
+</node>
+</graph>
+<unprocessed file="/lab4/m1.bcm"/>
+<unprocessed file="/lab4/m1.bpo"/>
+<unprocessed file="/lab4/m1.bps"/>
+<unprocessed file="/lab4/m1.bpr"/>
+</pim>
+<pim project="/labtestPrep7-Predicate-Logic-Spec">
+<rodin_index/>
+<export_table/>
+<graph is_sorted="true"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred0.bcc"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred0.bpo"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred0.bpr"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred0.bps"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred1.bcc"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred1.bpo"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred1.bpr"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred1.bps"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred2.bcc"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred2.bpo"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred2.bpr"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred2.bps"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred3.bcc"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred3.bpo"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred3.bpr"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred3.bps"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred4.bcc"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred4.bpo"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred4.bpr"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred4.bps"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred5.bcc"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred5.bpo"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred5.bpr"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred5.bps"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred6.bcc"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred6.bpo"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred6.bpr"/>
+<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred6.bps"/>
+</pim>
+<pim project="/labtestPrep1-FTP,2-Parity">
+<rodin_index/>
+<export_table/>
+<graph is_sorted="true"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/c0.bcc"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/c0.bpo"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/c0.bpr"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/c0.bps"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/c1.bcc"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/c1.bpo"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/c1.bpr"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/c1.bps"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m0.bcm"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m0.bpo"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m0.bpr"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m0.bps"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m1.bcm"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m1.bpo"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m1.bpr"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m1.bps"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m2.bcm"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m2.bpo"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m2.bpr"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m2.bps"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m3.bcm"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m3.bpo"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m3.bpr"/>
+<unprocessed file="/labtestPrep1-FTP,2-Parity/m3.bps"/>
+</pim>
+<pim project="/lab2-Proving a Nand Gate Implementation in Rodin">
+<rodin_index>
+<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0" name="c0">
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" name="nand">
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="20"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="37"/>
+</descriptor>
+<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" name="and">
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="25"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="20"/>
+</descriptor>
+<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" name="inv">
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="12"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="21"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="D">
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="14"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc">
+<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" name="nand"/>
+<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" name="and"/>
+<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="D"/>
+<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" name="inv"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc" mark="false" order_pos="0"/>
+</graph>
+<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bcc"/>
+<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bpo"/>
+<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bpr"/>
+<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bps"/>
+</pim>
+<pim project="/labtestPrep3- NAND gate">
+<rodin_index/>
+<export_table/>
+<graph is_sorted="true"/>
+<unprocessed file="/labtestPrep3- NAND gate/c0.bcc"/>
+<unprocessed file="/labtestPrep3- NAND gate/c0.bpo"/>
+<unprocessed file="/labtestPrep3- NAND gate/c0.bpr"/>
+<unprocessed file="/labtestPrep3- NAND gate/c0.bps"/>
+</pim>
+<pim project="/labtestPrep4- Mutex, Concurrency">
+<rodin_index/>
+<export_table/>
+<graph is_sorted="true"/>
+<unprocessed file="/labtestPrep4- Mutex, Concurrency/m0.bcm"/>
+<unprocessed file="/labtestPrep4- Mutex, Concurrency/m0.bpo"/>
+<unprocessed file="/labtestPrep4- Mutex, Concurrency/m0.bpr"/>
+<unprocessed file="/labtestPrep4- Mutex, Concurrency/m0.bps"/>
+<unprocessed file="/labtestPrep4- Mutex, Concurrency/c0.bcc"/>
+<unprocessed file="/labtestPrep4- Mutex, Concurrency/c0.bpo"/>
+<unprocessed file="/labtestPrep4- Mutex, Concurrency/c0.bpr"/>
+<unprocessed file="/labtestPrep4- Mutex, Concurrency/c0.bps"/>
+</pim>
+<pim project="/labtestPrep5- set logic">
+<rodin_index/>
+<export_table/>
+<graph is_sorted="true"/>
+<unprocessed file="/labtestPrep5- set logic/c0.bcc"/>
+<unprocessed file="/labtestPrep5- set logic/c0.bpo"/>
+<unprocessed file="/labtestPrep5- set logic/c0.bpr"/>
+<unprocessed file="/labtestPrep5- set logic/c0.bps"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>

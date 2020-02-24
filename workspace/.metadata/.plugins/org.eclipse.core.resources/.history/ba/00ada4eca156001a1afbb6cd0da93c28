@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="5">
+<org.eventb.core.poIdentifier name="D" org.eventb.core.type="ℙ(D)"/>
+<org.eventb.core.poIdentifier name="f" org.eventb.core.type="ℙ(ℤ×D)"/>
+<org.eventb.core.poIdentifier name="n" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="o" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/labtestPrep1-FTP/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)"/>
+<org.eventb.core.poPredicate name="p" org.eventb.core.predicate="0&lt;n" org.eventb.core.source="/labtestPrep1-FTP/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="q" org.eventb.core.predicate="f∈1 ‥ n → D" org.eventb.core.source="/labtestPrep1-FTP/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#,"/>
+<org.eventb.core.poIdentifier name="parity" org.eventb.core.type="ℙ(ℤ×ℤ)"/>
+<org.eventb.core.poPredicate name="paritz" org.eventb.core.predicate="parity∈ℕ → {0,1}" org.eventb.core.source="/labtestPrep1-FTP/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#)"/>
+<org.eventb.core.poPredicate name="parit{" org.eventb.core.predicate="parity(0)=0" org.eventb.core.source="/labtestPrep1-FTP/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="parit|" org.eventb.core.predicate="∀x⦂ℤ·x∈ℕ⇒parity(x+1)=1 − parity(x)" org.eventb.core.source="/labtestPrep1-FTP/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#+"/>
+<org.eventb.core.poPredicate name="parit}" org.eventb.core.predicate="∀x⦂ℤ,y⦂ℤ·x∈ℕ∧y∈ℕ∧x∈y ‥ y+1∧parity(x)=parity(y)⇒x=y" org.eventb.core.source="/labtestPrep1-FTP/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#,"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poIdentifier name="d" org.eventb.core.type="D"/>
+<org.eventb.core.poIdentifier name="g" org.eventb.core.type="ℙ(ℤ×D)"/>
+<org.eventb.core.poIdentifier name="n_channel" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="p" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="q" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="r" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="s" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="n_channem" org.eventb.core.predicate="g∈ℕ ↔ D" org.eventb.core.source="/labtestPrep1-FTP/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)"/>
+<org.eventb.core.poPredicate name="n_channen" org.eventb.core.predicate="r∈1 ‥ n+1" org.eventb.core.source="/labtestPrep1-FTP/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#0"/>
+<org.eventb.core.poPredicate name="n_channeo" org.eventb.core.predicate="g=1 ‥ r − 1 ◁ f" org.eventb.core.source="/labtestPrep1-FTP/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#1"/>
+<org.eventb.core.poPredicate name="n_channep" org.eventb.core.predicate="s≤n+1" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#5"/>
+<org.eventb.core.poPredicate name="n_channeq" org.eventb.core.predicate="s∈r ‥ r+1" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#4"/>
+<org.eventb.core.poPredicate name="n_channer" org.eventb.core.predicate="s=r+1⇒d=f(r)" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#6"/>
+<org.eventb.core.poPredicate name="n_channes" org.eventb.core.predicate="d∈D" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#8"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="inv3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Invariant" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc9"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="s∈dom(parity)∧parity∈ℤ ⇸ ℤ" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc9"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="inv4/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Invariant" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc:"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r∈dom(parity)∧parity∈ℤ ⇸ ℤ" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc:"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPn_channem"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈ℕ" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#&gt;"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#&gt;"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc9|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPn_channem"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0=0∨0=n" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#@"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#@"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc9|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPn_channem"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1=parity(1)" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc:|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPn_channem"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="1=parity(1)" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#INITIALISATION\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTn_channem" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poIdentifier name="r'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="n_channel'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="s'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="g'" org.eventb.core.type="ℙ(ℤ×D)"/>
+<org.eventb.core.poIdentifier name="p'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="d'" org.eventb.core.type="D"/>
+<org.eventb.core.poIdentifier name="q'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPn_channem" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTn_channem" org.eventb.core.poStamp="8"/>
+<org.eventb.core.poSequent name="final/grd1/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPn_channen"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="r=n+1" org.eventb.core.source="/labtestPrep1-FTP/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/labtestPrep1-FTP/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.guard#'"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#9"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#final\/grd1\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTALLHYPn_channen" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="r=n_channel+1" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#9|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="n_channel≠0" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#9|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="receive/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPn_channeo"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="q=parity(r+1)" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#receive\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD3"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTn_channeo" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poIdentifier name="r'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="g'" org.eventb.core.type="ℙ(ℤ×D)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPn_channeo" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTn_channeo" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s=r+1" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="n_channel≠0" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="send/inv3/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPn_channep"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="p=parity(s+1)" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#send\/inv3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc:|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="send/grd2/GRD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Guard strengthening (split)" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPn_channep"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="s≠n+1" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#("/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/labtestPrep1-FTP/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#("/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#send\/grd2\/GRD|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTn_channep" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poIdentifier name="s'" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="d'" org.eventb.core.type="D"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPn_channep" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTn_channep" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="s=r" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="s≠n_channel+1" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.guard#internal1"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="n_channel≠0" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="send_file_size/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPn_channeq"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="n∈ℕ" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#&gt;"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#?"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#&gt;"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#send_file_size\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc9|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="send_file_size/inv2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTALLHYPn_channeq"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="n=0∨n=n" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#@"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#?"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#@"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poSequent#send_file_size\/inv2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc9|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTn_channeq" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="8">
+<org.eventb.core.poIdentifier name="n_channel'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPn_channeq" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#EVTIDENTn_channeq" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="n_channel=0" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#?|org.eventb.core.guard#+"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYPc9" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="n_channel∈ℕ" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#&gt;"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="n_channel=0∨n_channel=n" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#@"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYPc:" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc9" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="p=parity(s)" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/labtestPrep1-FTP/m3.bpo|org.eventb.core.poFile#m3|org.eventb.core.poPredicateSet#HYPc:" org.eventb.core.poStamp="8">
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="q=parity(r)" org.eventb.core.source="/labtestPrep1-FTP/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

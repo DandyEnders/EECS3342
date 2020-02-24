@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="r ≔ unlocked" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="p1 ≔ unlocked" org.eventb.core.label="act2"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="p2 ≔ unlocked" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
+<org.eventb.core.seesContext name="*" org.eventb.core.target="c0"/>
+<org.eventb.core.variable name="+" org.eventb.core.identifier="r"/>
+<org.eventb.core.invariant name="," org.eventb.core.label="inv1" org.eventb.core.predicate="r ∈ SEMAPHORE"/>
+<org.eventb.core.event name="-" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="P1_request">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="r = unlocked"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="r ≔ locked" org.eventb.core.label="act1"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="p1 ≔ locked" org.eventb.core.label="act2"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2" org.eventb.core.predicate="p1 = unlocked"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="." org.eventb.core.identifier="p1"/>
+<org.eventb.core.invariant name="/" org.eventb.core.label="inv2" org.eventb.core.predicate="p1 ∈ SEMAPHORE"/>
+<org.eventb.core.variable name="0" org.eventb.core.identifier="p2"/>
+<org.eventb.core.invariant name="1" org.eventb.core.label="inv3" org.eventb.core.predicate="p2 ∈ SEMAPHORE"/>
+<org.eventb.core.event name="2" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="P1_process">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="r = locked"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="p1 = locked"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="r ≔ unlocked" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="p1 ≔ unlocked" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="3" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="P2_request">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="r = unlocked"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="p2 = unlocked"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="r ≔ locked" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="p2 ≔ locked" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="4" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="P2_process">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="r = locked"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="p2 = locked"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="r ≔ unlocked" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="p2 ≔ unlocked" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

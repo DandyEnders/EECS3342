@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pim project="/lab3">
+<rodin_index>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1" name="m1">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" name="j">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variant#evt2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" name="progress2">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" name="final">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="r">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/c0.buc|org.eventb.core.contextFile#c0" name="c0">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," name="INITIALISATION">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0" name="m0">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." name="progress1">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" name="final">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="n">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variant#evt2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," name="progress">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="a">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="22"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="r">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="17"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/lab3/m0.bum">
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="a"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="n"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," name="progress"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" name="final"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="r"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION"/>
+</export>
+<export file="/lab3/m1.bum">
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" name="j"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" name="final"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="r"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="a"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," name="INITIALISATION"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="n"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." name="progress1"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" name="progress2"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+</export>
+<export file="/lab3/c0.buc">
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="a"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="n"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/lab3/c0.buc" mark="false" order_pos="0"/>
+<node label="/lab3/m0.bum" mark="false" order_pos="1">
+<predecessor label="/lab3/c0.buc"/>
+</node>
+<node label="/lab3/m1.bum" mark="false" order_pos="2">
+<predecessor label="/lab3/m0.bum"/>
+<predecessor label="/lab3/c0.buc"/>
+</node>
+</graph>
+<unprocessed file="/lab3/c0.bcc"/>
+<unprocessed file="/lab3/c0.bpo"/>
+<unprocessed file="/lab3/c0.bpr"/>
+<unprocessed file="/lab3/c0.bps"/>
+<unprocessed file="/lab3/m0.bcm"/>
+<unprocessed file="/lab3/m0.bpo"/>
+<unprocessed file="/lab3/m0.bpr"/>
+<unprocessed file="/lab3/m0.bps"/>
+<unprocessed file="/lab3/m1.bcm"/>
+<unprocessed file="/lab3/m1.bpo"/>
+<unprocessed file="/lab3/m1.bpr"/>
+<unprocessed file="/lab3/m1.bps"/>
+</pim>

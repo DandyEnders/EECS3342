@@ -1,0 +1,70 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{bsymb,b2latex}
+\begin{document}
+\SingleHeader{m0}
+\MACHINE{m0}{}{c0}{}
+\VARIABLES{
+	\Variable{r}{}
+	\Variable{p1}{}
+	\Variable{p2}{}
+}
+\INVARIANTS{
+	\Invariant{inv1}{false}{$r \in{} SEMAPHORE$}{}
+	\Invariant{inv2}{false}{$p1 \in{} SEMAPHORE$}{}
+	\Invariant{inv3}{false}{$p2 \in{} SEMAPHORE$}{}
+	\Invariant{inv4}{false}{$r = locked \limp{} (p1 = locked \lor{} p2 = locked) \land{} \lnot{}(p1=locked \land{} p2=locked)$}{}
+	\Invariant{inv5}{false}{$\lnot{} (p1=locked \land{} p2=locked)$}{}
+}
+\EVENTS{
+\INITIALISATION{true}{}{
+	\ACTIONS{false}{
+		\Action{act1}{$r \bcmeq{} unlocked$}{true}{}
+		\Action{act2}{$p1 \bcmeq{} unlocked$}{true}{}
+		\Action{act3}{$p2 \bcmeq{} unlocked$}{true}{}
+	}
+}
+\EVT{P1\_request}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$r = unlocked$}{true}{}
+		\Guard{grd2}{false}{$p1 = unlocked$}{true}{}
+		\Guard{grd3}{false}{$p2 = unlocked$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$r \bcmeq{} locked$}{true}{}
+		\Action{act2}{$p1 \bcmeq{} locked$}{true}{}
+	}
+}
+\EVT{P1\_process}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$r = locked$}{true}{}
+		\Guard{grd2}{false}{$p1 = locked$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$r \bcmeq{} unlocked$}{true}{}
+		\Action{act2}{$p1 \bcmeq{} unlocked$}{true}{}
+	}
+}
+\EVT{P2\_request}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$r = unlocked$}{true}{}
+		\Guard{grd2}{false}{$p2 = unlocked$}{true}{}
+		\Guard{grd3}{false}{$p1 = unlocked$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$r \bcmeq{} locked$}{true}{}
+		\Action{act2}{$p2 \bcmeq{} locked$}{true}{}
+	}
+}
+\EVT{P2\_process}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$r = locked$}{true}{}
+		\Guard{grd2}{false}{$p2 = locked$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$r \bcmeq{} unlocked$}{true}{}
+		\Action{act2}{$p2 \bcmeq{} unlocked$}{true}{}
+	}
+}
+}
+\END
+\end{document}

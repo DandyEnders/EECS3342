@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.extendsContext name="'" org.eventb.core.target="c0"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="parity"/>
+<org.eventb.core.axiom name=")" org.eventb.core.label="axm1" org.eventb.core.predicate="parity ∈ ℕ → {0, 1}"/>
+<org.eventb.core.axiom name="*" org.eventb.core.label="axm2" org.eventb.core.predicate="parity(0) = 0"/>
+<org.eventb.core.axiom name="+" org.eventb.core.label="axm3" org.eventb.core.predicate="∀x·(x∈ℕ ⇒ parity(x+1)=1−parity(x))"/>
+</org.eventb.core.contextFile>

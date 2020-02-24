@@ -9,6 +9,17 @@
 <occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
 </descriptor>
 <descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="y">
+<<<<<<< HEAD
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+=======
 <occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
@@ -18,6 +29,7 @@
 <occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+>>>>>>> 5df3c0db8a2ab8eea6f4c9d15eb0791886d3849c
 </descriptor>
 <descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" name="zero">
 <occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
@@ -46,6 +58,147 @@
 <unprocessed file="/lab4/m1.bps"/>
 <unprocessed file="/lab4/m1.bpr"/>
 </pim>
+<<<<<<< HEAD
+<pim project="/lab4-bridge-system">
+<rodin_index>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" name="IL_in">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt5" name="il_pass">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6|org.eventb.core.action#act7" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="116" loc_char_start="109"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="14"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="56" loc_char_start="49"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variant#evt7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="17" loc_char_start="10"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#A" name="il_tl">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="70" loc_char_start="65"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="145" loc_char_start="140"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="14"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#A" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6|org.eventb.core.action#act5" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1" name="ML_out_2">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt3" name="ml_pass">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="14"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="35"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="102" loc_char_start="95"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variant#evt7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6|org.eventb.core.action#act6" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C" name="IL_tl_green">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6" name="INITIALISATION">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8" name="ML_in">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:" name="IL_out_1">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2" name="m2">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#@" name="ml_tl">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6|org.eventb.core.action#act4" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#@" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="129" loc_char_start="124"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="1"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B" name="ML_tl_green">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#1" name="a">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="22"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="157" loc_char_start="156"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="80" loc_char_start="79"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2" name="IL_out_2">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#3" name="b">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt1|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="88" loc_char_start="87"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="19"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#5" name="c">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt2|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="27"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="164" loc_char_start="163"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6|org.eventb.core.action#act3" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="24"/>
+</descriptor>
+<descriptor element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7" name="ML_out_1">
+<occurrence element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+</rodin_index>
+<export_table>
+=======
 <pim project="/tutorial-03">
 <rodin_index/>
 <export_table/>
@@ -724,6 +877,7 @@
 <exported element="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/" name="ML_out"/>
 <exported element="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#3" name="b"/>
 </export>
+>>>>>>> 5df3c0db8a2ab8eea6f4c9d15eb0791886d3849c
 <export file="/lab4-bridge-system/m2.bum">
 <exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#5" name="c"/>
 <exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#3" name="b"/>
@@ -737,14 +891,29 @@
 <exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7" name="ML_out_1"/>
 <exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#B" name="ML_tl_green"/>
 <exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt3" name="ml_pass"/>
+<<<<<<< HEAD
+<exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" name="IL_in"/>
+<exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:" name="IL_out_1"/>
+=======
 <exported element="/lab4-bridge-system/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
 <exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" name="IL_in"/>
 <exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#:" name="IL_out_1"/>
 <exported element="/lab4-bridge-system/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+>>>>>>> 5df3c0db8a2ab8eea6f4c9d15eb0791886d3849c
 <exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#C" name="IL_tl_green"/>
 <exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#@" name="ml_tl"/>
 <exported element="/lab4-bridge-system/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8" name="ML_in"/>
 </export>
+<<<<<<< HEAD
+</export_table>
+<graph is_sorted="true">
+<node label="/lab4-bridge-system/m1.bum" mark="false" order_pos="0"/>
+<node label="/lab4-bridge-system/c1.buc" mark="false" order_pos="1"/>
+<node label="/lab4-bridge-system/m2.bum" mark="false" order_pos="2">
+<predecessor label="/lab4-bridge-system/m1.bum"/>
+<predecessor label="/lab4-bridge-system/c1.buc"/>
+</node>
+=======
 <export file="/lab4-bridge-system/c2.buc">
 <exported element="/lab4-bridge-system/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#*" name="off"/>
 <exported element="/lab4-bridge-system/c2.buc|org.eventb.core.contextFile#c2|org.eventb.core.constant#)" name="on"/>
@@ -820,11 +989,179 @@
 <predecessor label="/lab4-bridge-system/m2.bum"/>
 <predecessor label="/lab4-bridge-system/c2.buc"/>
 </node>
+>>>>>>> 5df3c0db8a2ab8eea6f4c9d15eb0791886d3849c
 </graph>
 <unprocessed file="/lab4-bridge-system/m2.bcm"/>
 <unprocessed file="/lab4-bridge-system/m2.bpo"/>
 <unprocessed file="/lab4-bridge-system/m2.bpr"/>
 <unprocessed file="/lab4-bridge-system/m2.bps"/>
+<<<<<<< HEAD
+<unprocessed file="/lab4-bridge-system/m1.bps"/>
+<unprocessed file="/lab4-bridge-system/c1.bcc"/>
+<unprocessed file="/lab4-bridge-system/m0.bcm"/>
+<unprocessed file="/lab4-bridge-system/c0.bcc"/>
+<unprocessed file="/lab4-bridge-system/c1.bps"/>
+<unprocessed file="/lab4-bridge-system/m0.bps"/>
+<unprocessed file="/lab4-bridge-system/c0.bps"/>
+<unprocessed file="/lab4-bridge-system/m1.bcm"/>
+<unprocessed file="/lab4-bridge-system/c0.bpo"/>
+<unprocessed file="/lab4-bridge-system/c1.bpo"/>
+<unprocessed file="/lab4-bridge-system/m0.bpo"/>
+<unprocessed file="/lab4-bridge-system/m1.bpo"/>
+<unprocessed file="/lab4-bridge-system/m2.bpo_tmp"/>
+</pim>
+<pim project="/lab3">
+<rodin_index>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1" name="m1">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" name="j">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variant#evt2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="7" loc_char_start="6"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" name="progress2">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" name="final">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="r">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/c0.buc|org.eventb.core.contextFile#c0" name="c0">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," name="INITIALISATION">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0" name="m0">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." name="progress1">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" name="final">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="n">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variant#evt2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," name="progress">
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="a">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="22"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+</descriptor>
+<descriptor element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="r">
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="17"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/lab3/m0.bum">
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="a"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="n"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," name="progress"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" name="final"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="r"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION"/>
+</export>
+<export file="/lab3/m1.bum">
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" name="j"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" name="final"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="r"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="a"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," name="INITIALISATION"/>
+<exported element="/lab3/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="n"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." name="progress1"/>
+<exported element="/lab3/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" name="progress2"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+</export>
+<export file="/lab3/c0.buc">
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="a"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="n"/>
+<exported element="/lab3/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/lab3/c0.buc" mark="false" order_pos="0"/>
+<node label="/lab3/m0.bum" mark="false" order_pos="1">
+<predecessor label="/lab3/c0.buc"/>
+</node>
+<node label="/lab3/m1.bum" mark="false" order_pos="2">
+<predecessor label="/lab3/m0.bum"/>
+<predecessor label="/lab3/c0.buc"/>
+</node>
+</graph>
+<unprocessed file="/lab3/c0.bcc"/>
+<unprocessed file="/lab3/c0.bpo"/>
+<unprocessed file="/lab3/c0.bpr"/>
+<unprocessed file="/lab3/c0.bps"/>
+<unprocessed file="/lab3/m0.bcm"/>
+<unprocessed file="/lab3/m0.bpo"/>
+<unprocessed file="/lab3/m0.bpr"/>
+<unprocessed file="/lab3/m0.bps"/>
+<unprocessed file="/lab3/m1.bcm"/>
+<unprocessed file="/lab3/m1.bpo"/>
+<unprocessed file="/lab3/m1.bpr"/>
+<unprocessed file="/lab3/m1.bps"/>
+=======
 <unprocessed file="/lab4-bridge-system/c0.bpo"/>
 <unprocessed file="/lab4-bridge-system/c1.bpo"/>
 <unprocessed file="/lab4-bridge-system/m0.bpo"/>
@@ -856,6 +1193,7 @@
 <unprocessed file="/lab4-zero-one/m1.bcm"/>
 <unprocessed file="/lab4-zero-one/m0.bcm"/>
 <unprocessed file="/lab4-zero-one/m0.bpo"/>
+>>>>>>> 5df3c0db8a2ab8eea6f4c9d15eb0791886d3849c
 </pim>
 <delta_list/>
 <indexer_registry>
