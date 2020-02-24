@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pim project="/labtestPrep1-FTP-2-Parity">
+<rodin_index>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:" name="receive">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1" name="m1">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1" kind="org.eventb.core.declaration"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1" name="c1">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" name="send">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" name="final">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#1|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="n">
+<occurrence element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="28"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#?|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="12"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#\/" name="r">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#9|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2" name="receive">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#3" name="s">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="3"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.guard#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0" name="c0">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.seesContext#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#9" name="final">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#\/" name="r">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#\/" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="12"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," name="INITIALISATION">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#=" name="n_channel">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="16"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#=" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#9|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#?|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#9|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#?|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.guard#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="2"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0" name="m0">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" name="final">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#A" name="p">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#internal2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#internal2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#A" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.guard#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#7" name="d">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#7" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.constant#(" name="parity">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="30"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="48" loc_char_start="42"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="10"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="24"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#(" name="g">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#3" name="s">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="12"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#3" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" name="r">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#\/" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8" name="INITIALISATION">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0" name="INITIALISATION">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="g">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#,|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3" name="m3">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#(" name="g">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2" name="m2">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2" kind="org.eventb.core.declaration"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#7" name="d">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="13"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#+" name="f">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="13"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="14"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="6"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." name="receive">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;" name="send">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="D">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="5"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," name="progress">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#?" name="send_file_size">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#?" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#1" name="final">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#9|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="g">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#C" name="q">
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#C" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.action#internal2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.action#internal2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:|org.eventb.core.guard#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/labtestPrep1-FTP-2-Parity/m2.bum">
+<exported element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#7" name="d"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="D"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#(" name="g"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2" name="m2"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#1" name="final"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#0" name="INITIALISATION"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" name="send"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#+" name="f"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#3" name="s"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="n"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#\/" name="r"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#2" name="receive"/>
+</export>
+<export file="/labtestPrep1-FTP-2-Parity/m3.bum">
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#7" name="d"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#C" name="q"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.constant#(" name="parity"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#(" name="g"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#A" name="p"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="D"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#8" name="INITIALISATION"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#9" name="final"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#?" name="send_file_size"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1" name="c1"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3" name="m3"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#=" name="n_channel"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m2.bum|org.eventb.core.machineFile#m2" name="m2"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#:" name="receive"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#+" name="f"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#3" name="s"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="n"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#\/" name="r"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;" name="send"/>
+</export>
+<export file="/labtestPrep1-FTP-2-Parity/m1.bum">
+<exported element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#\/" name="r"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." name="receive"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="g"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="D"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#+" name="f"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#," name="INITIALISATION"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" name="final"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="n"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+</export>
+<export file="/labtestPrep1-FTP-2-Parity/m0.bum">
+<exported element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="g"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="D"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#*" name="final"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#+" name="f"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="n"/>
+<exported element="/labtestPrep1-FTP-2-Parity/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," name="progress"/>
+</export>
+<export file="/labtestPrep1-FTP-2-Parity/c1.buc">
+<exported element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.constant#(" name="parity"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="D"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#+" name="f"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c1.buc|org.eventb.core.contextFile#c1" name="c1"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="n"/>
+</export>
+<export file="/labtestPrep1-FTP-2-Parity/c0.buc">
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="D"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#+" name="f"/>
+<exported element="/labtestPrep1-FTP-2-Parity/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="n"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/labtestPrep1-FTP-2-Parity/c0.buc" mark="false" order_pos="0"/>
+<node label="/labtestPrep1-FTP-2-Parity/c1.buc" mark="false" order_pos="1">
+<predecessor label="/labtestPrep1-FTP-2-Parity/c0.buc"/>
+</node>
+<node label="/labtestPrep1-FTP-2-Parity/m0.bum" mark="false" order_pos="2">
+<predecessor label="/labtestPrep1-FTP-2-Parity/c0.buc"/>
+</node>
+<node label="/labtestPrep1-FTP-2-Parity/m1.bum" mark="false" order_pos="3">
+<predecessor label="/labtestPrep1-FTP-2-Parity/m0.bum"/>
+<predecessor label="/labtestPrep1-FTP-2-Parity/c0.buc"/>
+</node>
+<node label="/labtestPrep1-FTP-2-Parity/m2.bum" mark="false" order_pos="4">
+<predecessor label="/labtestPrep1-FTP-2-Parity/m1.bum"/>
+<predecessor label="/labtestPrep1-FTP-2-Parity/c0.buc"/>
+</node>
+<node label="/labtestPrep1-FTP-2-Parity/m3.bum" mark="false" order_pos="5">
+<predecessor label="/labtestPrep1-FTP-2-Parity/m2.bum"/>
+<predecessor label="/labtestPrep1-FTP-2-Parity/c1.buc"/>
+</node>
+</graph>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/c0.bcc"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/c0.bpo"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/c0.bpr"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/c0.bps"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/c1.bcc"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/c1.bpo"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/c1.bpr"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/c1.bps"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m0.bcm"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m0.bpo"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m0.bpr"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m0.bps"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m1.bcm"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m1.bpo"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m1.bpr"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m1.bps"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m2.bcm"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m2.bpo"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m2.bpr"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m2.bps"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m3.bcm"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m3.bpo"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m3.bpr"/>
+<unprocessed file="/labtestPrep1-FTP-2-Parity/m3.bps"/>
+</pim>

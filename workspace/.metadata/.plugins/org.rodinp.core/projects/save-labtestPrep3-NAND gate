@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pim project="/labtestPrep3-NAND gate">
+<rodin_index>
+<descriptor element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="D">
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="14"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
+</descriptor>
+<descriptor element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0" name="c0">
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" name="and">
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="20"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="25"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" name="inv">
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="12"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="21"/>
+</descriptor>
+<descriptor element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" name="nand">
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="37"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="20"/>
+<occurrence element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/labtestPrep3-NAND gate/c0.buc">
+<exported element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" name="inv"/>
+<exported element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" name="nand"/>
+<exported element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="D"/>
+<exported element="/labtestPrep3-NAND gate/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" name="and"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/labtestPrep3-NAND gate/c0.buc" mark="false" order_pos="0"/>
+</graph>
+<unprocessed file="/labtestPrep3-NAND gate/c0.bcc"/>
+<unprocessed file="/labtestPrep3-NAND gate/c0.bpo"/>
+<unprocessed file="/labtestPrep3-NAND gate/c0.bpr"/>
+<unprocessed file="/labtestPrep3-NAND gate/c0.bps"/>
+</pim>

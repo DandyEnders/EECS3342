@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="TrafficLight-m0"/>
+<org.eventb.core.seesContext name="*" org.eventb.core.target="TrafficLight_c1"/>
+<org.eventb.core.variable name="(" org.eventb.core.comment="pedestrian traffic light" org.eventb.core.identifier="p_tl"/>
+<org.eventb.core.variable name="+" org.eventb.core.comment="abstract car traffic light" org.eventb.core.identifier="ac_tl"/>
+<org.eventb.core.event name="," org.eventb.core.comment="nobody can cross" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="c_tl ≔ red" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="-" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="pedestrian_go">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="pedestrian_go"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd3" org.eventb.core.predicate="c_tl = red"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="." org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="pedestrian_halt">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="pedestrian_halt"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="/" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="car_light_green">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="car_light_change"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="c_tl = red"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="c_tl ≔ green" org.eventb.core.label="act2"/>
+<org.eventb.core.witness name="*" org.eventb.core.label="ac_tl'" org.eventb.core.predicate="c_tl' = green ⇔ ac_tl' = TRUE"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="evt1" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="car_light_yellow">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="car_light_change"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="evt2" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="car_light_red">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="car_light_change"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="0" org.eventb.core.label="inv1" org.eventb.core.predicate="c_tl ∈ COLOR"/>
+<org.eventb.core.invariant name="1" org.eventb.core.comment="Glue invariant" org.eventb.core.label="inv2" org.eventb.core.predicate="ac_tl = FALSE ⇔ c_tl=red"/>
+<org.eventb.core.invariant name="2" org.eventb.core.comment="Theorem: that follows from inv2" org.eventb.core.label="inv3" org.eventb.core.predicate="ac_tl = TRUE ⇔ c_tl ∈ {yellow, green}" org.eventb.core.theorem="true"/>
+<org.eventb.core.variable name="3" org.eventb.core.comment="car traffic light. Concrete colours refine true and false" org.eventb.core.identifier="c_tl"/>
+<org.eventb.core.invariant name="4" org.eventb.core.comment="Theorem: assert Deadlock Freedom" org.eventb.core.label="thm4-DLF" org.eventb.core.predicate="⊤"/>
+</org.eventb.core.machineFile>

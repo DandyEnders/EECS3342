@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<org.eventb.core.prFile version="1">
-<org.eventb.core.prProof name="set_peds_green/grd1/GRD"/>
-<org.eventb.core.prProof name="set_cars_colours/grd2/GRD"/>
-</org.eventb.core.prFile>

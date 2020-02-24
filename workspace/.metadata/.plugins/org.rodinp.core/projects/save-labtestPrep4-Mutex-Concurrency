@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pim project="/labtestPrep4-Mutex-Concurrency">
+<rodin_index>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#." name="p1">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="3"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="14"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="45"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#0" name="p2">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="28"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="59" loc_char_start="57"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="15"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2" name="P1_process">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4" name="P2_process">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="locked">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="19"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="39" loc_char_start="33"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="22"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="54" loc_char_start="48"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="66" loc_char_start="60"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="6"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="18"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="4"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#+" name="r">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-" name="P1_request">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0" name="m0">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0" name="c0">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.seesContext#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3" name="P2_request">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="SEMAPHORE">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="10"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="4"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="unlocked">
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="40" loc_char_start="32"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/labtestPrep4-Mutex-Concurrency/c0.buc">
+<exported element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="SEMAPHORE"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="unlocked"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="locked"/>
+</export>
+<export file="/labtestPrep4-Mutex-Concurrency/m0.bum">
+<exported element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#3" name="P2_request"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#." name="p1"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="SEMAPHORE"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#0" name="p2"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#+" name="r"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-" name="P1_request"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#4" name="P2_process"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2" name="P1_process"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" name="unlocked"/>
+<exported element="/labtestPrep4-Mutex-Concurrency/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="locked"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/labtestPrep4-Mutex-Concurrency/c0.buc" mark="false" order_pos="0"/>
+<node label="/labtestPrep4-Mutex-Concurrency/m0.bum" mark="false" order_pos="1">
+<predecessor label="/labtestPrep4-Mutex-Concurrency/c0.buc"/>
+</node>
+</graph>
+<unprocessed file="/labtestPrep4-Mutex-Concurrency/c0.bcc"/>
+<unprocessed file="/labtestPrep4-Mutex-Concurrency/c0.bpo"/>
+<unprocessed file="/labtestPrep4-Mutex-Concurrency/c0.bpr"/>
+<unprocessed file="/labtestPrep4-Mutex-Concurrency/c0.bps"/>
+<unprocessed file="/labtestPrep4-Mutex-Concurrency/m0.bcm"/>
+<unprocessed file="/labtestPrep4-Mutex-Concurrency/m0.bpo"/>
+<unprocessed file="/labtestPrep4-Mutex-Concurrency/m0.bpr"/>
+<unprocessed file="/labtestPrep4-Mutex-Concurrency/m0.bps"/>
+</pim>

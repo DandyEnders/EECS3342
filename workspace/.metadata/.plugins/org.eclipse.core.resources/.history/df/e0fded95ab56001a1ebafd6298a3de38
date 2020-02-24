@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poIdentifier name="ANIMAL" org.eventb.core.type="ℙ(ANIMAL)"/>
+<org.eventb.core.poIdentifier name="B_birds" org.eventb.core.type="ℙ(ANIMAL)"/>
+<org.eventb.core.poIdentifier name="F_fish" org.eventb.core.type="ℙ(ANIMAL)"/>
+<org.eventb.core.poIdentifier name="W_winged_animal" org.eventb.core.type="ℙ(ANIMAL)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="G/THM" org.eventb.core.accurate="true" org.eventb.core.poDesc="Theorem" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/labtestPrep5-set-logic/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP+"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="F_fish∩B_birds⊆(∅ ⦂ ℙ(ANIMAL))" org.eventb.core.source="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#0"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#0"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/labtestPrep5-set-logic/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/labtestPrep5-set-logic/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP+"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="HYP+" org.eventb.core.parentSet="/labtestPrep5-set-logic/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="B_birds⊆ANIMAL" org.eventb.core.source="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="W_winged_animal⊆ANIMAL" org.eventb.core.source="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#+"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="F_fish⊆ANIMAL" org.eventb.core.source="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#-"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="B_birds⊆W_winged_animal" org.eventb.core.source="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#."/>
+<org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="F_fish∩W_winged_animal⊆(∅ ⦂ ℙ(ANIMAL))" org.eventb.core.source="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#\/"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/labtestPrep5-set-logic/c0.bpo|org.eventb.core.poFile#c0|org.eventb.core.poPredicateSet#HYP+" org.eventb.core.poStamp="4">
+<org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="F_fish∩B_birds⊆(∅ ⦂ ℙ(ANIMAL))" org.eventb.core.source="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#0"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
