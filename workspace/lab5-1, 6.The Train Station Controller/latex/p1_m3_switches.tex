@@ -1,0 +1,111 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{bsymb,b2latex}
+\begin{document}
+\SingleHeader{p1\_m3\_switches}
+\MACHINE{p1\_m3\_switches}{p1\_m2\_blocks\_variant}{p1\_ctx1\_blocks}{}
+\VARIABLES{
+	\Variable{ST}{}
+	\Variable{LOC}{}
+	\Variable{OCC}{}
+	\Variable{IN\_SW}{}
+	\Variable{OUT\_SW}{}
+}
+\INVARIANTS{
+	\Invariant{inv1}{false}{$IN\_SW \in{} PLATFORM$}{}
+	\Invariant{inv2}{false}{$OUT\_SW \in{} PLATFORM$}{}
+}
+\EVENTS{
+\INITIALISATION{true}{}{
+	\ACTIONS{false}{
+		\Action{act1}{$ST \bcmeq{} \emptyset{}$}{false}{}
+		\Action{act2}{$LOC \bcmeq{} \emptyset{}$}{false}{}
+		\Action{act3}{$OCC \bcmeq{} \emptyset{}$}{false}{}
+		\Action{act4}{$IN\_SW \bcmin{} PLATFORM$}{true}{}
+		\Action{act5}{$OUT\_SW \bcmin{} PLATFORM$}{true}{}
+	}
+}
+\EVT{ARRIVE}{true}{ordinary}{ARRIVE}{}{
+	\ANY{
+		\Param{t}{false}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd1}{false}{$\lnot{} t \in{} ST$}{false}{}
+		\Guard{grd2}{false}{$ent \notin{} OCC$}{false}{\\LOC $\ranres{}$ $\{$ent$\}$ = $\emptyset{}$}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$ST \bcmeq{} ST \bunion{} \{t\}$}{false}{}
+		\Action{act2}{$LOC(t) \bcmeq{} ent$}{false}{\\LOC $\bcmeq{}$ LOC $\ovl{}$ $\{$t$\mapsto{}$ent$\}$}
+		\Action{act3}{$OCC \bcmeq{} OCC \bunion{} \{ent\} $}{false}{}
+	}
+}
+\EVT{DEPART}{true}{ordinary}{DEPART}{}{
+	\ANY{
+		\Param{t}{false}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd1}{false}{$t \in{} ST$}{false}{}
+		\Guard{grd2}{false}{$LOC(t) = exit$}{false}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$ST \bcmeq{} ST \setminus{} \{t\}$}{false}{}
+		\Action{act2}{$LOC \bcmeq{} \{t\} \domsub{} LOC$}{false}{}
+		\Action{act3}{$OCC \bcmeq{} OCC \setminus{} \{exit\}$}{false}{}
+	}
+}
+\EVT{MOVE\_ONTO\_PLATFORM}{false}{ordinary}{MOVE\_ONTO\_PLATFORM}{}{
+	\ANY{
+		\Param{t}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd1}{false}{$t \in{} ST$}{true}{}
+		\Guard{grd2}{false}{$LOC(t) = ent$}{true}{}
+		\Guard{grd3}{false}{$\btrue{}$}{true}{\\p $\in{}$ PLATFORM}
+		\Guard{grd4}{false}{$IN\_SW \notin{} OCC$}{true}{\\p $\notin{}$ OCC}
+	}
+	\WITNESSES{
+		\Witness{p}{$p = IN\_SW$}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$LOC(t) \bcmeq{} IN\_SW$}{true}{}
+		\Action{act2}{$OCC \bcmeq{} (OCC \setminus{} \{ent\}) \bunion{} \{IN\_SW\}$}{true}{}
+	}
+}
+\EVT{MOVE\_OFF\_PLATFORM}{false}{ordinary}{MOVE\_OFF\_PLATFORM}{}{
+	\ANY{
+		\Param{t}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd1}{false}{$t \in{} ST$}{true}{}
+		\Guard{grd2}{false}{$LOC(t) = OUT\_SW$}{true}{}
+		\Guard{grd3}{false}{$exit \notin{} OCC$}{true}{\\LOC $\ranres{}$ $\{$exit$\}$ = $\emptyset{}$}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$LOC(t) \bcmeq{} exit$}{true}{}
+		\Action{act2}{$OCC \bcmeq{} (OCC \setminus{} \{LOC(t)\}) \bunion{} \{exit\}$}{true}{}
+	}
+}
+\EVT{TURN\_IN\_SWITCH}{false}{ordinary}{}{}{
+	\ANY{
+		\Param{p}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd1}{false}{$p \in{} (PLATFORM \setminus{} OCC)$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$IN\_SW \bcmeq{} p$}{true}{}
+	}
+}
+\EVT{TURN\_OUT\_SWITCH}{false}{ordinary}{}{}{
+	\ANY{
+		\Param{p}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd1}{false}{$p \in{} (PLATFORM \binter{} OCC)$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$OUT\_SW \bcmeq{} p$}{true}{}
+	}
+}
+}
+\END
+\end{document}

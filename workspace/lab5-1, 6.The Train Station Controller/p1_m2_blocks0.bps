@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="INITIALISATION/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="27" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="ARRIVE/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="28" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="DEPART/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="29" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="MOVE_ONTO_PLATFORM/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="31" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="MOVE_OFF_PLATFORM/inv4/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="40" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

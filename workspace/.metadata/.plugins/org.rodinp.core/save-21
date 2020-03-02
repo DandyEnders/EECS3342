@@ -1,207 +1,983 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <index_root>
-<pim project="/lab4">
+<pim project="/labtestPrep6-traffic-original">
 <rodin_index>
-<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1" name="m1">
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1" kind="org.eventb.core.declaration"/>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#(" name="p_tl">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#,|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
 </descriptor>
-<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+" name="one">
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1" name="TrafficLight_c1">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1" kind="org.eventb.core.declaration"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.seesContext#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
 </descriptor>
-<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="y">
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#+" name="ac_tl">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.witness#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.witness#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="16"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="18"/>
 </descriptor>
-<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" name="zero">
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#3" name="c_tl">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="15"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="16"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="17"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variant#evt3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="6" loc_char_start="2"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="16"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.witness#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 </descriptor>
-<descriptor element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)" name="INITIALISATION">
-<occurrence element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" name="red">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="40" loc_char_start="37"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="8"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="24"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="25"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="21"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#,|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" name="green">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="18"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="5"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="13"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="5"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="31"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.witness#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="7"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#," name="INITIALISATION">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2" name="car_light_red">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0" name="TrafficLight-m0">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#." name="pedestrian_halt">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/" name="pedestrian_halt">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#.|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" name="TrafficLight_c0">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" kind="org.eventb.core.declaration"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.seesContext#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#(" name="p_tl">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="3"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1" name="TrafficLight-m1">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" name="yellow">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="23"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="33" loc_char_start="27"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="24"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="14"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="7"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.constant#(" name="n">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variant#evt3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/" name="car_light_green">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" name="COLOR">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="4"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1" name="car_light_yellow">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#." name="pedestrian_go">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0" name="car_light_change">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-" name="pedestrian_go">
+<occurrence element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
 </descriptor>
 </rodin_index>
 <export_table>
-<export file="/lab4/m1.bum">
-<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
-<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#)" name="INITIALISATION"/>
-<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="y"/>
-<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#*" name="zero"/>
-<exported element="/lab4/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#+" name="one"/>
+<export file="/labtestPrep6-traffic-original/TrafficLight-m1.bum">
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" name="TrafficLight_c0"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" name="COLOR"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1" name="TrafficLight_c1"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#," name="INITIALISATION"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1" name="car_light_yellow"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#3" name="c_tl"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2" name="car_light_red"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.constant#(" name="n"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" name="red"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" name="yellow"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/" name="car_light_green"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1" name="TrafficLight-m1"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-" name="pedestrian_go"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#." name="pedestrian_halt"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0" name="TrafficLight-m0"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#(" name="p_tl"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" name="green"/>
+</export>
+<export file="/labtestPrep6-traffic-original/TrafficLight_c0.buc">
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" name="TrafficLight_c0"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" name="red"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" name="COLOR"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" name="yellow"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" name="green"/>
+</export>
+<export file="/labtestPrep6-traffic-original/TrafficLight-m0.bum">
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" name="TrafficLight_c0"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#." name="pedestrian_go"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" name="red"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" name="yellow"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" name="COLOR"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0" name="car_light_change"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#(" name="p_tl"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0" name="TrafficLight-m0"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#+" name="ac_tl"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/" name="pedestrian_halt"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" name="green"/>
+</export>
+<export file="/labtestPrep6-traffic-original/TrafficLight_c1.buc">
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" name="TrafficLight_c0"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.constant#(" name="n"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" name="red"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" name="yellow"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" name="COLOR"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1" name="TrafficLight_c1"/>
+<exported element="/labtestPrep6-traffic-original/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" name="green"/>
 </export>
 </export_table>
 <graph is_sorted="true">
-<node label="/lab4/m0.bum" mark="false" order_pos="0"/>
-<node label="/lab4/m1.bum" mark="false" order_pos="1">
-<predecessor label="/lab4/m0.bum"/>
+<node label="/labtestPrep6-traffic-original/TrafficLight_c0.buc" mark="false" order_pos="0"/>
+<node label="/labtestPrep6-traffic-original/TrafficLight-m0.bum" mark="false" order_pos="1">
+<predecessor label="/labtestPrep6-traffic-original/TrafficLight_c0.buc"/>
+</node>
+<node label="/labtestPrep6-traffic-original/TrafficLight_c1.buc" mark="false" order_pos="2">
+<predecessor label="/labtestPrep6-traffic-original/TrafficLight_c0.buc"/>
+</node>
+<node label="/labtestPrep6-traffic-original/TrafficLight-m1.bum" mark="false" order_pos="3">
+<predecessor label="/labtestPrep6-traffic-original/TrafficLight-m0.bum"/>
+<predecessor label="/labtestPrep6-traffic-original/TrafficLight_c1.buc"/>
 </node>
 </graph>
-<unprocessed file="/lab4/m1.bcm"/>
-<unprocessed file="/lab4/m1.bpo"/>
-<unprocessed file="/lab4/m1.bps"/>
-<unprocessed file="/lab4/m1.bpr"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight-m0.bcm"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight-m0.bpo"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight-m0.bpr"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight-m0.bps"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight-m1.bcm"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight-m1.bpo"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight-m1.bpr"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight-m1.bps"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight_c0.bcc"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight_c0.bpo"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight_c0.bpr"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight_c0.bps"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight_c1.bcc"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight_c1.bpo"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight_c1.bpr"/>
+<unprocessed file="/labtestPrep6-traffic-original/TrafficLight_c1.bps"/>
 </pim>
-<pim project="/labtestPrep7-Predicate-Logic-Spec">
-<rodin_index/>
-<export_table/>
-<graph is_sorted="true"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred0.bcc"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred0.bpo"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred0.bpr"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred0.bps"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred1.bcc"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred1.bpo"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred1.bpr"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred1.bps"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred2.bcc"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred2.bpo"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred2.bpr"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred2.bps"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred3.bcc"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred3.bpo"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred3.bpr"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred3.bps"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred4.bcc"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred4.bpo"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred4.bpr"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred4.bps"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred5.bcc"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred5.bpo"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred5.bpr"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred5.bps"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred6.bcc"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred6.bpo"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred6.bpr"/>
-<unprocessed file="/labtestPrep7-Predicate-Logic-Spec/pred6.bps"/>
-</pim>
-<pim project="/labtestPrep1-FTP,2-Parity">
-<rodin_index/>
-<export_table/>
-<graph is_sorted="true"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/c0.bcc"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/c0.bpo"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/c0.bpr"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/c0.bps"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/c1.bcc"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/c1.bpo"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/c1.bpr"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/c1.bps"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m0.bcm"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m0.bpo"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m0.bpr"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m0.bps"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m1.bcm"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m1.bpo"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m1.bpr"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m1.bps"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m2.bcm"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m2.bpo"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m2.bpr"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m2.bps"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m3.bcm"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m3.bpo"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m3.bpr"/>
-<unprocessed file="/labtestPrep1-FTP,2-Parity/m3.bps"/>
-</pim>
-<pim project="/lab2-Proving a Nand Gate Implementation in Rodin">
+<pim project="/labtestPrep6-traffic-imported">
 <rodin_index>
-<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0" name="c0">
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1" name="car_light_yellow">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
 </descriptor>
-<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" name="nand">
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="20"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="37"/>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#," kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
 </descriptor>
-<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" name="and">
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="25"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="20"/>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1" name="TrafficLight-m1">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1" kind="org.eventb.core.declaration"/>
 </descriptor>
-<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" name="inv">
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="12"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="21"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/" name="car_light_green">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
 </descriptor>
-<descriptor element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="D">
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="14"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="18"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
-<occurrence element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#cst?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" name="green">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.witness#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="37"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="102" loc_char_start="97"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="5"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="31"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="18"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="13"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="5"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="7"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-" name="pedestrian_go">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" name="red">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="21"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="25"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="21"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="58" loc_char_start="55"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="40" loc_char_start="37"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="118" loc_char_start="115"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="24"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="8"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#,|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="71" loc_char_start="68"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="87" loc_char_start="84"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="8"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#+" name="ac_tl">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.witness#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="16"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.witness#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="18"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/" name="pedestrian_halt">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#.|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1" name="TrafficLight_c1">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.seesContext#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#(" name="p_tl">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="3"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0" name="TrafficLight-m0">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#." name="pedestrian_halt">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" name="COLOR">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#," name="INITIALISATION">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2" name="car_light_red">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" name="yellow">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="7"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="24"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="33" loc_char_start="27"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="23"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="14"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.constant#(" name="n">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variant#evt3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#." name="pedestrian_go">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#(" name="p_tl">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#,|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="81" loc_char_start="77"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="112" loc_char_start="108"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="34" loc_char_start="30"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="52" loc_char_start="48"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="1"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0" name="car_light_change">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" name="TrafficLight_c0">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" kind="org.eventb.core.declaration"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.seesContext#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#3" name="c_tl">
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variant#evt3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="6" loc_char_start="2"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="17"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1|org.eventb.core.witness#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="16"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.witness#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="94" loc_char_start="90"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="65" loc_char_start="61"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="14"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="15"/>
+<occurrence element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="16"/>
 </descriptor>
 </rodin_index>
 <export_table>
-<export file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc">
-<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst3" name="nand"/>
-<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst1" name="and"/>
-<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
-<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="D"/>
-<exported element="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#cst2" name="inv"/>
+<export file="/labtestPrep6-traffic-imported/TrafficLight_c0.buc">
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" name="yellow"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" name="green"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" name="TrafficLight_c0"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" name="red"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" name="COLOR"/>
+</export>
+<export file="/labtestPrep6-traffic-imported/TrafficLight_c1.buc">
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" name="yellow"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" name="green"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" name="TrafficLight_c0"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" name="red"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.constant#(" name="n"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" name="COLOR"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1" name="TrafficLight_c1"/>
+</export>
+<export file="/labtestPrep6-traffic-imported/TrafficLight-m1.bum">
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#," name="INITIALISATION"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt1" name="car_light_yellow"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" name="yellow"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#(" name="p_tl"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" name="green"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" name="red"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1|org.eventb.core.constant#(" name="n"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" name="COLOR"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1" name="TrafficLight-m1"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#." name="pedestrian_halt"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0" name="TrafficLight-m0"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.variable#3" name="c_tl"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" name="TrafficLight_c0"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#evt2" name="car_light_red"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#-" name="pedestrian_go"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m1.bum|org.eventb.core.machineFile#TrafficLight-m1|org.eventb.core.event#\/" name="car_light_green"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c1.buc|org.eventb.core.contextFile#TrafficLight_c1" name="TrafficLight_c1"/>
+</export>
+<export file="/labtestPrep6-traffic-imported/TrafficLight-m0.bum">
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#(" name="p_tl"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0" name="TrafficLight-m0"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#)" name="yellow"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.variable#+" name="ac_tl"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#\/" name="pedestrian_halt"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#(" name="green"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0" name="TrafficLight_c0"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#." name="pedestrian_go"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.constant#*" name="red"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight_c0.buc|org.eventb.core.contextFile#TrafficLight_c0|org.eventb.core.carrierSet#'" name="COLOR"/>
+<exported element="/labtestPrep6-traffic-imported/TrafficLight-m0.bum|org.eventb.core.machineFile#TrafficLight-m0|org.eventb.core.event#0" name="car_light_change"/>
 </export>
 </export_table>
 <graph is_sorted="true">
-<node label="/lab2-Proving a Nand Gate Implementation in Rodin/c0.buc" mark="false" order_pos="0"/>
+<node label="/labtestPrep6-traffic-imported/TrafficLight_c0.buc" mark="false" order_pos="0"/>
+<node label="/labtestPrep6-traffic-imported/TrafficLight-m0.bum" mark="false" order_pos="1">
+<predecessor label="/labtestPrep6-traffic-imported/TrafficLight_c0.buc"/>
+</node>
+<node label="/labtestPrep6-traffic-imported/TrafficLight_c1.buc" mark="false" order_pos="2">
+<predecessor label="/labtestPrep6-traffic-imported/TrafficLight_c0.buc"/>
+</node>
+<node label="/labtestPrep6-traffic-imported/TrafficLight-m1.bum" mark="false" order_pos="3">
+<predecessor label="/labtestPrep6-traffic-imported/TrafficLight_c1.buc"/>
+<predecessor label="/labtestPrep6-traffic-imported/TrafficLight-m0.bum"/>
+</node>
 </graph>
-<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bcc"/>
-<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bpo"/>
-<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bpr"/>
-<unprocessed file="/lab2-Proving a Nand Gate Implementation in Rodin/c0.bps"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight-m0.bcm"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight-m0.bpo"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight-m0.bpr"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight-m0.bps"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight-m1.bcm"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight-m1.bpo"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight-m1.bpr"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight-m1.bps"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight_c0.bcc"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight_c0.bpo"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight_c0.bpr"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight_c0.bps"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight_c1.bcc"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight_c1.bpo"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight_c1.bpr"/>
+<unprocessed file="/labtestPrep6-traffic-imported/TrafficLight_c1.bps"/>
 </pim>
-<pim project="/labtestPrep3- NAND gate">
-<rodin_index/>
-<export_table/>
-<graph is_sorted="true"/>
-<unprocessed file="/labtestPrep3- NAND gate/c0.bcc"/>
-<unprocessed file="/labtestPrep3- NAND gate/c0.bpo"/>
-<unprocessed file="/labtestPrep3- NAND gate/c0.bpr"/>
-<unprocessed file="/labtestPrep3- NAND gate/c0.bps"/>
-</pim>
-<pim project="/labtestPrep4- Mutex, Concurrency">
-<rodin_index/>
-<export_table/>
-<graph is_sorted="true"/>
-<unprocessed file="/labtestPrep4- Mutex, Concurrency/m0.bcm"/>
-<unprocessed file="/labtestPrep4- Mutex, Concurrency/m0.bpo"/>
-<unprocessed file="/labtestPrep4- Mutex, Concurrency/m0.bpr"/>
-<unprocessed file="/labtestPrep4- Mutex, Concurrency/m0.bps"/>
-<unprocessed file="/labtestPrep4- Mutex, Concurrency/c0.bcc"/>
-<unprocessed file="/labtestPrep4- Mutex, Concurrency/c0.bpo"/>
-<unprocessed file="/labtestPrep4- Mutex, Concurrency/c0.bpr"/>
-<unprocessed file="/labtestPrep4- Mutex, Concurrency/c0.bps"/>
-</pim>
-<pim project="/labtestPrep5- set logic">
-<rodin_index/>
-<export_table/>
-<graph is_sorted="true"/>
-<unprocessed file="/labtestPrep5- set logic/c0.bcc"/>
-<unprocessed file="/labtestPrep5- set logic/c0.bpo"/>
-<unprocessed file="/labtestPrep5- set logic/c0.bpr"/>
-<unprocessed file="/labtestPrep5- set logic/c0.bps"/>
+<pim project="/lab5-1, 6.The Train Station Controller">
+<rodin_index>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+" name="ARRIVE">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variable#-" name="LOC">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#-" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#*|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="44"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="57" loc_char_start="54"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="12"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="14"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variable#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks" name="p1_m1_blocks">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@|org.eventb.core.parameter#(" name="p">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="8"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#9" name="MOVE_ONTO_PLATFORM">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.carrierSet#(" name="BLOCK">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.carrierSet#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="11"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="11"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variable#5" name="OCC">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variable#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="6"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="6"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#5" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#*|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="6"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.action#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.action#\/" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:" name="MOVE_OFF_PLATFORM">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.parameter#'" name="t">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.parameter#'" name="t">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#:" name="MOVE_OFF_PLATFORM">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#;" name="IN_SW">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#6|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.invariant#=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.witness#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.guard#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.action#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="28" loc_char_start="23"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#7" name="ARRIVE">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#7|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#5" name="OCC">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="16"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="16"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.guard#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="8"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.action#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.action#\/" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A|org.eventb.core.parameter#(" name="p">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.parameter#(" name="p">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.action#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="24" loc_char_start="23"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.parameter#'" name="t">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="18"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches" name="p1_m3_switches">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+|org.eventb.core.parameter#'" name="t">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="11"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#," name="DEPART">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#8|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#-" name="LOC">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="14"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#," name="DEPART">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2" name="MOVE_OFF_PLATFORM">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#:|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#)" name="ST">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#)" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#8" name="DEPART">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#8|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#6" name="INITIALISATION">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.parameter#'" name="t">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+" name="ARRIVE">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#7|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#5" name="OCC">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variant#;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#5" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#*" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1" name="MOVE_ONTO_PLATFORM">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#9|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#7" name="ARRIVE">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#*" name="INITIALISATION">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#6" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#&gt;" name="OUT_SW">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#6|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#&gt;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#6" name="INITIALISATION">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#6" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#8" name="DEPART">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains|org.eventb.core.carrierSet#'" name="TRAIN">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="5"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#-" name="PLATFORM">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#6|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variant#;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="14" loc_char_start="6"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.invariant#=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="8"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#6|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="10"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="5"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="7"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="17"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#,|org.eventb.core.parameter#'" name="t">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#,|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#,|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="11"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variable#)" name="ST">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="6"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="25"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="15"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="6"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#)" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside" name="p1_m0_inside">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks" name="p1_ctx1_blocks">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#*" name="ent">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variant#7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.action#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="14"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="16" loc_char_start="13"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="28"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.action#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="14"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.variable#)" name="ST">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variable#)" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="7"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#,|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.variant#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="6"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#,|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="5"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="5"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#)" name="ST">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="4"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="4"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@" name="TURN_IN_SWITCH">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains" name="p1_ctx0_trains">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A" name="TURN_OUT_SWITCH">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#-" name="LOC">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#-" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#+" name="exit">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="30" loc_char_start="26"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="13"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="39" loc_char_start="35"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="30" loc_char_start="26"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9" name="MOVE_ONTO_PLATFORM">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant" name="p1_m2_blocks_variant">
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant" kind="org.eventb.core.declaration"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum">
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains" name="p1_ctx0_trains"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.carrierSet#(" name="BLOCK"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks" name="p1_ctx1_blocks"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#*" name="INITIALISATION"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.parameter#'" name="t"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#*" name="ent"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#," name="DEPART"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#+" name="exit"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variable#-" name="LOC"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#-" name="PLATFORM"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.parameter#(" name="p"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains|org.eventb.core.carrierSet#'" name="TRAIN"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variable#)" name="ST"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.parameter#'" name="t"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.variable#5" name="OCC"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside" name="p1_m0_inside"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks" name="p1_m1_blocks"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1" name="MOVE_ONTO_PLATFORM"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2" name="MOVE_OFF_PLATFORM"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+" name="ARRIVE"/>
+</export>
+<export file="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum">
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.carrierSet#(" name="BLOCK"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks" name="p1_ctx1_blocks"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant" name="p1_m2_blocks_variant"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#+" name="exit"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains|org.eventb.core.carrierSet#'" name="TRAIN"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#8" name="DEPART"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#6" name="INITIALISATION"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside" name="p1_m0_inside"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#-" name="LOC"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks" name="p1_m1_blocks"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains" name="p1_ctx0_trains"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#5" name="OCC"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#;" name="IN_SW"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:" name="MOVE_OFF_PLATFORM"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@|org.eventb.core.parameter#(" name="p"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#)" name="ST"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#@" name="TURN_IN_SWITCH"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches" name="p1_m3_switches"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9" name="MOVE_ONTO_PLATFORM"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#9|org.eventb.core.parameter#'" name="t"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#*" name="ent"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#7" name="ARRIVE"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#-" name="PLATFORM"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A" name="TURN_OUT_SWITCH"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#A|org.eventb.core.parameter#(" name="p"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.variable#&gt;" name="OUT_SW"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum|org.eventb.core.machineFile#p1_m3_switches|org.eventb.core.event#:|org.eventb.core.parameter#'" name="t"/>
+</export>
+<export file="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc">
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains" name="p1_ctx0_trains"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains|org.eventb.core.carrierSet#'" name="TRAIN"/>
+</export>
+<export file="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum">
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains" name="p1_ctx0_trains"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.carrierSet#(" name="BLOCK"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#9" name="MOVE_ONTO_PLATFORM"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks" name="p1_ctx1_blocks"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#*" name="ent"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant" name="p1_m2_blocks_variant"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#+" name="exit"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#-" name="LOC"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#-" name="PLATFORM"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#8" name="DEPART"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains|org.eventb.core.carrierSet#'" name="TRAIN"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#6" name="INITIALISATION"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#5" name="OCC"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.variable#)" name="ST"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside" name="p1_m0_inside"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks" name="p1_m1_blocks"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#:" name="MOVE_OFF_PLATFORM"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum|org.eventb.core.machineFile#p1_m2_blocks_variant|org.eventb.core.event#7" name="ARRIVE"/>
+</export>
+<export file="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc">
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#+" name="exit"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains" name="p1_ctx0_trains"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#-" name="PLATFORM"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.carrierSet#(" name="BLOCK"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains|org.eventb.core.carrierSet#'" name="TRAIN"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks" name="p1_ctx1_blocks"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.constant#*" name="ent"/>
+</export>
+<export file="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum">
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains" name="p1_ctx0_trains"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#,|org.eventb.core.parameter#'" name="t"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc|org.eventb.core.contextFile#p1_ctx0_trains|org.eventb.core.carrierSet#'" name="TRAIN"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+" name="ARRIVE"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+|org.eventb.core.parameter#'" name="t"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#," name="DEPART"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside" name="p1_m0_inside"/>
+<exported element="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.variable#)" name="ST"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc" mark="false" order_pos="0"/>
+<node label="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc" mark="false" order_pos="1">
+<predecessor label="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc"/>
+</node>
+<node label="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum" mark="false" order_pos="2">
+<predecessor label="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.buc"/>
+</node>
+<node label="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum" mark="false" order_pos="3">
+<predecessor label="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bum"/>
+<predecessor label="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc"/>
+</node>
+<node label="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum" mark="false" order_pos="4">
+<predecessor label="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bum"/>
+<predecessor label="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc"/>
+</node>
+<node label="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bum" mark="false" order_pos="5">
+<predecessor label="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bum"/>
+<predecessor label="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.buc"/>
+</node>
+</graph>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.bcc"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.bpo"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.bpr"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_ctx0_trains.bps"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.bcc"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.bpo"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.bpr"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_ctx1_blocks.bps"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bcm"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bpo"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bpr"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m0_inside.bps"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bcm"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bpo"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bpr"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m1_blocks.bps"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m2_blocks0.bpo"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m2_blocks0.bpr"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m2_blocks0.bps"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bcm"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bpo"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bpr"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m2_blocks_variant.bps"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bcm"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bpo"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bpr"/>
+<unprocessed file="/lab5-1, 6.The Train Station Controller/p1_m3_switches.bps"/>
 </pim>
 <delta_list/>
 <indexer_registry>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="32">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="23">
+<org.eventb.core.poIdentifier name="TRAIN" org.eventb.core.type="ℙ(TRAIN)"/>
+<org.eventb.core.poIdentifier name="BLOCK" org.eventb.core.type="ℙ(BLOCK)"/>
+<org.eventb.core.poIdentifier name="PLATFORM" org.eventb.core.type="ℙ(BLOCK)"/>
+<org.eventb.core.poIdentifier name="ent" org.eventb.core.type="BLOCK"/>
+<org.eventb.core.poIdentifier name="exit" org.eventb.core.type="BLOCK"/>
+<org.eventb.core.poPredicate name="PLATFORN" org.eventb.core.predicate="partition(BLOCK,PLATFORM,{ent},{exit})" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.axiom#,"/>
+<org.eventb.core.poPredicate name="PLATFORO" org.eventb.core.predicate="PLATFORM≠(∅ ⦂ ℙ(BLOCK))" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.axiom#\/"/>
+<org.eventb.core.poPredicate name="PLATFORP" org.eventb.core.predicate="finite(PLATFORM)" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_ctx1_blocks.buc|org.eventb.core.contextFile#p1_ctx1_blocks|org.eventb.core.axiom#0"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="27">
+<org.eventb.core.poIdentifier name="LOC" org.eventb.core.type="ℙ(TRAIN×BLOCK)"/>
+<org.eventb.core.poIdentifier name="OCC" org.eventb.core.type="ℙ(BLOCK)"/>
+<org.eventb.core.poIdentifier name="ST" org.eventb.core.type="ℙ(TRAIN)"/>
+<org.eventb.core.poPredicate name="OCD" org.eventb.core.predicate="ST⊆TRAIN" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicate name="OCE" org.eventb.core.predicate="finite(ST)" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.invariant#."/>
+<org.eventb.core.poPredicate name="OCF" org.eventb.core.predicate="LOC∈ST → BLOCK" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#."/>
+<org.eventb.core.poPredicate name="OCG" org.eventb.core.predicate="∀t0⦂TRAIN,t1⦂TRAIN·t0∈ST∧t1∈ST∧t0≠t1⇒LOC(t0)≠LOC(t1)" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#3"/>
+<org.eventb.core.poPredicate name="OCH" org.eventb.core.predicate="LOC∈ST ↣ BLOCK" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#4"/>
+<org.eventb.core.poPredicate name="OCI" org.eventb.core.predicate="OCC=ran(LOC)" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.invariant#6"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="INITIALISATION/inv4/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="27">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#EVTALLHYPp1_ctx1_blocky"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(BLOCK))=ran(∅ ⦂ ℙ(TRAIN×BLOCK))" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#*"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.event#."/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poSequent#INITIALISATION\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTp1_ctx1_blocky" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="27">
+<org.eventb.core.poIdentifier name="ST'" org.eventb.core.type="ℙ(TRAIN)"/>
+<org.eventb.core.poIdentifier name="LOC'" org.eventb.core.type="ℙ(TRAIN×BLOCK)"/>
+<org.eventb.core.poIdentifier name="OCC'" org.eventb.core.type="ℙ(BLOCK)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPp1_ctx1_blocky" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#EVTIDENTp1_ctx1_blocky" org.eventb.core.poStamp="27"/>
+<org.eventb.core.poSequent name="ARRIVE/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="28">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#EVTALLHYPp1_ctx1_blockz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="OCC∪{ent}=ran(LOC{t ↦ ent})" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.event#\/"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poSequent#ARRIVE\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTp1_ctx1_blockz" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="28">
+<org.eventb.core.poIdentifier name="ST'" org.eventb.core.type="ℙ(TRAIN)"/>
+<org.eventb.core.poIdentifier name="LOC'" org.eventb.core.type="ℙ(TRAIN×BLOCK)"/>
+<org.eventb.core.poIdentifier name="OCC'" org.eventb.core.type="ℙ(BLOCK)"/>
+<org.eventb.core.poIdentifier name="t" org.eventb.core.type="TRAIN"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPp1_ctx1_blockz" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#EVTIDENTp1_ctx1_blockz" org.eventb.core.poStamp="28">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="¬t∈ST" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#+|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="ent∉OCC" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#+|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="DEPART/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="29">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#EVTALLHYPp1_ctx1_block{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="OCC ∖ {exit}=ran({t} ⩤ LOC)" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.event#0"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poSequent#DEPART\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTp1_ctx1_block{" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="29">
+<org.eventb.core.poIdentifier name="ST'" org.eventb.core.type="ℙ(TRAIN)"/>
+<org.eventb.core.poIdentifier name="LOC'" org.eventb.core.type="ℙ(TRAIN×BLOCK)"/>
+<org.eventb.core.poIdentifier name="OCC'" org.eventb.core.type="ℙ(BLOCK)"/>
+<org.eventb.core.poIdentifier name="t" org.eventb.core.type="TRAIN"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPp1_ctx1_block{" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#EVTIDENTp1_ctx1_block{" org.eventb.core.poStamp="29">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="t∈ST" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m0_inside.bum|org.eventb.core.machineFile#p1_m0_inside|org.eventb.core.event#,|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="LOC(t)=exit" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#,|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="MOVE_ONTO_PLATFORM/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#EVTALLHYPp1_ctx1_block\|"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(OCC ∖ {ent})∪{p}=ran(LOC{t ↦ p})" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.event#1"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poSequent#MOVE_ONTO_PLATFORM\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTp1_ctx1_block|" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="30">
+<org.eventb.core.poIdentifier name="LOC'" org.eventb.core.type="ℙ(TRAIN×BLOCK)"/>
+<org.eventb.core.poIdentifier name="OCC'" org.eventb.core.type="ℙ(BLOCK)"/>
+<org.eventb.core.poIdentifier name="p" org.eventb.core.type="BLOCK"/>
+<org.eventb.core.poIdentifier name="t" org.eventb.core.type="TRAIN"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPp1_ctx1_block|" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#EVTIDENTp1_ctx1_block\|" org.eventb.core.poStamp="31">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="t∈ST" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#,"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="LOC(t)=ent" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#*"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="p∈PLATFORM" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#)"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="p∉OCC" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#1|org.eventb.core.guard#."/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="MOVE_OFF_PLATFORM/inv4/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="32">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#EVTALLHYPp1_ctx1_block}"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(OCC ∖ {LOC(t)})∪{exit}=ran(LOC{t ↦ exit})" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.event#2"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poSequent#MOVE_OFF_PLATFORM\/inv4\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTp1_ctx1_block}" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="32">
+<org.eventb.core.poIdentifier name="LOC'" org.eventb.core.type="ℙ(TRAIN×BLOCK)"/>
+<org.eventb.core.poIdentifier name="OCC'" org.eventb.core.type="ℙ(BLOCK)"/>
+<org.eventb.core.poIdentifier name="t" org.eventb.core.type="TRAIN"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPp1_ctx1_block}" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#EVTIDENTp1_ctx1_block}" org.eventb.core.poStamp="32">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="t∈ST" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="LOC(t)∈PLATFORM" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.guard#)"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="exit∉OCC" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m1_blocks.bum|org.eventb.core.machineFile#p1_m1_blocks|org.eventb.core.event#2|org.eventb.core.guard#+"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/lab5-1.The Train Station Controller/p1_m2_blocks0.bpo|org.eventb.core.poFile#p1_m2_blocks0|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="27">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="OCC=ran(LOC)" org.eventb.core.source="/lab5-1.The Train Station Controller/p1_m2_blocks0.bum|org.eventb.core.machineFile#p1_m2_blocks0|org.eventb.core.invariant#4"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
