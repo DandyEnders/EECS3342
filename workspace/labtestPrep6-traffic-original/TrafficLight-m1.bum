@@ -40,6 +40,6 @@
 <org.eventb.core.invariant name="1" org.eventb.core.comment="Glue invariant" org.eventb.core.label="inv2" org.eventb.core.predicate="ac_tl = FALSE ⇔ c_tl=red"/>
 <org.eventb.core.invariant name="2" org.eventb.core.comment="Theorem: that follows from inv2" org.eventb.core.label="inv3" org.eventb.core.predicate="ac_tl = TRUE ⇔ c_tl ∈ {yellow, green}" org.eventb.core.theorem="true"/>
 <org.eventb.core.variable name="3" org.eventb.core.comment="car traffic light. Concrete colours refine true and false" org.eventb.core.identifier="c_tl"/>
-<org.eventb.core.invariant name="4" org.eventb.core.comment="Theorem: assert Deadlock Freedom" org.eventb.core.label="thm4-DLF" org.eventb.core.predicate="⊤"/>
+<org.eventb.core.invariant name="4" org.eventb.core.comment="Theorem: assert Deadlock Freedom" org.eventb.core.label="thm4-DLF" org.eventb.core.predicate="(p_tl = red ∧ c_tl = red) ∨&#10;(p_tl = green) ∨&#10;(p_tl = red ∧ c_tl = red) ∨&#10;(p_tl = red ∧ c_tl = green) ∨&#10;(p_tl = red)"/>
 <org.eventb.core.variant name="evt3" org.eventb.core.expression="n(c_tl)"/>
 </org.eventb.core.machineFile>

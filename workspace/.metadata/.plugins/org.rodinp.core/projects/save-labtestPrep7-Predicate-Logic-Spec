@@ -3,25 +3,25 @@
 <rodin_index>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.constant#cst4" name="a">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.constant#cst4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="52" loc_char_start="51"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="60" loc_char_start="59"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.carrierSet#'" name="U">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.carrierSet#'" name="U">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="5"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.constant#*" name="B">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.constant#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
@@ -29,14 +29,14 @@
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="28"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.constant#(" name="R">
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="74" loc_char_start="73"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="88" loc_char_start="87"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="21"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="29"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="48" loc_char_start="47"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="56" loc_char_start="55"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="74" loc_char_start="73"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="88" loc_char_start="87"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0" name="pred0">
@@ -44,105 +44,105 @@
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst3" name="S">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="37" loc_char_start="36"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="94" loc_char_start="93"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst4" name="N">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="137" loc_char_start="136"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="95" loc_char_start="94"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="130" loc_char_start="129"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="41"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="137" loc_char_start="136"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="41"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="95" loc_char_start="94"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst1" name="Q">
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="17"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="63" loc_char_start="62"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="102" loc_char_start="101"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="102" loc_char_start="101"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4" name="pred4">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4" kind="org.eventb.core.declaration"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst5" name="S3">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="123" loc_char_start="121"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="158" loc_char_start="156"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="123" loc_char_start="121"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="49" loc_char_start="47"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3" name="pred3">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3" kind="org.eventb.core.declaration"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.constant#)" name="A">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="23"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.constant#(" name="P">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="35" loc_char_start="34"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="76" loc_char_start="75"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="76" loc_char_start="75"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="9"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="35" loc_char_start="34"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.constant#cst1" name="Q">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.constant#cst1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="82" loc_char_start="81"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="82" loc_char_start="81"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="15"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.carrierSet#'" name="S">
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.carrierSet#'" name="S">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#(" name="P">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="80" loc_char_start="79"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="60" loc_char_start="59"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst2" name="R">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="25"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="68" loc_char_start="67"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="130" loc_char_start="129"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="68" loc_char_start="67"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst1" name="K">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="83" loc_char_start="82"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="113" loc_char_start="112"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="58" loc_char_start="57"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="83" loc_char_start="82"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="113" loc_char_start="112"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst5" name="a">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="135" loc_char_start="134"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="93" loc_char_start="92"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst4" name="S2">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="116" loc_char_start="114"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="151" loc_char_start="149"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="151" loc_char_start="149"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="116" loc_char_start="114"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="40"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.constant#(" name="y">
@@ -157,34 +157,34 @@
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="54" loc_char_start="53"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#(" name="J">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="107" loc_char_start="106"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="64" loc_char_start="63"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="77" loc_char_start="76"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="7"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="107" loc_char_start="106"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#cst6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.carrierSet#'" name="X">
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#cst5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst1" name="Q">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="17"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="120" loc_char_start="119"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="120" loc_char_start="119"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst2" name="L">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="89" loc_char_start="88"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="20"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="89" loc_char_start="88"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.carrierSet#'" name="S">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
@@ -195,71 +195,71 @@
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6" kind="org.eventb.core.declaration"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst3" name="S1">
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="144" loc_char_start="142"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="109" loc_char_start="107"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="144" loc_char_start="142"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="35" loc_char_start="33"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2" name="pred2">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred2.buc|org.eventb.core.contextFile#pred2" kind="org.eventb.core.declaration"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.carrierSet#'" name="S">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="2"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred0.buc|org.eventb.core.contextFile#pred0|org.eventb.core.axiom#axm1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.constant#cst3" name="S">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="43" loc_char_start="42"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="62" loc_char_start="61"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="43" loc_char_start="42"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#(" name="P">
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="79" loc_char_start="78"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#cst7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="79" loc_char_start="78"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.constant#(" name="R">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="65" loc_char_start="64"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="72" loc_char_start="71"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="80" loc_char_start="79"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="13"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="21"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="29"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="47" loc_char_start="46"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="65" loc_char_start="64"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="72" loc_char_start="71"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred3.buc|org.eventb.core.contextFile#pred3|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="80" loc_char_start="79"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst4" name="T">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="45" loc_char_start="44"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="104" loc_char_start="103"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.constant#cst4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="45" loc_char_start="44"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred4.buc|org.eventb.core.contextFile#pred4|org.eventb.core.axiom#axm5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="104" loc_char_start="103"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1" name="pred1">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred1.buc|org.eventb.core.contextFile#pred1" kind="org.eventb.core.declaration"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst3" name="M">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="125" loc_char_start="124"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="34" loc_char_start="33"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="34" loc_char_start="33"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5|org.eventb.core.constant#cst3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst2" name="R">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="27"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="69" loc_char_start="68"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="92" loc_char_start="91"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="69" loc_char_start="68"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="92" loc_char_start="91"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5" name="pred5">
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred5.buc|org.eventb.core.contextFile#pred5" kind="org.eventb.core.declaration"/>
 </descriptor>
 <descriptor element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst6" name="a">
-<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="77" loc_char_start="76"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm7" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="106" loc_char_start="105"/>
+<occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.constant#cst6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep7-Predicate-Logic-Spec/pred6.buc|org.eventb.core.contextFile#pred6|org.eventb.core.axiom#axm6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 </descriptor>
 </rodin_index>

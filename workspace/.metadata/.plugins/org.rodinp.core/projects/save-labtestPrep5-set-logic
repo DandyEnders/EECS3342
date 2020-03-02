@@ -2,28 +2,28 @@
 <pim project="/labtestPrep5-set-logic">
 <rodin_index>
 <descriptor element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="B_birds">
-<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
 <occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="9"/>
+<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
 <occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
 <occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 </descriptor>
 <descriptor element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="ANIMAL">
-<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
-<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="10"/>
 <occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="18"/>
+<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="10"/>
 </descriptor>
 <descriptor element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#*" name="W_winged_animal">
-<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="10"/>
-<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="9"/>
 <occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="0"/>
 <occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="10"/>
+<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="24" loc_char_start="9"/>
 </descriptor>
 <descriptor element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#," name="F_fish">
-<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
-<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
 <occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
 <occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
 </descriptor>
 <descriptor element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0" name="c0">
 <occurrence element="/labtestPrep5-set-logic/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
