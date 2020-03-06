@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+<org.eventb.core.prProof name="INITIALISATION/inv1_1/INV"/>
+<org.eventb.core.prProof name="INITIALISATION/inv1_2/INV"/>
+<org.eventb.core.prProof name="INITIALISATION/act1/SIM"/>
+<org.eventb.core.prProof name="progress/inv1_1/INV"/>
+<org.eventb.core.prProof name="progress/inv1_2/INV"/>
+<org.eventb.core.prProof name="progress/act1/SIM"/>
+</org.eventb.core.prFile>
