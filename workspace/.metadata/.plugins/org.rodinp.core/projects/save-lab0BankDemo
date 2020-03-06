@@ -6,8 +6,8 @@
 </descriptor>
 <descriptor element="/lab0BankDemo/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" name="c">
 <occurrence element="/lab0BankDemo/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/lab0BankDemo/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/lab0BankDemo/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/lab0BankDemo/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 </descriptor>
 <descriptor element="/lab0BankDemo/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" name="INITIALISATION">
 <occurrence element="/lab0BankDemo/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
@@ -18,8 +18,8 @@
 <occurrence element="/lab0BankDemo/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
 </descriptor>
 <descriptor element="/lab0BankDemo/c0.buc|org.eventb.core.contextFile#c0" name="c0">
-<occurrence element="/lab0BankDemo/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
 <occurrence element="/lab0BankDemo/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+<occurrence element="/lab0BankDemo/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
 </descriptor>
 <descriptor element="/lab0BankDemo/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#+" name="deposit">
 <occurrence element="/lab0BankDemo/Bank0.bum|org.eventb.core.machineFile#Bank0|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>

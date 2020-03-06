@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.psFile>
+<org.eventb.core.psStatus name="INITIALISATION/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="12" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="18" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="INITIALISATION/act1/SIM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="14" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="final1/grd2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="29" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="final1/grd3/THM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="29" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="final1/act1/SIM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="30" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="final2/grd2/THM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="31" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="progress/grd2/WD" org.eventb.core.confidence="1000" org.eventb.core.poStamp="27" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="progress/inv1/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="27" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="progress/inv2/INV" org.eventb.core.confidence="1000" org.eventb.core.poStamp="27" org.eventb.core.psManual="true"/>
+<org.eventb.core.psStatus name="progress/act1/SIM" org.eventb.core.confidence="1000" org.eventb.core.poStamp="27" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="progress/VAR" org.eventb.core.confidence="1000" org.eventb.core.poStamp="27" org.eventb.core.psManual="false"/>
+<org.eventb.core.psStatus name="progress/NAT" org.eventb.core.confidence="1000" org.eventb.core.poStamp="27" org.eventb.core.psManual="false"/>
+</org.eventb.core.psFile>

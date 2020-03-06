@@ -2,25 +2,25 @@
 <pim project="/Lab1-Bridge">
 <rodin_index>
 <descriptor element="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" name="d">
-<occurrence element="/Lab1-Bridge/c0_proB.buc|org.eventb.core.contextFile#c0_proB|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
 <occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
-<occurrence element="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Lab1-Bridge/c0_proB.buc|org.eventb.core.contextFile#c0_proB|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 </descriptor>
 <descriptor element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#)" name="n">
-<occurrence element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.variable#)" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
-<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.variable#)" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
 <occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#,|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
-<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="1" loc_char_start="0"/>
-<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="4"/>
 </descriptor>
 <descriptor element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.event#*" name="INITIALISATION">
 <occurrence element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.event#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
@@ -29,16 +29,16 @@
 <occurrence element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
 </descriptor>
 <descriptor element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION">
-<occurrence element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.event#*" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
 <occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.event#*" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
 </descriptor>
 <descriptor element="/Lab1-Bridge/c0_proB.buc|org.eventb.core.contextFile#c0_proB" name="c0_proB">
 <occurrence element="/Lab1-Bridge/c0_proB.buc|org.eventb.core.contextFile#c0_proB" kind="org.eventb.core.declaration"/>
 <occurrence element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
 </descriptor>
 <descriptor element="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0" name="c0">
-<occurrence element="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
 <occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.seesContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab1-Bridge/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
 <occurrence element="/Lab1-Bridge/c0_proB.buc|org.eventb.core.contextFile#c0_proB|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
 </descriptor>
 <descriptor element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.variable#)" name="n">
@@ -48,8 +48,8 @@
 <occurrence element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.event#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
 </descriptor>
 <descriptor element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," name="enter">
-<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
 <occurrence element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB|org.eventb.core.event#+|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab1-Bridge/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#," kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
 </descriptor>
 <descriptor element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB" name="m0_proB">
 <occurrence element="/Lab1-Bridge/m0_proB.bum|org.eventb.core.machineFile#m0_proB" kind="org.eventb.core.declaration"/>
