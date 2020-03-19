@@ -3,13 +3,15 @@
 	<section name="ExternalProjectImportWizard">
 		<item value="true" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
-		<item value="true" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\sunny\github\EECS3342\courseMangementSystem"/>
 			<item value=""/>
 			<item value="C:\Users\sunny\github\EECS3342\workspace\Celebrity"/>
 			<item value="C:\Users\sunny\github\EECS3342\workspace\tutorial-03"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
 			<item value="C:\Users\sunny\github\EECS3342\workspace\TrafficLight.zip"/>
 			<item value="C:\Users\sunny\Desktop\Doors.zip"/>
 			<item value="C:\Users\sunny\Desktop\Celebrity.zip"/>

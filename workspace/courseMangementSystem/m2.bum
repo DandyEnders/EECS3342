@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="m1"/>
+<org.eventb.core.seesContext name="4" org.eventb.core.target="instructorsCtx"/>
+<org.eventb.core.event name="6" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="atnds ≔ ∅" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="7" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="OpenCourses">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="OpenCourses"/>
+<org.eventb.core.guard name="'" org.eventb.core.label="grd2_1" org.eventb.core.predicate="c∉ dom(atnds)"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2_2" org.eventb.core.predicate="card(atnds)≠m"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="atnds(c)≔∅" org.eventb.core.label="act0_1"/>
+<org.eventb.core.parameter name="*" org.eventb.core.identifier="c"/>
+<org.eventb.core.witness name="+" org.eventb.core.label="crs'" org.eventb.core.predicate="crs'=crs ∪ {c}"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="8" org.eventb.core.convergence="1" org.eventb.core.extended="false" org.eventb.core.label="CloseCourses">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="CloseCourses"/>
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="c"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2_1" org.eventb.core.predicate="c ∈ dom(atnds)"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="atnds≔{c} ⩤ atnds" org.eventb.core.label="act2_1"/>
+<org.eventb.core.witness name="+" org.eventb.core.label="cs" org.eventb.core.predicate="cs={c}"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="9" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="Register">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="Register"/>
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="p"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="c"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd2_1" org.eventb.core.predicate="p ∈ MEM"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd2_2" org.eventb.core.predicate="c ∈ dom(atnds)"/>
+<org.eventb.core.guard name="+" org.eventb.core.label="grd2_3" org.eventb.core.predicate="p ≠ instrs(c)"/>
+<org.eventb.core.guard name="," org.eventb.core.label="grd2_4" org.eventb.core.predicate="p∉atnds(c)"/>
+<org.eventb.core.action name="-" org.eventb.core.assignment="atnds(c)≔atnds(c) ∪ {p}" org.eventb.core.label="act2_1"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name=":" org.eventb.core.identifier="atnds"/>
+<org.eventb.core.invariant name=";" org.eventb.core.label="inv2_1" org.eventb.core.predicate="atnds ∈ CRS ⇸ ℙ(MEM)"/>
+<org.eventb.core.invariant name="=" org.eventb.core.label="inv2_2" org.eventb.core.predicate="crs=dom(atnds)"/>
+<org.eventb.core.invariant name="&gt;" org.eventb.core.label="inv2_3" org.eventb.core.predicate="∀c·c∈crs ⇒prtcpts[{c}] =atnds(c)"/>
+<org.eventb.core.invariant name="?" org.eventb.core.label="thm2_1" org.eventb.core.predicate="finite(atnds)"/>
+<org.eventb.core.variant name="@" org.eventb.core.expression="card(atnds)"/>
+</org.eventb.core.machineFile>

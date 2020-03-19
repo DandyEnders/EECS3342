@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="18">
+<org.eventb.core.poIdentifier name="CRS" org.eventb.core.type="ℙ(CRS)"/>
+<org.eventb.core.poIdentifier name="m" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="CRT" org.eventb.core.predicate="finite(CRS)" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#)"/>
+<org.eventb.core.poPredicate name="CRU" org.eventb.core.predicate="m∈ℕ1" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="CRV" org.eventb.core.predicate="m&gt;0" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#+"/>
+<org.eventb.core.poPredicate name="CRW" org.eventb.core.predicate="m≤card(CRS)" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#,"/>
+<org.eventb.core.poIdentifier name="MEM" org.eventb.core.type="ℙ(MEM)"/>
+<org.eventb.core.poPredicate name="MEN" org.eventb.core.predicate="finite(MEM)" org.eventb.core.source="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.axiom#("/>
+<org.eventb.core.poIdentifier name="INSTR" org.eventb.core.type="ℙ(MEM)"/>
+<org.eventb.core.poIdentifier name="instrs" org.eventb.core.type="ℙ(CRS×MEM)"/>
+<org.eventb.core.poPredicate name="instrt" org.eventb.core.predicate="INSTR⊆MEM" org.eventb.core.source="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="instru" org.eventb.core.predicate="instrs∈CRS → INSTR" org.eventb.core.source="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#,"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="18">
+<org.eventb.core.poIdentifier name="crs" org.eventb.core.type="ℙ(CRS)"/>
+<org.eventb.core.poIdentifier name="prtcpts" org.eventb.core.type="ℙ(CRS×MEM)"/>
+<org.eventb.core.poPredicate name="prtcptt" org.eventb.core.predicate="crs⊆CRS" org.eventb.core.source="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)"/>
+<org.eventb.core.poPredicate name="prtcptu" org.eventb.core.predicate="finite(crs)" org.eventb.core.source="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*"/>
+<org.eventb.core.poPredicate name="prtcptv" org.eventb.core.predicate="card(crs)≤m" org.eventb.core.source="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+"/>
+<org.eventb.core.poPredicate name="prtcptw" org.eventb.core.predicate="crs≠CRS⇒(∃c⦂CRS·c∉crs∧c∈CRS)" org.eventb.core.source="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#."/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="inv1_2/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Invariant" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#HYPinstructorsCty"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀c⦂CRS·c∈crs⇒c∈dom(instrs)∧instrs∈CRS ⇸ MEM" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poSelHintSnd="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#HYPinstructorsCty"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv1_1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPinstructorsCt{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(CRS×MEM))∈(∅ ⦂ ℙ(CRS)) ↔ MEM" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#INITIALISATION\/inv1_1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#HYPinstructorsCty|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="INITIALISATION/inv1_2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPinstructorsCt{"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀c⦂CRS·c∈(∅ ⦂ ℙ(CRS))⇒instrs(c)∉(∅ ⦂ ℙ(CRS×MEM))[{c}]" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#INITIALISATION\/inv1_2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTinstructorsCt{" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="18">
+<org.eventb.core.poIdentifier name="crs'" org.eventb.core.type="ℙ(CRS)"/>
+<org.eventb.core.poIdentifier name="prtcpts'" org.eventb.core.type="ℙ(CRS×MEM)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPinstructorsCt{" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTinstructorsCt{" org.eventb.core.poStamp="18"/>
+<org.eventb.core.poSequent name="OpenCourses/inv1_1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPinstructorsCt\|">
+<org.eventb.core.poPredicate name="'" org.eventb.core.predicate="crs⊂crs'∧card(crs')≤m" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="prtcpts∈crs' ↔ MEM" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#."/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#OpenCourses\/inv1_1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#HYPinstructorsCty|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="OpenCourses/inv1_2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPinstructorsCt\|">
+<org.eventb.core.poPredicate name="'" org.eventb.core.predicate="crs⊂crs'∧card(crs')≤m" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀c⦂CRS·c∈crs'⇒instrs(c)∉prtcpts[{c}]" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#."/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#OpenCourses\/inv1_2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTinstructorsCt|" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="18">
+<org.eventb.core.poIdentifier name="crs'" org.eventb.core.type="ℙ(CRS)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPinstructorsCt|" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTinstructorsCt\|" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="card(crs)≠m" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#'"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="crs≠CRS" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="CloseCourses/inv1_1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPinstructorsCt}"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="cs ⩤ prtcpts∈crs ∖ cs ↔ MEM" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#CloseCourses\/inv1_1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#HYPinstructorsCty|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="CloseCourses/inv1_2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPinstructorsCt}"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀c⦂CRS·c∈crs ∖ cs⇒instrs(c)∉(cs ⩤ prtcpts)[{c}]" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#CloseCourses\/inv1_2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTinstructorsCt}" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="18">
+<org.eventb.core.poIdentifier name="crs'" org.eventb.core.type="ℙ(CRS)"/>
+<org.eventb.core.poIdentifier name="cs" org.eventb.core.type="ℙ(CRS)"/>
+<org.eventb.core.poIdentifier name="prtcpts'" org.eventb.core.type="ℙ(CRS×MEM)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPinstructorsCt}" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTinstructorsCt}" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="cs⊆crs" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="cs≠(∅ ⦂ ℙ(CRS))" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.guard#)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="Register/grd1_3/WD" org.eventb.core.accurate="true" org.eventb.core.poDesc="Well-definedness of Guard" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTHYPinstructorsCt~("/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="c∈dom(instrs)∧instrs∈CRS ⇸ MEM" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#+"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#+"/>
+<org.eventb.core.poSelHint name="SEQHYS" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTHYPinstructorsCt~("/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="Register/inv1_1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPinstructorsCt~"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="prtcpts∪{c ↦ p}∈crs ↔ MEM" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#Register\/inv1_1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#HYPinstructorsCty|org.eventb.core.poPredicate#PRD0"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="Register/inv1_2/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTALLHYPinstructorsCt~"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="∀c0⦂CRS·c0∈crs⇒instrs(c0)∉(prtcpts∪{c ↦ p})[{c0}]" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+<org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poSequent#Register\/inv1_2\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTinstructorsCt~" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="18">
+<org.eventb.core.poIdentifier name="c" org.eventb.core.type="CRS"/>
+<org.eventb.core.poIdentifier name="p" org.eventb.core.type="MEM"/>
+<org.eventb.core.poIdentifier name="prtcpts'" org.eventb.core.type="ℙ(CRS×MEM)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTHYPinstructorsCt~(" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTIDENTinstructorsCt~" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="p∈MEM" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#)"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="c∈crs" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#*"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPinstructorsCt~" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#EVTHYPinstructorsCt~(" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="p≠instrs(c)" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#+"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="c ↦ p∉prtcpts" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#,"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="HYPinstructorsCty" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="prtcpts∈crs ↔ MEM" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/courseMangementSystem/m1.bpo|org.eventb.core.poFile#m1|org.eventb.core.poPredicateSet#HYPinstructorsCty" org.eventb.core.poStamp="18">
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="∀c⦂CRS·c∈crs⇒instrs(c)∉prtcpts[{c}]" org.eventb.core.source="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

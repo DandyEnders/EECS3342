@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scExtendsContext name="'" org.eventb.core.scTarget="/courseMangementSystem/coursesCtx.bcc|org.eventb.core.scContextFile#coursesCtx" org.eventb.core.source="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.extendsContext#'"/>
+<org.eventb.core.scExtendsContext name="(" org.eventb.core.scTarget="/courseMangementSystem/memberCtx.bcc|org.eventb.core.scContextFile#memberCtx" org.eventb.core.source="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.extendsContext#("/>
+<org.eventb.core.scInternalContext name="coursesCtx">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm0_1" org.eventb.core.predicate="finite(CRS)" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#)" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm0_2" org.eventb.core.predicate="m∈ℕ1" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#*" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="thm0_1" org.eventb.core.predicate="m&gt;0" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#+" org.eventb.core.theorem="true"/>
+<org.eventb.core.scAxiom name="*" org.eventb.core.label="axm0_3" org.eventb.core.predicate="m≤card(CRS)" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#," org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="CRS" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(CRS)"/>
+<org.eventb.core.scConstant name="m" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.constant#(" org.eventb.core.type="ℤ"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scInternalContext name="memberCtx">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1_1" org.eventb.core.predicate="finite(MEM)" org.eventb.core.source="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.axiom#(" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="MEM" org.eventb.core.source="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(MEM)"/>
+</org.eventb.core.scInternalContext>
+<org.eventb.core.scAxiom name="coursesCty" org.eventb.core.label="axm1" org.eventb.core.predicate="INSTR⊆MEM" org.eventb.core.source="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#*" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="coursesCtz" org.eventb.core.label="axm2" org.eventb.core.predicate="instrs∈CRS → INSTR" org.eventb.core.source="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#," org.eventb.core.theorem="false"/>
+<org.eventb.core.scConstant name="INSTR" org.eventb.core.source="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#)" org.eventb.core.type="ℙ(MEM)"/>
+<org.eventb.core.scConstant name="instrs" org.eventb.core.source="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#+" org.eventb.core.type="ℙ(CRS×MEM)"/>
+</org.eventb.core.scContextFile>

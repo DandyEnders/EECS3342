@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="m2"/>
+<org.eventb.core.seesContext name="4" org.eventb.core.target="instructorsCtx"/>
+<org.eventb.core.variable name=":" org.eventb.core.identifier="atnds"/>
+<org.eventb.core.event name=";" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="course :∈ CRS" org.eventb.core.label="act4"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="person :∈ MEM" org.eventb.core.label="act5"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="LOCK ≔ 0" org.eventb.core.label="act6"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="=" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="OpenCourses">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="OpenCourses"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="&gt;" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="CloseCourses">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="CloseCourses"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd1" org.eventb.core.predicate="LOCK≠2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="@" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="Register1">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="Register"/>
+<org.eventb.core.action name="." org.eventb.core.assignment="atnds(course)≔atnds(course) ∪ {person}" org.eventb.core.label="act1"/>
+<org.eventb.core.guard name="/" org.eventb.core.label="grd1" org.eventb.core.predicate="LOCK=2"/>
+<org.eventb.core.witness name="0" org.eventb.core.label="p" org.eventb.core.predicate="p=person"/>
+<org.eventb.core.witness name="1" org.eventb.core.label="c" org.eventb.core.predicate="c=course"/>
+<org.eventb.core.action name="2" org.eventb.core.assignment="LOCK≔0" org.eventb.core.label="act2"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="A" org.eventb.core.identifier="course"/>
+<org.eventb.core.invariant name="B" org.eventb.core.label="inv1" org.eventb.core.predicate="course ∈ CRS"/>
+<org.eventb.core.variable name="C" org.eventb.core.identifier="person"/>
+<org.eventb.core.invariant name="D" org.eventb.core.label="inv2" org.eventb.core.predicate="person ∈ MEM"/>
+<org.eventb.core.variable name="E" org.eventb.core.identifier="LOCK"/>
+<org.eventb.core.invariant name="F" org.eventb.core.label="inv3" org.eventb.core.predicate="LOCK ∈ {0,1,2}"/>
+<org.eventb.core.event name="G" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="read">
+<org.eventb.core.action name="'" org.eventb.core.assignment="course:∈CRS" org.eventb.core.label="act1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="person:∈MEM" org.eventb.core.label="act2"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd3_1" org.eventb.core.predicate="LOCK=0"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="LOCK≔1" org.eventb.core.label="act3"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="H" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="RegisterCheckPass">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="LOCK=1"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="instrs(course) ≠ person"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd3" org.eventb.core.predicate="course∈dom(atnds)"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd4" org.eventb.core.predicate="person∉atnds(course)"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="LOCK≔2" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="I" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="RegisterCheckFailed">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd1" org.eventb.core.predicate="LOCK=1"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd2" org.eventb.core.predicate="instrs(course)=person ∨ course∉ dom(atnds) ∨ person ∈ atnds(course)"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="LOCK≔0" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="J" org.eventb.core.label="inv4" org.eventb.core.predicate="LOCK=2 ⇒ instrs(course) ≠ person ∧ course∈dom(atnds)∧ person∉atnds(course)  "/>
+</org.eventb.core.machineFile>

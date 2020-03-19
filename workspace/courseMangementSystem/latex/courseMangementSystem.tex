@@ -1,0 +1,295 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{bsymb,b2latex}
+\begin{document}
+\MultiTitle{courseMangementSystem}
+\MultiHeader{CONTEXT}{coursesCtx}
+\CONTEXT{coursesCtx}{}{}
+\SETS{
+	\Set{CRS}{}
+}
+\CONSTANTS{
+	\Constant{m}{}
+}
+\AXIOMS{
+	\Axiom{axm0\_1}{false}{$finite(CRS)$}{}
+	\Axiom{axm0\_2}{false}{$m \in{} \natn{} $}{}
+	\Axiom{thm0\_1}{true}{$m > 0$}{}
+	\Axiom{axm0\_3}{false}{$m \leq{} card(CRS)$}{}
+}
+\END
+\MultiHeader{CONTEXT}{instructorsCtx}
+\CONTEXT{instructorsCtx}{coursesCtx,memberCtx}{}
+\CONSTANTS{
+	\Constant{INSTR}{}
+	\Constant{instrs}{}
+}
+\AXIOMS{
+	\Axiom{axm1}{false}{$INSTR \subseteq{} MEM$}{}
+	\Axiom{axm2}{false}{$instrs \in{} CRS \tfun{} INSTR$}{}
+}
+\END
+\MultiHeader{CONTEXT}{memberCtx}
+\CONTEXT{memberCtx}{}{}
+\SETS{
+	\Set{MEM}{}
+}
+\AXIOMS{
+	\Axiom{axm1\_1}{false}{$finite(MEM)$}{}
+	\Axiom{axm1}{false}{$card(MEM)=4$}{}
+}
+\END
+\MultiHeader{MACHINE}{m0}
+\MACHINE{m0}{}{coursesCtx}{}
+\VARIABLES{
+	\Variable{crs}{}
+}
+\INVARIANTS{
+	\Invariant{inv1}{false}{$crs \subseteq{} CRS$}{}
+	\Invariant{inv2}{true}{$finite(crs)$}{}
+	\Invariant{inv3}{false}{$card(crs)\leq{}m$}{}
+	\Invariant{thm1}{true}{$crs\neq{}CRS\limp{} (\exists{}c\qdot{}c\notin{}crs \land{} c\in{}CRS)$}{}
+}
+\EVENTS{
+\INITIALISATION{false}{}{
+	\ACTIONS{false}{
+		\Action{act1}{$crs \bcmeq{} \emptyset{}$}{true}{}
+	}
+}
+\EVT{OpenCourses}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd0\_1}{false}{$card(crs)\neq{}m$}{true}{}
+		\Guard{thm0\_3}{true}{$crs\neq{}CRS$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act0\_1}{$crs \bcmsuch{} crs \subset{} crs' \land{} card (crs') \leq{}m$}{true}{}
+	}
+}
+\EVT{CloseCourses}{false}{anticipated}{}{}{
+	\ANY{
+		\Param{cs}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd0\_1}{false}{$cs \subseteq{} crs$}{true}{}
+		\Guard{grd0\_2}{false}{$cs \neq{} \emptyset{}$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act0\_1}{$crs \bcmeq{}crs\setminus{}cs$}{true}{}
+	}
+}
+}
+\END
+\MultiHeader{MACHINE}{m1}
+\MACHINE{m1}{m0}{instructorsCtx}{}
+\VARIABLES{
+	\Variable{crs}{}
+	\Variable{prtcpts}{}
+}
+\INVARIANTS{
+	\Invariant{inv1\_1}{false}{$prtcpts \in{} crs \rel{} MEM$}{}
+	\Invariant{inv1\_2}{false}{$\forall{}c\qdot{}c\in{}crs \limp{} instrs(c) \notin{} prtcpts[\{c\}] $}{}
+}
+\EVENTS{
+\INITIALISATION{false}{}{
+	\ACTIONS{false}{
+		\Action{act1}{$crs \bcmeq{} \emptyset{}$}{true}{}
+		\Action{act2}{$prtcpts\bcmeq{}\emptyset{}$}{true}{}
+	}
+}
+\EVT{OpenCourses}{false}{ordinary}{OpenCourses}{}{
+	\GUARDS{false}{
+		\Guard{grd0\_1}{false}{$card(crs)\neq{}m$}{true}{}
+		\Guard{thm0\_3}{true}{$crs\neq{}CRS$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act0\_1}{$crs \bcmsuch{} crs \subset{} crs' \land{} card (crs') \leq{}m$}{true}{}
+	}
+}
+\EVT{CloseCourses}{false}{anticipated}{CloseCourses}{}{
+	\ANY{
+		\Param{cs}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd0\_1}{false}{$cs \subseteq{} crs$}{true}{}
+		\Guard{grd0\_2}{false}{$cs \neq{} \emptyset{}$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act0\_1}{$crs \bcmeq{}crs\setminus{}cs$}{true}{}
+		\Action{act1\_2}{$prtcpts\bcmeq{}cs \domsub{} prtcpts$}{true}{}
+	}
+}
+\EVT{Register}{false}{ordinary}{}{}{
+	\ANY{
+		\Param{p}{true}{}
+		\Param{c}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd1\_1}{false}{$p \in{} MEM$}{true}{}
+		\Guard{grd1\_2}{false}{$c \in{} crs$}{true}{}
+		\Guard{grd1\_3}{false}{$p \neq{} instrs(c)$}{true}{}
+		\Guard{grd1\_4}{false}{$c \mapsto{} p \notin{} prtcpts$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$prtcpts\bcmeq{}prtcpts \bunion{} \{ c \mapsto{} p \}$}{true}{}
+	}
+}
+}
+\END
+\MultiHeader{MACHINE}{m2}
+\MACHINE{m2}{m1}{instructorsCtx}{}
+\VARIABLES{
+	\Variable{atnds}{}
+}
+\INVARIANTS{
+	\Invariant{inv2\_1}{false}{$atnds \in{} CRS \pfun{} \pow{}(MEM)$}{}
+	\Invariant{inv2\_2}{false}{$crs=dom(atnds)$}{}
+	\Invariant{inv2\_3}{false}{$\forall{}c\qdot{}c\in{}crs \limp{}prtcpts[\{c\}] =atnds(c)$}{}
+	\Invariant{thm2\_1}{false}{$finite(atnds)$}{}
+}
+\VARIANT{
+	\Variant{$card(atnds)$}{}
+}
+\EVENTS{
+\INITIALISATION{false}{}{
+	\ACTIONS{false}{
+		\Action{act3}{$atnds \bcmeq{} \emptyset{}$}{true}{}
+	}
+}
+\EVT{OpenCourses}{false}{ordinary}{OpenCourses}{}{
+	\ANY{
+		\Param{c}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd2\_1}{false}{$c\notin{} dom(atnds)$}{true}{}
+		\Guard{grd2\_2}{false}{$card(atnds)\neq{}m$}{true}{}
+	}
+	\WITNESSES{
+		\Witness{crs'}{$crs'=crs \bunion{} \{c\}$}{}
+	}
+	\ACTIONS{true}{
+		\Action{act0\_1}{$atnds(c)\bcmeq{}\emptyset{}$}{true}{}
+	}
+}
+\EVT{CloseCourses}{false}{convergent}{CloseCourses}{}{
+	\ANY{
+		\Param{c}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd2\_1}{false}{$c \in{} dom(atnds)$}{true}{}
+	}
+	\WITNESSES{
+		\Witness{cs}{$cs=\{c\}$}{}
+	}
+	\ACTIONS{true}{
+		\Action{act2\_1}{$atnds\bcmeq{}\{c\} \domsub{} atnds$}{true}{}
+	}
+}
+\EVT{Register}{false}{ordinary}{Register}{}{
+	\ANY{
+		\Param{p}{true}{}
+		\Param{c}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd2\_1}{false}{$p \in{} MEM$}{true}{}
+		\Guard{grd2\_2}{false}{$c \in{} dom(atnds)$}{true}{}
+		\Guard{grd2\_3}{false}{$p \neq{} instrs(c)$}{true}{}
+		\Guard{grd2\_4}{false}{$p\notin{}atnds(c)$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act2\_1}{$atnds(c)\bcmeq{}atnds(c) \bunion{} \{p\}$}{true}{}
+	}
+}
+}
+\END
+\MultiHeader{MACHINE}{m3}
+\MACHINE{m3}{m2}{instructorsCtx}{}
+\VARIABLES{
+	\Variable{atnds}{}
+	\Variable{course}{}
+	\Variable{person}{}
+	\Variable{LOCK}{}
+}
+\INVARIANTS{
+	\Invariant{inv1}{false}{$course \in{} CRS$}{}
+	\Invariant{inv2}{false}{$person \in{} MEM$}{}
+	\Invariant{inv3}{false}{$LOCK \in{} \{0,1,2\}$}{}
+	\Invariant{inv4}{false}{$LOCK=2 \limp{} instrs(course) \neq{} person \land{} course\in{}dom(atnds)\land{} person\notin{}atnds(course)  $}{}
+}
+\EVENTS{
+\INITIALISATION{true}{}{
+	\ACTIONS{false}{
+		\Action{act3}{$atnds \bcmeq{} \emptyset{}$}{false}{}
+		\Action{act4}{$course \bcmin{} CRS$}{true}{}
+		\Action{act5}{$person \bcmin{} MEM$}{true}{}
+		\Action{act6}{$LOCK \bcmeq{} 0$}{true}{}
+	}
+}
+\EVT{OpenCourses}{true}{ordinary}{OpenCourses}{}{
+	\ANY{
+		\Param{c}{false}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd2\_1}{false}{$c\notin{} dom(atnds)$}{false}{}
+		\Guard{grd2\_2}{false}{$card(atnds)\neq{}m$}{false}{}
+	}
+	\ACTIONS{true}{
+		\Action{act0\_1}{$atnds(c)\bcmeq{}\emptyset{}$}{false}{}
+	}
+}
+\EVT{CloseCourses}{true}{ordinary}{CloseCourses}{}{
+	\ANY{
+		\Param{c}{false}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd2\_1}{false}{$c \in{} dom(atnds)$}{false}{}
+		\Guard{grd1}{false}{$LOCK\neq{}2$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act2\_1}{$atnds\bcmeq{}\{c\} \domsub{} atnds$}{false}{}
+	}
+}
+\EVT{Register1}{false}{ordinary}{Register}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$LOCK=2$}{true}{}
+	}
+	\WITNESSES{
+		\Witness{p}{$p=person$}{}
+		\Witness{c}{$c=course$}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$atnds(course)\bcmeq{}atnds(course) \bunion{} \{person\}$}{true}{}
+		\Action{act2}{$LOCK\bcmeq{}0$}{true}{}
+	}
+}
+\EVT{read}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd3\_1}{false}{$LOCK=0$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$course\bcmin{}CRS$}{true}{}
+		\Action{act2}{$person\bcmin{}MEM$}{true}{}
+		\Action{act3}{$LOCK\bcmeq{}1$}{true}{}
+	}
+}
+\EVT{RegisterCheckPass}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$LOCK=1$}{true}{}
+		\Guard{grd2}{false}{$instrs(course) \neq{} person$}{true}{}
+		\Guard{grd3}{false}{$course\in{}dom(atnds)$}{true}{}
+		\Guard{grd4}{false}{$person\notin{}atnds(course)$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$LOCK\bcmeq{}2$}{true}{}
+	}
+}
+\EVT{RegisterCheckFailed}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd1}{false}{$LOCK=1$}{true}{}
+		\Guard{grd2}{false}{$instrs(course)=person \lor{} course\notin{} dom(atnds) \lor{} person \in{} atnds(course)$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1}{$LOCK\bcmeq{}0$}{true}{}
+	}
+}
+}
+\END
+\end{document}

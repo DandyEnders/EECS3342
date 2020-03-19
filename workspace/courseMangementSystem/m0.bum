@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="'" org.eventb.core.assignment="crs ≔ ∅" org.eventb.core.label="act1"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="(" org.eventb.core.identifier="crs"/>
+<org.eventb.core.invariant name=")" org.eventb.core.label="inv1" org.eventb.core.predicate="crs ⊆ CRS"/>
+<org.eventb.core.invariant name="*" org.eventb.core.label="inv2" org.eventb.core.predicate="finite(crs)" org.eventb.core.theorem="true"/>
+<org.eventb.core.invariant name="+" org.eventb.core.label="inv3" org.eventb.core.predicate="card(crs)≤m"/>
+<org.eventb.core.seesContext name="," org.eventb.core.target="coursesCtx"/>
+<org.eventb.core.event name="-" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="OpenCourses">
+<org.eventb.core.guard name="'" org.eventb.core.label="grd0_1" org.eventb.core.predicate="card(crs)≠m"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="thm0_3" org.eventb.core.predicate="crs≠CRS" org.eventb.core.theorem="true"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="crs :∣ crs ⊂ crs' ∧ card (crs') ≤m" org.eventb.core.label="act0_1"/>
+</org.eventb.core.event>
+<org.eventb.core.invariant name="." org.eventb.core.label="thm1" org.eventb.core.predicate="crs≠CRS⇒ (∃c·c∉crs ∧ c∈CRS)" org.eventb.core.theorem="true"/>
+<org.eventb.core.event name="/" org.eventb.core.convergence="2" org.eventb.core.extended="false" org.eventb.core.label="CloseCourses">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="cs"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd0_1" org.eventb.core.predicate="cs ⊆ crs"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd0_2" org.eventb.core.predicate="cs ≠ ∅"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="crs ≔crs∖cs" org.eventb.core.label="act0_1"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>

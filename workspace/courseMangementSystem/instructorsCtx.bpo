@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="9">
+<org.eventb.core.poIdentifier name="CRS" org.eventb.core.type="ℙ(CRS)"/>
+<org.eventb.core.poIdentifier name="m" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poPredicate name="CRT" org.eventb.core.predicate="finite(CRS)" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#)"/>
+<org.eventb.core.poPredicate name="CRU" org.eventb.core.predicate="m∈ℕ1" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="CRV" org.eventb.core.predicate="m&gt;0" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#+"/>
+<org.eventb.core.poPredicate name="CRW" org.eventb.core.predicate="m≤card(CRS)" org.eventb.core.source="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#,"/>
+<org.eventb.core.poIdentifier name="MEM" org.eventb.core.type="ℙ(MEM)"/>
+<org.eventb.core.poPredicate name="MEN" org.eventb.core.predicate="finite(MEM)" org.eventb.core.source="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.axiom#("/>
+<org.eventb.core.poIdentifier name="INSTR" org.eventb.core.type="ℙ(MEM)"/>
+<org.eventb.core.poIdentifier name="instrs" org.eventb.core.type="ℙ(CRS×MEM)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/courseMangementSystem/instructorsCtx.bpo|org.eventb.core.poFile#instructorsCtx|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="9">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="INSTR⊆MEM" org.eventb.core.source="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#*"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="instrs∈CRS → INSTR" org.eventb.core.source="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#,"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
