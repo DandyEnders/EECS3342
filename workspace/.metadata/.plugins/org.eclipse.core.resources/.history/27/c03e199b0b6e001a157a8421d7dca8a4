@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+<org.eventb.core.scAxiom name="'" org.eventb.core.label="axm1" org.eventb.core.predicate="known∈ℙ(NAME)" org.eventb.core.source="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#*" org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name="(" org.eventb.core.label="axm2" org.eventb.core.predicate="birthday∈NAME ⇸ DATE" org.eventb.core.source="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#," org.eventb.core.theorem="false"/>
+<org.eventb.core.scAxiom name=")" org.eventb.core.label="axm3" org.eventb.core.predicate="known=dom(birthday)" org.eventb.core.source="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.axiom#-" org.eventb.core.theorem="false"/>
+<org.eventb.core.scCarrierSet name="DATE" org.eventb.core.source="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" org.eventb.core.type="ℙ(DATE)"/>
+<org.eventb.core.scCarrierSet name="NAME" org.eventb.core.source="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" org.eventb.core.type="ℙ(NAME)"/>
+<org.eventb.core.scConstant name="birthday" org.eventb.core.source="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#+" org.eventb.core.type="ℙ(NAME×DATE)"/>
+<org.eventb.core.scConstant name="known" org.eventb.core.source="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.constant#)" org.eventb.core.type="ℙ(NAME)"/>
+</org.eventb.core.scContextFile>

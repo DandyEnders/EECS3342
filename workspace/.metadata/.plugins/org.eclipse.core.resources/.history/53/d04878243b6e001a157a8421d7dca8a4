@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.refinesMachine name="'" org.eventb.core.target="m0"/>
+<org.eventb.core.seesContext name="-" org.eventb.core.target="c0"/>
+<org.eventb.core.variable name="0" org.eventb.core.identifier="cards"/>
+<org.eventb.core.event name="1" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name=")" org.eventb.core.assignment="cards ≔ ∅" org.eventb.core.label="act0_3"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="names ≔ ∅" org.eventb.core.label="act1_1"/>
+<org.eventb.core.action name="(" org.eventb.core.assignment="dates ≔ ∅" org.eventb.core.label="act1_2"/>
+<org.eventb.core.action name="*" org.eventb.core.assignment="count ≔ 0" org.eventb.core.label="act1_3"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="2" org.eventb.core.comment="REQ3 - Birthday book can add a person's birthday record." org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AddBirthday">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="AddBirthday"/>
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="name"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="date"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd0_1" org.eventb.core.predicate="name ∈ NAME"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd0_2" org.eventb.core.predicate="date ∈ DATE"/>
+<org.eventb.core.guard name="+" org.eventb.core.label="grd1_1" org.eventb.core.predicate="name ∉ ran(names)"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="names(count + 1) ≔ name" org.eventb.core.label="act1_1"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="dates(count + 1) ≔ date" org.eventb.core.label="act1_2"/>
+<org.eventb.core.action name="act2" org.eventb.core.assignment="count ≔ count + 1" org.eventb.core.label="act1_3"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="evt1" org.eventb.core.comment="REQ 4 - The system can change a known person's birthday" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ChangeBirthday">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="ChangeBirthday"/>
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="name"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="new_date"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd1_1" org.eventb.core.predicate="name ∈ ran(names)"/>
+<org.eventb.core.guard name="internal1" org.eventb.core.label="grd1_2" org.eventb.core.predicate="new_date ∈ DATE"/>
+<org.eventb.core.action name="internal1" org.eventb.core.assignment="dates(cursor) ≔ new_date" org.eventb.core.comment="birthday(name) ≔ new_date" org.eventb.core.label="act1_1"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd1_3" org.eventb.core.predicate="name ∈ NAME"/>
+<org.eventb.core.guard name="grd1" org.eventb.core.label="grd1_4" org.eventb.core.predicate="names(cursor) = name"/>
+<org.eventb.core.guard name="grd2" org.eventb.core.label="grd1_5" org.eventb.core.predicate="count ≥ 1"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="4" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="Remind">
+<org.eventb.core.refinesEvent name="'" org.eventb.core.target="Remind"/>
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="today"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd0_1" org.eventb.core.predicate="today ∈ DATE"/>
+<org.eventb.core.guard name="grd1" org.eventb.core.label="grd1_1" org.eventb.core.predicate="count ≥ 1"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="cards :∣ ∀i · i ∈ 1‥count ∧ ran(names(i))" org.eventb.core.label="act0_1"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="5" org.eventb.core.comment="Array of names" org.eventb.core.identifier="names"/>
+<org.eventb.core.invariant name="evt4" org.eventb.core.label="inv1_1" org.eventb.core.predicate="count ∈ ℕ"/>
+<org.eventb.core.invariant name="6" org.eventb.core.label="inv1_2" org.eventb.core.predicate="names ∈ 1‥count → NAME"/>
+<org.eventb.core.invariant name="8" org.eventb.core.label="inv1_3" org.eventb.core.predicate="dates ∈ ran(names) → DATE"/>
+<org.eventb.core.invariant name="inv1" org.eventb.core.label="inv1_4" org.eventb.core.predicate="dates ∈ NAME ⇸ DATE"/>
+<org.eventb.core.variable name="evt2" org.eventb.core.identifier="dates"/>
+<org.eventb.core.variable name="evt3" org.eventb.core.identifier="count"/>
+</org.eventb.core.machineFile>

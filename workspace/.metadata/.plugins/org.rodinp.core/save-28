@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+<pim project="/Lab_Assignment">
+<rodin_index>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#0" name="cards">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#0" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#0" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.parameter#'" name="name">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="16"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv7" name="CB_name">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="16"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.witness#internal3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv10" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="38" loc_char_start="31"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#internal4" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4" name="Remind">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2" name="m2">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt3" name="count">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="1"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="26"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt12" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="16"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original" name="m2-original">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.parameter#(" name="date">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="19"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#5" name="names">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv10" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="50" loc_char_start="45"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="38" loc_char_start="33"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="NAME">
+<occurrence element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="18"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="10"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="10"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="10"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#internal4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="18"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.parameter#'" name="today">
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="29" loc_char_start="24"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.parameter#'" name="today">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="30" loc_char_start="25"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt:" name="cursor">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="15"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt4|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9" name="ChangeBirthdayFinish">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second" name="m2-second">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.parameter#(" name="new_date">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.guard#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="24" loc_char_start="16"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2" name="Remind">
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1" name="INITIALISATION">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt4" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt2" name="dates">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="12"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt10|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="12"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#5" name="names">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.parameter#'" name="name">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="19"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.parameter#(" name="new_date">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="14"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.guard#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7|org.eventb.core.parameter#'" name="today">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#;" name="count">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="6"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="12"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#1|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="1"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="26"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="6"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0" name="m0">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv5" name="cursor">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="6"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="16"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8|org.eventb.core.guard#grd4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="6"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="14"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv11" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="26"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv10" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="63" loc_char_start="57"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#internal3" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.action#act3" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11|org.eventb.core.parameter#'" name="today">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#0" name="cards">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt10|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4" name="INITIALISATION">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt10" name="RemindProgress">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt10" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2" name="AddBirthday">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt5|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0" name="c0">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.seesContext#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.seesContext#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.seesContext#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0" kind="org.eventb.core.declaration"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.seesContext#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.seesContext#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.parameter#(" name="new_date">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="27" loc_char_start="19"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.witness#wit1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.witness#wit1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9" name="RemindStart">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#evt3" name="count">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#evt4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt3" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt3" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="6"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="12"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#evt3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#5" name="names">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#1|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="4"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="36" loc_char_start="31"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8" name="RemindFinish">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv;" name="RM_today">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#internal6" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt11" name="cards_count">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt12" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt4|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt11" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt3" name="count">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.guard#grd2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8|org.eventb.core.guard#grd4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="9"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv10" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="73" loc_char_start="68"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="6"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv10" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="17"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv11" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="14"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv11" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="42" loc_char_start="37"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="25"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="10"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="12"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="6"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.action#act2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.parameter#'" name="name">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="19"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4|org.eventb.core.parameter#'" name="today">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/" name="ChangeBirthday">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv3" name="lock">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8|org.eventb.core.guard#grd3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#internal2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv3" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="1"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv10" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="1"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv11" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="1"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.action#act2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6" name="ChangeBirthdayStart">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4" name="Remind">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8|org.eventb.core.refinesEvent#grd2" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11" name="RemindFinish">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="known">
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.parameter#'" name="name">
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="17"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="27" loc_char_start="23"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.parameter#(" name="date">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.parameter#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="19"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" name="ChangeBirthday">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.refinesEvent#internal2" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt6|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10|org.eventb.core.parameter#'" name="today">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#." name="AddBirthday">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#7" name="dates">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="4"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="48" loc_char_start="43"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#1|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1" name="m1">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1" kind="org.eventb.core.declaration"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt6" name="ChangeBirthday">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5" name="AddBirthday">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.parameter#'" name="name">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.witness#internal3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.witness#internal3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#0" name="cards">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#1" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#evt2" name="dates_func">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#evt2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="22"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="4"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="12"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="22"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="17"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt13" name="lock">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt6|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.guard#grd3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt13" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt4|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt14" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt5|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt10|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#0" name="cards">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#1|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#5" name="names">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="17"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="59" loc_char_start="54"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="38" loc_char_start="33"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="4"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#5" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#5" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt8" name="dates">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="4"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="50" loc_char_start="45"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8" name="ChangeBirthdayProgress">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.parameter#'" name="today">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="26" loc_char_start="21"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="31" loc_char_start="26"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2" name="AddBirthday">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv9" name="CB_new_date">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.witness#wit1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="27" loc_char_start="16"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#internal5" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#(" name="new_date">
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="25" loc_char_start="17"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.parameter#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.parameter#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt5" name="AddBirthday">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt5" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1" name="ChangeBirthday">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.parameter#(" name="date">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.action#act1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="19"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.parameter#'" name="name">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="10"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#*" name="birthday">
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.action#," kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="22"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="17"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="22"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="53" loc_char_start="45"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="12"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="17"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="17"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="12"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#inv4" name="cursor">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#inv4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#1|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#inv6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="15"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="6"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.action#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="6"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#0" name="cards">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#0" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#0" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#0" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#1" name="INITIALISATION">
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7" name="RemindStart">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt4" name="INITIALISATION">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt4" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.parameter#(" name="date">
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="34" loc_char_start="30"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.parameter#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.parameter#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="name">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="9"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10" name="RemindProgress">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.parameter#'" name="name">
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.action#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="23" loc_char_start="19"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt15" name="remind_target_birthday">
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt15" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt4|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt16" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="0"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.action#act1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="DATE">
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="26"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="8"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.guard#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#grd1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="8"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="18"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="8"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt4|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="30" loc_char_start="26"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#evt9" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="18"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt16" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="25"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#inv:" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="14"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#internal5" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="15"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.guard#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4|org.eventb.core.action#internal6" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="16" loc_char_start="12"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="8"/>
+<occurrence element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="8"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.invariant#8" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="18"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.guard#internal1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="11"/>
+<occurrence element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="7"/>
+<occurrence element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="8"/>
+<occurrence element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="8"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/Lab_Assignment/m1.bum">
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="NAME"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1" name="ChangeBirthday"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.parameter#'" name="name"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#0" name="cards"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2" name="AddBirthday"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#2|org.eventb.core.parameter#(" name="date"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.parameter#'" name="today"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.parameter#'" name="name"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4" name="Remind"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#5" name="names"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#evt3" name="count"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="DATE"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#1" name="INITIALISATION"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#evt2" name="dates_func"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#evt1|org.eventb.core.parameter#(" name="new_date"/>
+</export>
+<export file="/Lab_Assignment/m0.bum">
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="NAME"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/" name="ChangeBirthday"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2" name="Remind"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.parameter#(" name="date"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="name"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#." name="AddBirthday"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#*" name="birthday"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#2|org.eventb.core.parameter#'" name="today"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="known"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="DATE"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#.|org.eventb.core.parameter#'" name="name"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#0" name="cards"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#(" name="new_date"/>
+</export>
+<export file="/Lab_Assignment/m2.bum">
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.parameter#(" name="date"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#0" name="cards"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7|org.eventb.core.parameter#'" name="today"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5|org.eventb.core.parameter#'" name="name"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11" name="RemindFinish"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt8" name="ChangeBirthdayProgress"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt8" name="dates"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv5" name="cursor"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.parameter#'" name="name"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv;" name="RM_today"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt11|org.eventb.core.parameter#'" name="today"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#evt3" name="count"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="NAME"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt9" name="ChangeBirthdayFinish"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt4" name="INITIALISATION"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6|org.eventb.core.parameter#(" name="new_date"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10|org.eventb.core.parameter#'" name="today"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv7" name="CB_name"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2" name="m2"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv3" name="lock"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt7" name="RemindStart"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt10" name="RemindProgress"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt5" name="AddBirthday"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#5" name="names"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="DATE"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#evt6" name="ChangeBirthdayStart"/>
+<exported element="/Lab_Assignment/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#inv9" name="CB_new_date"/>
+</export>
+<export file="/Lab_Assignment/c0.buc">
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="NAME"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="DATE"/>
+</export>
+<export file="/Lab_Assignment/m2-original.bum">
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="NAME"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4|org.eventb.core.parameter#'" name="today"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#4" name="Remind"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#1" name="INITIALISATION"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.parameter#(" name="date"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original" name="m2-original"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#inv4" name="cursor"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.parameter#'" name="name"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#;" name="count"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#7" name="dates"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2|org.eventb.core.parameter#'" name="name"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1" name="ChangeBirthday"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#0" name="cards"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.variable#5" name="names"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#2" name="AddBirthday"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="DATE"/>
+<exported element="/Lab_Assignment/m2-original.bum|org.eventb.core.machineFile#m2-original|org.eventb.core.event#evt1|org.eventb.core.parameter#(" name="new_date"/>
+</export>
+<export file="/Lab_Assignment/m2-second.bum">
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#'" name="NAME"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0" name="c0"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt2" name="dates"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#5" name="names"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt3" name="count"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt15" name="remind_target_birthday"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9" name="RemindStart"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8" name="RemindFinish"/>
+<exported element="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second" name="m2-second"/>
+<exported element="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt:" name="cursor"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#0" name="cards"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt5" name="AddBirthday"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt13" name="lock"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.variable#evt11" name="cards_count"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt6" name="ChangeBirthday"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.parameter#'" name="today"/>
+<exported element="/Lab_Assignment/c0.buc|org.eventb.core.contextFile#c0|org.eventb.core.carrierSet#(" name="DATE"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt10" name="RemindProgress"/>
+<exported element="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt4" name="INITIALISATION"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/Lab_Assignment/c0.buc" mark="false" order_pos="0"/>
+<node label="/Lab_Assignment/m0.bum" mark="false" order_pos="1">
+<predecessor label="/Lab_Assignment/c0.buc"/>
+</node>
+<node label="/Lab_Assignment/m1.bum" mark="false" order_pos="2">
+<predecessor label="/Lab_Assignment/m0.bum"/>
+<predecessor label="/Lab_Assignment/c0.buc"/>
+</node>
+<node label="/Lab_Assignment/m2-original.bum" mark="false" order_pos="3">
+<predecessor label="/Lab_Assignment/m0.bum"/>
+<predecessor label="/Lab_Assignment/c0.buc"/>
+</node>
+<node label="/Lab_Assignment/m2-second.bum" mark="false" order_pos="4">
+<predecessor label="/Lab_Assignment/m1.bum"/>
+<predecessor label="/Lab_Assignment/c0.buc"/>
+</node>
+<node label="/Lab_Assignment/m2.bum" mark="false" order_pos="5">
+<predecessor label="/Lab_Assignment/m1.bum"/>
+<predecessor label="/Lab_Assignment/c0.buc"/>
+</node>
+</graph>
+<unprocessed file="/Lab_Assignment/c0.bcc"/>
+<unprocessed file="/Lab_Assignment/c0.bpo"/>
+<unprocessed file="/Lab_Assignment/c0.bpr"/>
+<unprocessed file="/Lab_Assignment/c0.bps"/>
+<unprocessed file="/Lab_Assignment/m0.bcm"/>
+<unprocessed file="/Lab_Assignment/m0.bpo"/>
+<unprocessed file="/Lab_Assignment/m0.bpr"/>
+<unprocessed file="/Lab_Assignment/m0.bps"/>
+<unprocessed file="/Lab_Assignment/c1.bcc"/>
+<unprocessed file="/Lab_Assignment/c1.bpo"/>
+<unprocessed file="/Lab_Assignment/c1.bpr"/>
+<unprocessed file="/Lab_Assignment/c1.bps"/>
+<unprocessed file="/Lab_Assignment/m1.bcm"/>
+<unprocessed file="/Lab_Assignment/m1.bpo"/>
+<unprocessed file="/Lab_Assignment/m1.bpr"/>
+<unprocessed file="/Lab_Assignment/m1.bps"/>
+<unprocessed file="/Lab_Assignment/m2.bpr"/>
+<unprocessed file="/Lab_Assignment/m2.bcm"/>
+<unprocessed file="/Lab_Assignment/m2.bpo"/>
+<unprocessed file="/Lab_Assignment/m2.bps"/>
+<unprocessed file="/Lab_Assignment/m3.bpr"/>
+<unprocessed file="/Lab_Assignment/m2-original.bpr"/>
+<unprocessed file="/Lab_Assignment/m2-original.bcm"/>
+<unprocessed file="/Lab_Assignment/m2-original.bpo"/>
+<unprocessed file="/Lab_Assignment/m2-original.bps"/>
+<unprocessed file="/Lab_Assignment/m2-second.bpr"/>
+<unprocessed file="/Lab_Assignment/m2-second.bcm"/>
+<unprocessed file="/Lab_Assignment/m2-second.bpo"/>
+<unprocessed file="/Lab_Assignment/m2-second.bps"/>
+</pim>
+<delta_list/>
+<indexer_registry>
+<registry_entry element_type="org.eventb.core.machineFile">
+<indexer id="machineIndexer"/>
+</registry_entry>
+<registry_entry element_type="org.eventb.core.contextFile">
+<indexer id="contextIndexer"/>
+</registry_entry>
+</indexer_registry>
+</index_root>

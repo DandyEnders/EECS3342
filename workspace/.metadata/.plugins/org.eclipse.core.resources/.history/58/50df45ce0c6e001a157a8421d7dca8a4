@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="(" org.eventb.core.assignment="known ≔ ∅" org.eventb.core.label="act0_1"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="birthday ≔ ∅" org.eventb.core.label="act0_2"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="(" org.eventb.core.identifier="known"/>
+<org.eventb.core.invariant name=")" org.eventb.core.label="inv0_1" org.eventb.core.predicate="known ∈ ℙ(NAME)"/>
+<org.eventb.core.variable name="*" org.eventb.core.identifier="birthday"/>
+<org.eventb.core.invariant name="+" org.eventb.core.label="inv0_2" org.eventb.core.predicate="birthday ∈ NAME ⇸ DATE"/>
+<org.eventb.core.invariant name="," org.eventb.core.label="inv0_3" org.eventb.core.predicate="known = dom(birthday)"/>
+<org.eventb.core.seesContext name="-" org.eventb.core.target="c0"/>
+</org.eventb.core.machineFile>

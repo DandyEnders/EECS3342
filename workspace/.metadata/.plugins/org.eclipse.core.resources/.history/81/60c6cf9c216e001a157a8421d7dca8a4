@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.extendsContext name="'" org.eventb.core.target="c0"/>
+<org.eventb.core.constant name="(" org.eventb.core.identifier="names"/>
+<org.eventb.core.axiom name="-" org.eventb.core.label="axm1_1" org.eventb.core.predicate="n_names ∈ ℕ1"/>
+<org.eventb.core.axiom name="/" org.eventb.core.label="axm1_2" org.eventb.core.predicate="n_dates ∈ ℕ1"/>
+<org.eventb.core.axiom name=")" org.eventb.core.label="axm1_3" org.eventb.core.predicate="names ∈ 1‥n_names → NAME"/>
+<org.eventb.core.constant name="*" org.eventb.core.identifier="dates"/>
+<org.eventb.core.axiom name="+" org.eventb.core.label="axm1_4" org.eventb.core.predicate="dates ∈ 1‥n_dates → DATE"/>
+<org.eventb.core.constant name="," org.eventb.core.identifier="n_names"/>
+<org.eventb.core.constant name="." org.eventb.core.identifier="n_dates"/>
+</org.eventb.core.contextFile>

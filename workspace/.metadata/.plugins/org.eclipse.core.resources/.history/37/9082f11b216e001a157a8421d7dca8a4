@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="2">
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poIdentifier name="DATE" org.eventb.core.type="ℙ(DATE)"/>
+<org.eventb.core.poIdentifier name="NAME" org.eventb.core.type="ℙ(NAME)"/>
+<org.eventb.core.poIdentifier name="dates" org.eventb.core.type="ℙ(ℤ×DATE)"/>
+<org.eventb.core.poIdentifier name="n_dates" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="n_names" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="names" org.eventb.core.type="ℙ(ℤ×NAME)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Lab_Assignment/c1.bpo|org.eventb.core.poFile#c1|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="2">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="n_names∈ℕ1" org.eventb.core.source="/Lab_Assignment/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#-"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="n_dates∈ℕ1" org.eventb.core.source="/Lab_Assignment/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#\/"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="names∈1 ‥ n_names → NAME" org.eventb.core.source="/Lab_Assignment/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#)"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="dates∈1 ‥ n_dates → DATE" org.eventb.core.source="/Lab_Assignment/c1.buc|org.eventb.core.contextFile#c1|org.eventb.core.axiom#+"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

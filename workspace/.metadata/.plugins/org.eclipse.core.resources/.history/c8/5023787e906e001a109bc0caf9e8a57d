@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="DATE" org.eventb.core.type="ℙ(DATE)"/>
+<org.eventb.core.poIdentifier name="NAME" org.eventb.core.type="ℙ(NAME)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="birthday" org.eventb.core.type="ℙ(NAME×DATE)"/>
+<org.eventb.core.poIdentifier name="cards" org.eventb.core.type="ℙ(NAME)"/>
+<org.eventb.core.poIdentifier name="cards_count" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="count" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="cursor" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="dates_func" org.eventb.core.type="ℙ(NAME×DATE)"/>
+<org.eventb.core.poIdentifier name="known" org.eventb.core.type="ℙ(NAME)"/>
+<org.eventb.core.poIdentifier name="lock" org.eventb.core.type="ℤ"/>
+<org.eventb.core.poIdentifier name="names" org.eventb.core.type="ℙ(ℤ×NAME)"/>
+<org.eventb.core.poIdentifier name="remind_target_birthday" org.eventb.core.type="DATE"/>
+<org.eventb.core.poPredicate name="remind_target_birthdaz" org.eventb.core.predicate="known∈ℙ(NAME)" org.eventb.core.source="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)"/>
+<org.eventb.core.poPredicate name="remind_target_birthda{" org.eventb.core.predicate="birthday∈NAME ⇸ DATE" org.eventb.core.source="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+"/>
+<org.eventb.core.poPredicate name="remind_target_birthda|" org.eventb.core.predicate="known=dom(birthday)" org.eventb.core.source="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#,"/>
+<org.eventb.core.poPredicate name="remind_target_birthda}" org.eventb.core.predicate="cards∈ℙ(NAME)" org.eventb.core.source="/Lab_Assignment/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#1"/>
+<org.eventb.core.poPredicate name="remind_target_birthda~" org.eventb.core.predicate="count∈ℕ" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#evt4"/>
+<org.eventb.core.poPredicate name="remind_target_birthdb'" org.eventb.core.predicate="names∈1 ‥ count → NAME" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#6"/>
+<org.eventb.core.poPredicate name="remind_target_birthdb(" org.eventb.core.predicate="dates_func∈ran(names) → DATE" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#8"/>
+<org.eventb.core.poPredicate name="remind_target_birthdb)" org.eventb.core.predicate="ran(names)=dom(birthday)" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv1"/>
+<org.eventb.core.poPredicate name="remind_target_birthdb*" org.eventb.core.predicate="ran(dates_func)=ran(birthday)" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv2"/>
+<org.eventb.core.poPredicate name="remind_target_birthdb+" org.eventb.core.predicate="∀i⦂ℤ·i∈1 ‥ count⇒dates_func(names(i))=birthday(names(i))" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#inv3"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="RemindStart/inv2_3/INV" org.eventb.core.accurate="false" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#EVTALLHYPremind_target_birthdaz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈{0,1}" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt14"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt14"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poSequent#RemindStart\/inv2_3\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+<org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD2"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poSequent name="RemindStart/act0_1/SIM" org.eventb.core.accurate="false" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="1">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#EVTALLHYPremind_target_birthdaz"/>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="cards=dom(dates_func ▷ {today})" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.action#)"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.action#)"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poSequent#RemindStart\/act0_1\/SIM|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTremind_target_birthdaz" org.eventb.core.parentSet="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="remind_target_birthday'" org.eventb.core.type="DATE"/>
+<org.eventb.core.poIdentifier name="today" org.eventb.core.type="DATE"/>
+<org.eventb.core.poIdentifier name="cards'" org.eventb.core.type="ℙ(NAME)"/>
+<org.eventb.core.poIdentifier name="lock'" org.eventb.core.type="ℤ"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPremind_target_birthdaz" org.eventb.core.parentSet="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#EVTIDENTremind_target_birthdaz" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="today∈DATE" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.guard#("/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="count≥1" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.guard#grd1"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="lock=1" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt9|org.eventb.core.guard#grd3"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPremind_target_birthda{" org.eventb.core.parentSet="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="lock=0" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt10|org.eventb.core.guard#("/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poSequent name="RemindFinish/act0_1/SIM" org.eventb.core.accurate="false" org.eventb.core.poDesc="Action simulation" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#EVTALLHYPremind_target_birthda\|">
+<org.eventb.core.poPredicate name="'" org.eventb.core.predicate="⊤" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="cards=dom(dates_func ▷ {today})" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.action#)"/>
+<org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4"/>
+<org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Lab_Assignment/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#4|org.eventb.core.action#)"/>
+<org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8"/>
+<org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poSequent#RemindFinish\/act0_1\/SIM|org.eventb.core.poPredicateSet#SEQHYP"/>
+</org.eventb.core.poSequent>
+<org.eventb.core.poPredicateSet name="EVTIDENTremind_target_birthda|" org.eventb.core.parentSet="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poIdentifier name="today" org.eventb.core.type="DATE"/>
+<org.eventb.core.poIdentifier name="cards'" org.eventb.core.type="ℙ(NAME)"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="EVTALLHYPremind_target_birthda|" org.eventb.core.parentSet="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#EVTIDENTremind_target_birthda\|" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="lock=0" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.event#evt8|org.eventb.core.guard#grd1"/>
+</org.eventb.core.poPredicateSet>
+<org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Lab_Assignment/m2-second.bpo|org.eventb.core.poFile#m2-second|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+<org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="count≥1⇒cursor∈1 ‥ count" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt;"/>
+<org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="cards_count∈0 ‥ count" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt12"/>
+<org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="lock∈{0,1}" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt14"/>
+<org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="remind_target_birthday∈DATE" org.eventb.core.source="/Lab_Assignment/m2-second.bum|org.eventb.core.machineFile#m2-second|org.eventb.core.invariant#evt16"/>
+</org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

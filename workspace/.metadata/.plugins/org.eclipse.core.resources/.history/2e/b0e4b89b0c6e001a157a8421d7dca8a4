@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd" version="3">
+<org.eventb.core.carrierSet name="'" org.eventb.core.identifier="NAME"/>
+<org.eventb.core.carrierSet name="(" org.eventb.core.identifier="DATE"/>
+<org.eventb.core.constant name=")" org.eventb.core.identifier="known"/>
+<org.eventb.core.axiom name="*" org.eventb.core.comment="ENV1 - There are known persons' name." org.eventb.core.label="axm1" org.eventb.core.predicate="known ∈ ℙ(NAME)"/>
+<org.eventb.core.constant name="+" org.eventb.core.identifier="birthday"/>
+<org.eventb.core.axiom name="," org.eventb.core.comment="ENV2 - There are birthdays for people." org.eventb.core.label="axm2" org.eventb.core.predicate="birthday ∈ NAME ⇸ DATE"/>
+<org.eventb.core.axiom name="-" org.eventb.core.label="axm3" org.eventb.core.predicate="known = dom(birthday)" org.eventb.core.theorem="true"/>
+</org.eventb.core.contextFile>

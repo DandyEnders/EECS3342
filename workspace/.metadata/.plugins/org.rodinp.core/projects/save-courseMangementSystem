@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<pim project="/courseMangementSystem">
+<rodin_index>
+<descriptor element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#)" name="INSTR">
+<occurrence element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="15"/>
+<occurrence element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#)" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6" name="INITIALISATION">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="cs">
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="9"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx" name="coursesCtx">
+<occurrence element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx" kind="org.eventb.core.declaration"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.seesContext#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.extendsContext#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx" name="memberCtx">
+<occurrence element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx" kind="org.eventb.core.declaration"/>
+<occurrence element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.extendsContext#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#1" name="prtcpts">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="10"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="15" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="23"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="20" loc_char_start="13"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#1" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.parameter#'" name="c">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.witness#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="7"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#&gt;" name="CloseCourses">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#&gt;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1" name="m1">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1" kind="org.eventb.core.declaration"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.parameter#(" name="c">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="20"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I" name="RegisterCheckFailed">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" name="INITIALISATION">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#:" name="atnds">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.action#." kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="36"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="11"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="59" loc_char_start="54"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#J" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="51" loc_char_start="46"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#J" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="66" loc_char_start="61"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.action#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.action#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="14"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" name="Register">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#C" name="person">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.action#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="37" loc_char_start="31"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#G|org.eventb.core.action#(" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#J" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="60" loc_char_start="54"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#J" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="26"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#C" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="51" loc_char_start="45"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.witness#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="2"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="17"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="15"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="crs">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="15"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="13"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="30" loc_char_start="26"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6" name="Register">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2" name="m2">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;" name="INITIALISATION">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx" name="instructorsCtx">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.seesContext#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.seesContext#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.seesContext#4" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." name="OpenCourses">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/" name="CloseCourses">
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.carrierSet#'" name="MEM">
+<occurrence element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="16"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#D" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="9"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="4"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="4"/>
+<occurrence element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.axiom#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#G|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="16"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8" name="CloseCourses">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#&gt;|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="crs">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="4"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#2" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="10"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.witness#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.witness#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="13"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="30" loc_char_start="26"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.witness#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-|org.eventb.core.action#internal1" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="8" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="3" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="5"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#(" name="c">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="11"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.witness#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="6"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="16" loc_char_start="15"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.witness#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.parameter#*" name="c">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.witness#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="12"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.parameter#*" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="7" loc_char_start="6"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3" name="m3">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@" name="Register1">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/" name="CloseCourses">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#G" name="read">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#G" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.constant#(" name="m">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="34" loc_char_start="33"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="34" loc_char_start="33"/>
+<occurrence element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.constant#(" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="12"/>
+<occurrence element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#E" name="LOCK">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#E" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#F" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#J" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.guard#\/" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#G|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#G|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H|org.eventb.core.action#+" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.action#2" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="4" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#&gt;|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7" name="OpenCourses">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#=|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="cs">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.action#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="10" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="9"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.witness#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="2" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.witness#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#A" name="course">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.witness#1" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="8" loc_char_start="2"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="7"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="24"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="66" loc_char_start="60"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.action#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="12" loc_char_start="6"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.action#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="26" loc_char_start="20"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="13"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#G|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#A" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#J" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="73" loc_char_start="67"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#J" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="35"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#J" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="22" loc_char_start="16"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#'" name="p">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="22" loc_char_start="21"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.witness#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.label"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@|org.eventb.core.witness#0" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#=" name="OpenCourses">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#=" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0" name="m0">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.refinesMachine#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0" kind="org.eventb.core.declaration"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.parameter#'" name="p">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.parameter#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="25" loc_char_start="24"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="4"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.carrierSet#'" name="CRS">
+<occurrence element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="7"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#G|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="11" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="9"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#B" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="9"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="4"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#." kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="23"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="4"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.invariant#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="6"/>
+<occurrence element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="9"/>
+<occurrence element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.carrierSet#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="4"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;|org.eventb.core.action#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="13" loc_char_start="10"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#+" name="instrs">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.invariant#3" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="11"/>
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.guard#+" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="4"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.invariant#J" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="9"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.axiom#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#+" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#:" name="atnds">
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#:" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#:" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#?" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variant#@" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.expression" loc_char_end="10" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#&gt;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="29" loc_char_start="24"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#=" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#," kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="7" loc_char_start="2"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.invariant#;" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6|org.eventb.core.action#'" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#-" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="14" loc_char_start="9"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.action#)" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.guard#'" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="7"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.guard#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.action#-" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.action#)" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.action#*" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="17" loc_char_start="12"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="8"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.guard#(" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="10" loc_char_start="5"/>
+<occurrence element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.action#*" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-" name="OpenCourses">
+<occurrence element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#.|org.eventb.core.refinesEvent#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+<occurrence element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+<descriptor element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H" name="RegisterCheckPass">
+<occurrence element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+</descriptor>
+</rodin_index>
+<export_table>
+<export file="/courseMangementSystem/memberCtx.buc">
+<exported element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx" name="memberCtx"/>
+<exported element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.carrierSet#'" name="MEM"/>
+</export>
+<export file="/courseMangementSystem/instructorsCtx.buc">
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#+" name="instrs"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.carrierSet#'" name="CRS"/>
+<exported element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx" name="memberCtx"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.constant#(" name="m"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx" name="coursesCtx"/>
+<exported element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.carrierSet#'" name="MEM"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#)" name="INSTR"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx" name="instructorsCtx"/>
+</export>
+<export file="/courseMangementSystem/coursesCtx.buc">
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.carrierSet#'" name="CRS"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.constant#(" name="m"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx" name="coursesCtx"/>
+</export>
+<export file="/courseMangementSystem/m2.bum">
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.carrierSet#'" name="CRS"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.variable#:" name="atnds"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#6" name="INITIALISATION"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7" name="OpenCourses"/>
+<exported element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx" name="memberCtx"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.constant#(" name="m"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#'" name="p"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9" name="Register"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#7|org.eventb.core.parameter#*" name="c"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#9|org.eventb.core.parameter#(" name="c"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx" name="instructorsCtx"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8|org.eventb.core.parameter#'" name="c"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#+" name="instrs"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2|org.eventb.core.event#8" name="CloseCourses"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx" name="coursesCtx"/>
+<exported element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2" name="m2"/>
+<exported element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.carrierSet#'" name="MEM"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#)" name="INSTR"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+</export>
+<export file="/courseMangementSystem/m0.bum">
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.carrierSet#'" name="CRS"/>
+<exported element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.variable#(" name="crs"/>
+<exported element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="cs"/>
+<exported element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#'" name="INITIALISATION"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.constant#(" name="m"/>
+<exported element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#-" name="OpenCourses"/>
+<exported element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0|org.eventb.core.event#\/" name="CloseCourses"/>
+<exported element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx" name="coursesCtx"/>
+</export>
+<export file="/courseMangementSystem/m3.bum">
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.carrierSet#'" name="CRS"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#A" name="course"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#;" name="INITIALISATION"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#&gt;" name="CloseCourses"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#E" name="LOCK"/>
+<exported element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx" name="memberCtx"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.constant#(" name="m"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#I" name="RegisterCheckFailed"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#G" name="read"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx" name="instructorsCtx"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#+" name="instrs"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#=" name="OpenCourses"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#H" name="RegisterCheckPass"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#:" name="atnds"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.event#@" name="Register1"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3" name="m3"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx" name="coursesCtx"/>
+<exported element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/courseMangementSystem/m3.bum|org.eventb.core.machineFile#m3|org.eventb.core.variable#C" name="person"/>
+<exported element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.carrierSet#'" name="MEM"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#)" name="INSTR"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/courseMangementSystem/m2.bum|org.eventb.core.machineFile#m2" name="m2"/>
+</export>
+<export file="/courseMangementSystem/m1.bum">
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.parameter#'" name="p"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.carrierSet#'" name="CRS"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/|org.eventb.core.parameter#'" name="cs"/>
+<exported element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx" name="memberCtx"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#\/" name="CloseCourses"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx|org.eventb.core.constant#(" name="m"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#1" name="prtcpts"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#-" name="INITIALISATION"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx" name="instructorsCtx"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#+" name="instrs"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.variable#(" name="crs"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#." name="OpenCourses"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6" name="Register"/>
+<exported element="/courseMangementSystem/coursesCtx.buc|org.eventb.core.contextFile#coursesCtx" name="coursesCtx"/>
+<exported element="/courseMangementSystem/m0.bum|org.eventb.core.machineFile#m0" name="m0"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1" name="m1"/>
+<exported element="/courseMangementSystem/memberCtx.buc|org.eventb.core.contextFile#memberCtx|org.eventb.core.carrierSet#'" name="MEM"/>
+<exported element="/courseMangementSystem/instructorsCtx.buc|org.eventb.core.contextFile#instructorsCtx|org.eventb.core.constant#)" name="INSTR"/>
+<exported element="/courseMangementSystem/m1.bum|org.eventb.core.machineFile#m1|org.eventb.core.event#6|org.eventb.core.parameter#(" name="c"/>
+</export>
+</export_table>
+<graph is_sorted="true">
+<node label="/courseMangementSystem/memberCtx.buc" mark="false" order_pos="0"/>
+<node label="/courseMangementSystem/coursesCtx.buc" mark="false" order_pos="1"/>
+<node label="/courseMangementSystem/instructorsCtx.buc" mark="false" order_pos="2">
+<predecessor label="/courseMangementSystem/memberCtx.buc"/>
+<predecessor label="/courseMangementSystem/coursesCtx.buc"/>
+</node>
+<node label="/courseMangementSystem/m0.bum" mark="false" order_pos="3">
+<predecessor label="/courseMangementSystem/coursesCtx.buc"/>
+</node>
+<node label="/courseMangementSystem/m1.bum" mark="false" order_pos="4">
+<predecessor label="/courseMangementSystem/instructorsCtx.buc"/>
+<predecessor label="/courseMangementSystem/m0.bum"/>
+</node>
+<node label="/courseMangementSystem/m2.bum" mark="false" order_pos="5">
+<predecessor label="/courseMangementSystem/instructorsCtx.buc"/>
+<predecessor label="/courseMangementSystem/m1.bum"/>
+</node>
+<node label="/courseMangementSystem/m3.bum" mark="false" order_pos="6">
+<predecessor label="/courseMangementSystem/instructorsCtx.buc"/>
+<predecessor label="/courseMangementSystem/m2.bum"/>
+</node>
+</graph>
+<unprocessed file="/courseMangementSystem/coursesCtx.bcc"/>
+<unprocessed file="/courseMangementSystem/coursesCtx.bpo"/>
+<unprocessed file="/courseMangementSystem/coursesCtx.bpr"/>
+<unprocessed file="/courseMangementSystem/coursesCtx.bps"/>
+<unprocessed file="/courseMangementSystem/instructorsCtx.bcc"/>
+<unprocessed file="/courseMangementSystem/instructorsCtx.bpo"/>
+<unprocessed file="/courseMangementSystem/instructorsCtx.bpr"/>
+<unprocessed file="/courseMangementSystem/instructorsCtx.bps"/>
+<unprocessed file="/courseMangementSystem/m0.bcm"/>
+<unprocessed file="/courseMangementSystem/m0.bpo"/>
+<unprocessed file="/courseMangementSystem/m0.bpr"/>
+<unprocessed file="/courseMangementSystem/m0.bps"/>
+<unprocessed file="/courseMangementSystem/m1.bcm"/>
+<unprocessed file="/courseMangementSystem/m1.bpo"/>
+<unprocessed file="/courseMangementSystem/m1.bpr"/>
+<unprocessed file="/courseMangementSystem/m1.bps"/>
+<unprocessed file="/courseMangementSystem/m2.bcm"/>
+<unprocessed file="/courseMangementSystem/m2.bpo"/>
+<unprocessed file="/courseMangementSystem/m2.bpr"/>
+<unprocessed file="/courseMangementSystem/m2.bps"/>
+<unprocessed file="/courseMangementSystem/m3.bcm"/>
+<unprocessed file="/courseMangementSystem/m3.bpo"/>
+<unprocessed file="/courseMangementSystem/m3.bpr"/>
+<unprocessed file="/courseMangementSystem/m3.bps"/>
+<unprocessed file="/courseMangementSystem/memberCtx.bcc"/>
+<unprocessed file="/courseMangementSystem/memberCtx.bpo"/>
+<unprocessed file="/courseMangementSystem/memberCtx.bpr"/>
+<unprocessed file="/courseMangementSystem/memberCtx.bps"/>
+<unprocessed file="/courseMangementSystem/participantsCtx.bpr"/>
+<unprocessed file="/courseMangementSystem/m0.bpo_tmp"/>
+<unprocessed file="/courseMangementSystem/m2.bpo_tmp"/>
+<unprocessed file="/courseMangementSystem/m1.bpo_tmp"/>
+</pim>

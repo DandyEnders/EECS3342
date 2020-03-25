@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" version="5">
+<org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION">
+<org.eventb.core.action name="(" org.eventb.core.assignment="known ≔ ∅" org.eventb.core.label="act0_1"/>
+<org.eventb.core.action name="'" org.eventb.core.assignment="birthday ≔ ∅" org.eventb.core.label="act0_2"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="cards ≔ ∅" org.eventb.core.label="act0_3"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="(" org.eventb.core.identifier="known"/>
+<org.eventb.core.invariant name=")" org.eventb.core.comment=" ENV1 - There are birthdays for people." org.eventb.core.label="inv0_1" org.eventb.core.predicate="known ∈ ℙ(NAME)"/>
+<org.eventb.core.variable name="*" org.eventb.core.identifier="birthday"/>
+<org.eventb.core.invariant name="+" org.eventb.core.comment="ENV2 - Each known person's name is assigned to a birthday." org.eventb.core.label="inv0_2" org.eventb.core.predicate="birthday ∈ NAME ⇸ DATE"/>
+<org.eventb.core.invariant name="," org.eventb.core.label="inv0_3" org.eventb.core.predicate="known = dom(birthday)"/>
+<org.eventb.core.seesContext name="-" org.eventb.core.target="c0"/>
+<org.eventb.core.event name="." org.eventb.core.comment="REQ3 - Birthday book can add a person's birthday record." org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="AddBirthday">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="name"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="date"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd0_1" org.eventb.core.predicate="name ∈ NAME"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd0_2" org.eventb.core.predicate="date ∈ DATE"/>
+<org.eventb.core.guard name="+" org.eventb.core.label="grd0_3" org.eventb.core.predicate="name ∉ known"/>
+<org.eventb.core.action name="," org.eventb.core.assignment="birthday ≔ birthday ∪ {name ↦ date}" org.eventb.core.label="act0_1"/>
+<org.eventb.core.action name="act1" org.eventb.core.assignment="known ≔ known ∪ {name}" org.eventb.core.label="act0_2"/>
+</org.eventb.core.event>
+<org.eventb.core.event name="/" org.eventb.core.comment="REQ 4 - The system can change a known person's birthday" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="ChangeBirthday">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="name"/>
+<org.eventb.core.parameter name="(" org.eventb.core.identifier="new_date"/>
+<org.eventb.core.guard name=")" org.eventb.core.label="grd0_1" org.eventb.core.predicate="name ∈ NAME"/>
+<org.eventb.core.guard name="*" org.eventb.core.label="grd0_2" org.eventb.core.predicate="name ∈ known"/>
+<org.eventb.core.guard name="grd1" org.eventb.core.label="grd0_3" org.eventb.core.predicate="new_date ∈ DATE"/>
+<org.eventb.core.action name="+" org.eventb.core.assignment="birthday(name) ≔ new_date" org.eventb.core.label="act0_1"/>
+</org.eventb.core.event>
+<org.eventb.core.variable name="0" org.eventb.core.identifier="cards"/>
+<org.eventb.core.invariant name="1" org.eventb.core.label="inv0_4" org.eventb.core.predicate="cards ∈ ℙ(NAME)"/>
+<org.eventb.core.event name="2" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="Remind">
+<org.eventb.core.parameter name="'" org.eventb.core.identifier="today"/>
+<org.eventb.core.guard name="(" org.eventb.core.label="grd0_1" org.eventb.core.predicate="today ∈ DATE"/>
+<org.eventb.core.action name=")" org.eventb.core.assignment="cards ≔ dom(birthday ▷ {today})" org.eventb.core.label="act0_1"/>
+</org.eventb.core.event>
+</org.eventb.core.machineFile>
