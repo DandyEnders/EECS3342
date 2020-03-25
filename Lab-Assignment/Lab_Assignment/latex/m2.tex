@@ -1,0 +1,165 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{bsymb,b2latex}
+\begin{document}
+\SingleHeader{m2}
+\MACHINE{m2}{m1}{c0}{}
+\VARIABLES{
+	\Variable{cards}{}
+	\Variable{names}{}
+	\Variable{count}{}
+	\Variable{dates}{}
+	\Variable{lock}{}
+	\Variable{cursor}{}
+	\Variable{CB\_name}{}
+	\Variable{CB\_new\_date}{}
+	\Variable{RM\_today}{}
+	\Variable{cards\_count}{}
+}
+\INVARIANTS{
+	\Invariant{inv2\_1}{false}{$dates \in{} 1\upto{}count \tfun{} DATE$}{}
+	\Invariant{inv2\_3}{false}{$\forall{}i \qdot{} (i \in{} 1\upto{}count) \limp{} (dates\_func(names(i)) = dates(i))$}{}
+	\Invariant{inv2\_4}{false}{$lock \in{} \{0, 1, 2\}$}{}
+	\Invariant{inv2\_5}{false}{$cursor \in{} \nat{}$}{}
+	\Invariant{inv2\_6}{false}{$CB\_name \in{} NAME$}{}
+	\Invariant{inv2\_7}{false}{$CB\_new\_date \in{} DATE$}{}
+	\Invariant{inv2\_8}{false}{$RM\_today \in{} DATE$}{}
+	\Invariant{inv2\_9}{false}{$\\(lock = 0) \limp{} (\\~~~~(cursor \in{} 0\upto{}count))$}{\\0 means AddBirthday / ChangeBirthdayStart / RemindStart is possible}
+	\Invariant{inv2\_10}{false}{$\\(lock = 1) \limp{} (\\~~~~count \geq{} 0 \land{}\\~~~~CB\_name \in{} ran(names) \land{}\\~~~~CB\_name \notin{} names[1\upto{}cursor-1] \land{}\\~~~~CB\_name \in{} names[cursor\upto{}count] \land{}\\~~~~cursor \in{} 1\upto{}count) $}{\\1 means ChangeBirthday is happening}
+	\Invariant{inv2\_11}{false}{$cards\_count \in{} 0\upto{}count$}{}
+	\Invariant{inv2\_12}{false}{$cards \in{} 1\upto{}cards\_count \tfun{} NAME$}{}
+	\Invariant{inv2\_13}{false}{$\\(lock = 2) \limp{} (\\~~~~count \geq{} 1 \land{}\\~~~~cursor \in{} 1\upto{}(count+1) \land{}\\~~~~cards\_count < cursor \\)$}{\\2 means Remind is happening}
+}
+\VARIANT{
+	\Variant{$count - cursor$}{}
+}
+\EVENTS{
+\INITIALISATION{false}{}{
+	\ACTIONS{false}{
+		\Action{act1\_1}{$names \bcmeq{} \emptyset{}$}{true}{}
+		\Action{act1\_3}{$count \bcmeq{} 0$}{true}{}
+		\Action{act2\_1}{$dates \bcmeq{} \emptyset{}$}{true}{}
+		\Action{act2\_2}{$lock \bcmeq{} 0$}{true}{}
+		\Action{act2\_3}{$cursor \bcmeq{} 0$}{true}{}
+		\Action{act2\_4}{$CB\_name \bcmin{} NAME$}{true}{}
+		\Action{act2\_5}{$CB\_new\_date \bcmin{} DATE$}{true}{}
+		\Action{act2\_6}{$RM\_today \bcmin{} DATE$}{true}{}
+		\Action{act2\_7}{$cards\_count \bcmeq{} 0$}{true}{}
+		\Action{act2\_8}{$cards \bcmeq{} \emptyset{}$}{true}{}
+	}
+}
+\EVT{AddBirthday}{false}{ordinary}{AddBirthday}{\\REQ3 - Birthday book can add a person's birthday record.}{
+	\ANY{
+		\Param{name}{true}{}
+		\Param{date}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd0\_1}{false}{$name \in{} NAME$}{true}{}
+		\Guard{grd0\_2}{false}{$date \in{} DATE$}{true}{}
+		\Guard{grd1\_1}{false}{$name \notin{} ran(names)$}{true}{}
+		\Guard{grd2\_1}{false}{$lock = 0$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1\_1}{$names(count + 1) \bcmeq{} name$}{true}{}
+		\Action{act1\_2}{$dates(count + 1) \bcmeq{} date$}{true}{}
+		\Action{act1\_3}{$count \bcmeq{} count + 1$}{true}{}
+	}
+}
+\EVT{ChangeBirthdayStart}{false}{ordinary}{}{\\REQ 4 - The system can change a known person's birthday}{
+	\ANY{
+		\Param{name}{true}{}
+		\Param{new\_date}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd1\_1}{false}{$name \in{} NAME$}{true}{}
+		\Guard{grd1\_2}{false}{$name \in{} ran(names)$}{true}{}
+		\Guard{grd1\_3}{false}{$new\_date \in{} DATE$}{true}{}
+		\Guard{grd2\_1}{false}{$lock = 0$}{true}{}
+		\Guard{grd2\_2}{false}{$count \geq{} 1$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act2\_1}{$CB\_name \bcmeq{} name$}{true}{}
+		\Action{act2\_2}{$CB\_new\_date \bcmeq{} new\_date$}{true}{}
+		\Action{act2\_3}{$lock \bcmeq{} 1$}{true}{}
+		\Action{act2\_4}{$cursor \bcmeq{} 1$}{true}{}
+	}
+}
+\EVT{ChangeBirthdayProgress}{false}{convergent}{}{\\REQ 4 - The system can change a known person's birthday}{
+	\GUARDS{false}{
+		\Guard{grd2\_1}{false}{$lock = 1$}{true}{}
+		\Guard{grd2\_2}{false}{$CB\_name \neq{} names(cursor)$}{true}{}
+		\Guard{grd2\_3}{false}{$cursor < count$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act2\_1}{$cursor \bcmeq{} cursor + 1$}{true}{}
+	}
+}
+\EVT{ChangeBirthdayFinish}{false}{ordinary}{ChangeBirthday}{\\REQ 4 - The system can change a known person's birthday}{
+	\GUARDS{false}{
+		\Guard{grd2\_1}{false}{$lock = 1$}{true}{}
+		\Guard{grd2\_2}{false}{$CB\_name = names(cursor)$}{true}{}
+	}
+	\WITNESSES{
+		\Witness{name}{$name = CB\_name$}{}
+		\Witness{new\_date}{$new\_date = CB\_new\_date$}{}
+	}
+	\ACTIONS{true}{
+		\Action{act2\_1}{$dates(cursor) \bcmeq{} CB\_new\_date$}{true}{}
+		\Action{act2\_2}{$lock \bcmeq{} 0$}{true}{}
+		\Action{act2\_3}{$cursor \bcmeq{} 0$}{true}{}
+	}
+}
+\EVT{RemindStart}{false}{ordinary}{}{}{
+	\ANY{
+		\Param{today}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd0\_1}{false}{$today \in{} DATE$}{true}{}
+		\Guard{grd2\_1}{false}{$lock = 0$}{true}{}
+		\Guard{grd2\_2}{false}{$count \geq{} 1$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act2\_1}{$lock \bcmeq{} 2$}{true}{}
+		\Action{act2\_2}{$cursor \bcmeq{} 1$}{true}{}
+		\Action{act2\_3}{$RM\_today \bcmeq{} today$}{true}{}
+		\Action{act2\_4}{$cards \bcmeq{} \emptyset{}$}{true}{}
+		\Action{act2\_5}{$cards\_count \bcmeq{} 0$}{true}{}
+	}
+}
+\EVT{RemindProgressCollect}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd2\_1}{false}{$lock = 2$}{true}{}
+		\Guard{grd2\_2}{false}{$cursor \leq{} count$}{true}{}
+		\Guard{grd2\_3}{false}{$dates(cursor) = RM\_today$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act2\_1}{$cursor \bcmeq{} cursor + 1$}{true}{}
+		\Action{act2\_2}{$cards(cards\_count + 1) \bcmeq{} names(cursor)$}{true}{}
+		\Action{act2\_3}{$cards\_count \bcmeq{} cards\_count + 1$}{true}{}
+	}
+}
+\EVT{RemindProgressIgnore}{false}{ordinary}{}{}{
+	\GUARDS{false}{
+		\Guard{grd2\_1}{false}{$lock = 2$}{true}{}
+		\Guard{grd2\_2}{false}{$cursor \leq{} count$}{true}{}
+		\Guard{grd2\_3}{false}{$dates(cursor) \neq{} RM\_today$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act2\_1}{$cursor \bcmeq{} cursor + 1$}{true}{}
+	}
+}
+\EVT{RemindFinish}{false}{ordinary}{Remind}{}{
+	\GUARDS{false}{
+		\Guard{grd2\_1}{false}{$lock = 2$}{true}{}
+		\Guard{grd2\_2}{false}{$cursor > count$}{true}{}
+	}
+	\WITNESSES{
+		\Witness{today}{$today = RM\_today$}{}
+	}
+	\ACTIONS{true}{
+		\Action{act2\_1}{$lock \bcmeq{} 0$}{true}{}
+		\Action{act2\_2}{$cursor \bcmeq{} 0$}{true}{}
+	}
+}
+}
+\END
+\end{document}

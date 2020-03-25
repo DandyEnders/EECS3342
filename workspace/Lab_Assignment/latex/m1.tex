@@ -1,0 +1,74 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{bsymb,b2latex}
+\begin{document}
+\SingleHeader{m1}
+\MACHINE{m1}{m0}{c0}{}
+\VARIABLES{
+	\Variable{cards\_set}{}
+	\Variable{names}{}
+	\Variable{dates\_func}{}
+	\Variable{count}{}
+}
+\INVARIANTS{
+	\Invariant{inv1\_1}{false}{$count \in{} \nat{}$}{}
+	\Invariant{inv1\_2}{false}{$names \in{} 1\upto{}count \tfun{} NAME$}{}
+	\Invariant{inv1\_3}{false}{$dates\_func \in{} ran(names) \tfun{} DATE$}{}
+	\Invariant{inv1\_4}{false}{$ran(names) = dom(birthday)$}{}
+	\Invariant{inv1\_5}{false}{$ran(dates\_func) = ran(birthday)$}{}
+	\Invariant{inv1\_6}{false}{$\forall{}i \qdot{} (i \in{} 1\upto{}count) \limp{} (dates\_func(names(i)) = birthday(names(i)))$}{}
+	\Invariant{inv1\_7}{false}{$\forall{}i,j \qdot{} (i \in{} 1\upto{}count \land{} j \in{} 1\upto{}count \land{} i \neq{} j) \limp{} (names(i) \neq{} names(j))$}{}
+	\Invariant{inv1\_8}{true}{$names \in{} 1\upto{}count \tinj{} NAME$}{}
+}
+\EVENTS{
+\INITIALISATION{false}{}{
+	\ACTIONS{false}{
+		\Action{act0\_3}{$cards\_set \bcmeq{} \emptyset{}$}{true}{}
+		\Action{act1\_1}{$names \bcmeq{} \emptyset{}$}{true}{}
+		\Action{act1\_2}{$dates\_func \bcmeq{} \emptyset{}$}{true}{}
+		\Action{act1\_3}{$count \bcmeq{} 0$}{true}{}
+	}
+}
+\EVT{AddBirthday}{false}{ordinary}{AddBirthday}{\\REQ3 - Birthday book can add a person's birthday record.}{
+	\ANY{
+		\Param{name}{true}{}
+		\Param{date}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd0\_1}{false}{$name \in{} NAME$}{true}{}
+		\Guard{grd0\_2}{false}{$date \in{} DATE$}{true}{}
+		\Guard{grd1\_1}{false}{$name \notin{} ran(names)$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1\_1}{$names(count + 1) \bcmeq{} name$}{true}{}
+		\Action{act1\_2}{$dates\_func(name) \bcmeq{} date$}{true}{}
+		\Action{act1\_3}{$count \bcmeq{} count + 1$}{true}{}
+	}
+}
+\EVT{ChangeBirthday}{false}{ordinary}{ChangeBirthday}{\\REQ 4 - The system can change a known person's birthday}{
+	\ANY{
+		\Param{name}{true}{}
+		\Param{new\_date}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd1\_1}{false}{$name \in{} NAME$}{true}{}
+		\Guard{grd1\_2}{false}{$name \in{} ran(names)$}{true}{}
+		\Guard{grd1\_3}{false}{$new\_date \in{} DATE$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act1\_1}{$dates\_func(name) \bcmeq{} new\_date$}{true}{}
+	}
+}
+\EVT{Remind}{false}{ordinary}{Remind}{}{
+	\ANY{
+		\Param{today}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd0\_1}{false}{$today \in{} DATE$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act0\_1}{$cards\_set \bcmeq{} dom(dates\_func \ranres{} \{today\})$}{true}{}
+	}
+}
+}
+\END
+\end{document}

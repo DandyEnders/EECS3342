@@ -1,0 +1,67 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage{bsymb,b2latex}
+\begin{document}
+\SingleHeader{m0}
+\MACHINE{m0}{}{c0}{}
+\VARIABLES{
+	\Variable{known}{}
+	\Variable{birthday}{}
+	\Variable{cards\_set}{}
+}
+\INVARIANTS{
+	\Invariant{inv0\_1}{false}{$known \in{} \pow{}(NAME)$}{\\~ENV1 - There are birthdays for people.}
+	\Invariant{inv0\_2}{false}{$birthday \in{} NAME \pfun{} DATE$}{\\ENV2 - Each known person's name is assigned to a birthday.}
+	\Invariant{inv0\_3}{false}{$known = dom(birthday)$}{}
+	\Invariant{inv0\_4}{false}{$cards\_set \in{} \pow{}(NAME)$}{}
+}
+\EVENTS{
+\INITIALISATION{false}{}{
+	\ACTIONS{false}{
+		\Action{act0\_1}{$known \bcmeq{} \emptyset{}$}{true}{}
+		\Action{act0\_2}{$birthday \bcmeq{} \emptyset{}$}{true}{}
+		\Action{act0\_3}{$cards\_set \bcmeq{} \emptyset{}$}{true}{}
+	}
+}
+\EVT{AddBirthday}{false}{ordinary}{}{\\REQ3 - Birthday book can add a person's birthday record.}{
+	\ANY{
+		\Param{name}{true}{}
+		\Param{date}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd0\_1}{false}{$name \in{} NAME$}{true}{}
+		\Guard{grd0\_2}{false}{$date \in{} DATE$}{true}{}
+		\Guard{grd0\_3}{false}{$name \notin{} known$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act0\_1}{$birthday \bcmeq{} birthday \bunion{} \{name \mapsto{} date\}$}{true}{}
+		\Action{act0\_2}{$known \bcmeq{} known \bunion{} \{name\}$}{true}{}
+	}
+}
+\EVT{ChangeBirthday}{false}{ordinary}{}{\\REQ 4 - The system can change a known person's birthday}{
+	\ANY{
+		\Param{name}{true}{}
+		\Param{new\_date}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd0\_1}{false}{$name \in{} NAME$}{true}{}
+		\Guard{grd0\_2}{false}{$name \in{} known$}{true}{}
+		\Guard{grd0\_3}{false}{$new\_date \in{} DATE$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act0\_1}{$birthday(name) \bcmeq{} new\_date$}{true}{}
+	}
+}
+\EVT{Remind}{false}{ordinary}{}{}{
+	\ANY{
+		\Param{today}{true}{}
+	}
+	\GUARDS{true}{
+		\Guard{grd0\_1}{false}{$today \in{} DATE$}{true}{}
+	}
+	\ACTIONS{true}{
+		\Action{act0\_1}{$cards\_set \bcmeq{} dom(birthday \ranres{} \{today\})$}{true}{}
+	}
+}
+}
+\END
+\end{document}
