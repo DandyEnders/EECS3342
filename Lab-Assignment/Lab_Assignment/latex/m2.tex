@@ -28,6 +28,7 @@
 	\Invariant{inv2\_11}{false}{$cards\_count \in{} 0\upto{}count$}{}
 	\Invariant{inv2\_12}{false}{$cards \in{} 1\upto{}cards\_count \tfun{} NAME$}{}
 	\Invariant{inv2\_13}{false}{$\\(lock = 2) \limp{} (\\~~~~count \geq{} 1 \land{}\\~~~~cursor \in{} 1\upto{}(count+1) \land{}\\~~~~cards\_count < cursor \\)$}{\\2 means Remind is happening}
+	\Invariant{DLF}{true}{$\\(lock = 0) \lor{}\\(lock = 0 \land{} count \geq{} 1) \lor{}\\(lock = 1 \land{} CB\_name \neq{} names(cursor) \land{} cursor < count) \lor{}\\(lock = 1 \land{} CB\_name = names(cursor)) \lor{}\\(lock = 0 \land{} count \geq{} 1) \lor{}\\(lock = 2 \land{} cursor \leq{} count \land{} dates(cursor) = RM\_today) \lor{}\\(lock = 2 \land{} cursor \leq{} count \land{} dates(cursor) \neq{} RM\_today) \lor{}\\(lock = 2 \land{} cursor > count)$}{}
 }
 \VARIANT{
 	\Variant{$count - cursor$}{}
@@ -125,7 +126,7 @@
 		\Action{act2\_5}{$cards\_count \bcmeq{} 0$}{true}{}
 	}
 }
-\EVT{RemindProgressCollect}{false}{ordinary}{}{}{
+\EVT{RemindProgressCollect}{false}{convergent}{}{}{
 	\GUARDS{false}{
 		\Guard{grd2\_1}{false}{$lock = 2$}{true}{}
 		\Guard{grd2\_2}{false}{$cursor \leq{} count$}{true}{}
@@ -137,7 +138,7 @@
 		\Action{act2\_3}{$cards\_count \bcmeq{} cards\_count + 1$}{true}{}
 	}
 }
-\EVT{RemindProgressIgnore}{false}{ordinary}{}{}{
+\EVT{RemindProgressIgnore}{false}{convergent}{}{}{
 	\GUARDS{false}{
 		\Guard{grd2\_1}{false}{$lock = 2$}{true}{}
 		\Guard{grd2\_2}{false}{$cursor \leq{} count$}{true}{}

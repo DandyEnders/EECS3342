@@ -111,5 +111,4 @@
 <org.eventb.core.invariant name="inv14" org.eventb.core.label="inv2_11" org.eventb.core.predicate="cards_count ∈ 0‥count"/>
 <org.eventb.core.invariant name="inv15" org.eventb.core.label="inv2_12" org.eventb.core.predicate="cards ∈ 1‥cards_count → NAME"/>
 <org.eventb.core.invariant name="inv11" org.eventb.core.comment="2 means Remind is happening" org.eventb.core.label="inv2_13" org.eventb.core.predicate="(lock = 2) ⇒ (&#13;&#10;&#9;count ≥ 1 ∧&#13;&#10;&#9;cursor ∈ 1‥(count+1) ∧&#13;&#10;&#9;cards_count &lt; cursor &#13;&#10;)"/>
-<org.eventb.core.invariant name="inv16" org.eventb.core.label="DLF" org.eventb.core.predicate="(lock = 0) ∨&#13;&#10;(lock = 0 ∧ count ≥ 1) ∨&#13;&#10;(lock = 1 ∧ CB_name ≠ names(cursor) ∧ cursor &lt; count) ∨&#13;&#10;(lock = 1 ∧ CB_name = names(cursor)) ∨&#13;&#10;(lock = 0 ∧ count ≥ 1) ∨&#13;&#10;(lock = 2 ∧ cursor ≤ count ∧ dates(cursor) = RM_today) ∨&#13;&#10;(lock = 2 ∧ cursor ≤ count ∧ dates(cursor) ≠ RM_today) ∨&#13;&#10;(lock = 2 ∧ cursor &gt; count)" org.eventb.core.theorem="true"/>
 </org.eventb.core.machineFile>
